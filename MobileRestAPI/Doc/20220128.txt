@@ -1,0 +1,58 @@
+2022-01-28 00:15:21.022  [INFO][HttpGet getCustInfoController] 
+2022-01-28 00:15:42.294  [INFO][HttpGet getCustInfoController] 
+2022-01-28 00:16:01.340  [INFO][HttpGet getCustInfoController] 
+2022-01-28 00:16:32.698  [INFO][HttpGet getCustInfoController] 
+2022-01-28 00:16:51.971  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2022-01-28 00:16:53.512  [ERROR][DataBase SaveToken] 11111111,fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2022-01-28 00:16:53.512  [ERROR][DataBase SaveToken] Duplicate entry 'fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLU' for key 'tb_devices_admin.PRIMARY'
+2022-01-28 00:19:53.113  [INFO][HttpGet getCustInfoController] 
+2022-01-28 00:25:50.105  [INFO][HttpGet getCustInfoController] 
+2022-01-28 00:26:00.140  [INFO][HttpGet getCustInfoController] 
+2022-01-28 09:22:07.682  [INFO][HttpGet getCustInfoController] 
+2022-01-28 09:22:13.824  [INFO][HttpGet getCustInfoController] 
+2022-01-28 09:46:29.664  [INFO][HttpGet getCustInfoController] 
+2022-01-28 09:46:29.667  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:null
+2022-01-28 09:46:30.209  [ERROR][DataBase SaveToken] 11111111,null
+2022-01-28 09:46:30.209  [ERROR][DataBase SaveToken] Duplicate entry 'null' for key 'tb_devices_admin.PRIMARY'
+2022-01-28 09:46:30.510  [INFO][HttpGet getGateListController] 
+2022-01-28 09:46:30.511  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-01-28 09:57:27.987  [INFO][HttpGet getCustInfoController] 
+2022-01-28 09:57:27.988  [INFO][HttpGet getCustInfoController] : id:, password:, token:null
+2022-01-28 09:57:33.280  [INFO][HttpGet getCustInfoController] 
+2022-01-28 09:57:33.281  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:null
+2022-01-28 09:57:33.328  [DataBase SaveToken] 11111111,null
+2022-01-28 09:57:33.476  [INFO][HttpGet getGateListController] 
+2022-01-28 09:57:33.477  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-01-28 10:27:12.553  [INFO][HttpGet getCustInfoController] 
+2022-01-28 10:27:12.554  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:dnM0egkxSzmNPCQtRM3CWw:APA91bHm3EWVLzy8nLvoXhSUZPVyXoPw0A87_ydDaLCkTtPgifLZhMKwpqisiCw3q6HQBUYl7x0-shrupCDIBfG0T_3P2hbCCO8uWlqE-uBTJGOnCpeytp1e9WHSLN0vSFUS6PEsuj5n
+2022-01-28 10:27:12.608  [DataBase SaveToken] 11111111,dnM0egkxSzmNPCQtRM3CWw:APA91bHm3EWVLzy8nLvoXhSUZPVyXoPw0A87_ydDaLCkTtPgifLZhMKwpqisiCw3q6HQBUYl7x0-shrupCDIBfG0T_3P2hbCCO8uWlqE-uBTJGOnCpeytp1e9WHSLN0vSFUS6PEsuj5n
+2022-01-28 10:27:12.735  [INFO][HttpGet getGateListController] 
+2022-01-28 10:27:12.736  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-01-28 10:34:11.224  [INFO][HttpGet getCustInfoController] 
+2022-01-28 10:34:11.225  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:null
+2022-01-28 10:34:11.295  [ERROR][DataBase SaveToken] 11111111,null
+2022-01-28 10:34:11.296  [ERROR][DataBase SaveToken] Duplicate entry 'null' for key 'tb_devices_admin.PRIMARY'
+2022-01-28 10:34:11.543  [INFO][HttpGet getGateListController] 
+2022-01-28 10:34:11.545  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-01-28 10:34:21.939  [INFO][HttpGet getCustInfoController] 
+2022-01-28 10:34:21.940  [INFO][HttpGet getCustInfoController] : id:, password:, token:null
+2022-01-28 10:35:15.356  [INFO][HttpGet getCustInfoController] 
+2022-01-28 10:35:15.357  [INFO][HttpGet getCustInfoController] : id:, password:, token:null
+2022-01-28 10:35:33.200  [INFO][HttpGet getCustInfoController] 
+2022-01-28 10:35:33.201  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:null
+2022-01-28 10:35:33.226  [ERROR][DataBase SaveToken] 11111111,null
+2022-01-28 10:35:33.227  [ERROR][DataBase SaveToken] Duplicate entry 'null' for key 'tb_devices_admin.PRIMARY'
+2022-01-28 10:35:33.461  [INFO][HttpGet getGateListController] 
+2022-01-28 10:35:33.462  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-01-28 10:42:55.185  [INFO][HttpGet getCustInfoController] 
+2022-01-28 10:42:55.186  [INFO][HttpGet getCustInfoController] : id:, password:, token:null
+2022-01-28 10:43:11.454  [INFO][HttpGet getCustInfoController] 
+2022-01-28 10:43:11.455  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:null
+2022-01-28 10:43:11.493  [DataBase SaveToken] 11111111,null
+2022-01-28 10:43:11.719  [INFO][HttpGet getGateListController] 
+2022-01-28 10:43:11.719  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-01-28 10:43:54.481  [INFO][HttpGet getCustInfoController] 
+2022-01-28 10:43:54.483  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:null
+2022-01-28 10:43:54.492  [DataBase SaveToken] 11111111,null
+2022-01-28 10:43:54.820  [INFO][HttpGet getGateListController] 
+2022-01-28 10:43:54.821  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist

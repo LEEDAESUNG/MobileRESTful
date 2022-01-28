@@ -1,0 +1,112 @@
+2021-11-15 18:52:02.542  [INFO][HttpGet getCustInfoController] 
+2021-11-15 18:52:02.553  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:dUzr7a4mT6Oj4DEjXbwF9b:APA91bF_nNc4gbNBrSwWbXAi5luNxERC0IJfo18fBPjKudm_aeX3DHcWG_GZKqL5ytfjx4gsjynPlWngqkB18hX7J_OJ867Z2ZJrdM_RPtYaJCFUf7MxKP_AgLxa-wQD0PjFX2PnjOtW
+2021-11-15 18:52:02.682  [ERROR][DataBase SaveToken] 11111111,dUzr7a4mT6Oj4DEjXbwF9b:APA91bF_nNc4gbNBrSwWbXAi5luNxERC0IJfo18fBPjKudm_aeX3DHcWG_GZKqL5ytfjx4gsjynPlWngqkB18hX7J_OJ867Z2ZJrdM_RPtYaJCFUf7MxKP_AgLxa-wQD0PjFX2PnjOtW
+2021-11-15 18:52:02.682  [ERROR][DataBase SaveToken] Duplicate entry 'dUzr7a4mT6Oj4DEjXbwF9b:APA91bF_nNc4gbNBrSwWbXAi5luNxERC0IJfo18fB' for key 'tb_devices_admin.PRIMARY'
+2021-11-15 18:52:03.115  [INFO][HttpGet getGateListController] 
+2021-11-15 18:52:03.116  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-11-15 18:52:26.038  [INFO][HttpPost PostCarnoImageInfo] 
+2021-11-15 18:52:26.039  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP2141034689989559573.jpg
+2021-11-15 18:53:05.842  [ERROR][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP2141034689989559573.jpg:차량번호 인식오류입니다
+2021-11-15 18:55:29.955  [INFO][HttpGet getCustInfoController] 
+2021-11-15 18:55:29.958  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:dUzr7a4mT6Oj4DEjXbwF9b:APA91bF_nNc4gbNBrSwWbXAi5luNxERC0IJfo18fBPjKudm_aeX3DHcWG_GZKqL5ytfjx4gsjynPlWngqkB18hX7J_OJ867Z2ZJrdM_RPtYaJCFUf7MxKP_AgLxa-wQD0PjFX2PnjOtW
+2021-11-15 18:55:30.384  [ERROR][DataBase SaveToken] 11111111,dUzr7a4mT6Oj4DEjXbwF9b:APA91bF_nNc4gbNBrSwWbXAi5luNxERC0IJfo18fBPjKudm_aeX3DHcWG_GZKqL5ytfjx4gsjynPlWngqkB18hX7J_OJ867Z2ZJrdM_RPtYaJCFUf7MxKP_AgLxa-wQD0PjFX2PnjOtW
+2021-11-15 18:55:30.384  [ERROR][DataBase SaveToken] Duplicate entry 'dUzr7a4mT6Oj4DEjXbwF9b:APA91bF_nNc4gbNBrSwWbXAi5luNxERC0IJfo18fB' for key 'tb_devices_admin.PRIMARY'
+2021-11-15 18:55:30.831  [INFO][HttpGet getGateListController] 
+2021-11-15 18:55:30.832  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-11-15 18:58:01.574  [INFO][HttpPost PostCarnoImageInfo] 
+2021-11-15 18:58:01.575  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP1791958615794835324.jpg
+2021-11-15 18:58:11.081  [ERROR][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP1791958615794835324.jpg:차량번호 인식오류입니다
+2021-11-15 19:00:53.000  [INFO][HttpPost PostCarnoImageInfo] 
+2021-11-15 19:00:53.001  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP1313875092785177054.jpg
+2021-11-15 19:00:55.441  [ERROR][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP1313875092785177054.jpg:차량번호 인식오류입니다
+2021-11-15 21:29:59.757  [INFO][HttpGet getGateListController] 
+2021-11-15 21:29:59.758  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-11-15 21:30:03.224  [INFO][HttpPost PostCarnoImageInfo] 
+2021-11-15 21:30:03.224  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP458011152221793353.jpg
+2021-11-15 21:30:06.283  [ERROR][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP458011152221793353.jpg:차량번호 인식오류입니다
+2021-11-15 21:32:30.166  [INFO][HttpGet getCustInfoController] 
+2021-11-15 21:32:30.167  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:dUzr7a4mT6Oj4DEjXbwF9b:APA91bF_nNc4gbNBrSwWbXAi5luNxERC0IJfo18fBPjKudm_aeX3DHcWG_GZKqL5ytfjx4gsjynPlWngqkB18hX7J_OJ867Z2ZJrdM_RPtYaJCFUf7MxKP_AgLxa-wQD0PjFX2PnjOtW
+2021-11-15 21:32:30.213  [ERROR][DataBase SaveToken] 11111111,dUzr7a4mT6Oj4DEjXbwF9b:APA91bF_nNc4gbNBrSwWbXAi5luNxERC0IJfo18fBPjKudm_aeX3DHcWG_GZKqL5ytfjx4gsjynPlWngqkB18hX7J_OJ867Z2ZJrdM_RPtYaJCFUf7MxKP_AgLxa-wQD0PjFX2PnjOtW
+2021-11-15 21:32:30.213  [ERROR][DataBase SaveToken] Duplicate entry 'dUzr7a4mT6Oj4DEjXbwF9b:APA91bF_nNc4gbNBrSwWbXAi5luNxERC0IJfo18fB' for key 'tb_devices_admin.PRIMARY'
+2021-11-15 21:32:30.632  [INFO][HttpGet getGateListController] 
+2021-11-15 21:32:30.633  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-11-15 21:32:37.936  [INFO][HttpPost PostCarnoImageInfo] 
+2021-11-15 21:32:37.937  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP1330264175790647471.jpg
+2021-11-15 21:32:37.963  [ERROR][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP1330264175790647471.jpg:차량번호 인식오류입니다
+2021-11-15 21:33:37.713  [INFO][HttpGet getCarnoInfoController] 
+2021-11-15 21:33:37.715  [INFO][HttpGet getCarnoInfoController] : id:11111111, password:1234, token:00rk0000, carno:00rk0000
+2021-11-15 21:56:36.236  [INFO][HttpGet getGateListController] 
+2021-11-15 21:56:36.237  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-11-15 21:57:04.483  [INFO][HttpPost PostCarnoImageInfo] 
+2021-11-15 21:57:04.485  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP2809413712474370573.jpg
+2021-11-15 21:58:08.626  [INFO][HttpGet getGateListController] 
+2021-11-15 21:58:08.627  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-11-15 21:58:13.972  [INFO][HttpPost PostCarnoImageInfo] 
+2021-11-15 21:58:13.973  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP3756798655154962473.jpg
+2021-11-15 21:58:19.594  [INFO][HttpPost PostCarnoImageInfo] 
+2021-11-15 21:58:19.595  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP6987674510076402640.jpg
+2021-11-15 21:58:27.723  [INFO][HttpPost PostCarnoImageInfo] 
+2021-11-15 21:58:27.724  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP3000054278494471979.jpg
+2021-11-15 21:59:04.174  [INFO][HttpGet getGateListController] 
+2021-11-15 21:59:04.175  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-11-15 21:59:07.123  [INFO][HttpPost PostCarnoImageInfo] 
+2021-11-15 21:59:07.124  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP5490821163571115800.jpg
+2021-11-15 21:59:27.655  [INFO][HttpGet getGateListController] 
+2021-11-15 21:59:27.658  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-11-15 21:59:33.001  [INFO][HttpPost PostCarnoImageInfo] 
+2021-11-15 21:59:33.002  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP5797039222640641156.jpg
+2021-11-15 21:59:33.034  [ERROR][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP5797039222640641156.jpg:차량번호 인식오류입니다
+2021-11-15 22:01:05.346  [INFO][HttpGet getCustInfoController] 
+2021-11-15 22:01:05.347  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:dUzr7a4mT6Oj4DEjXbwF9b:APA91bF_nNc4gbNBrSwWbXAi5luNxERC0IJfo18fBPjKudm_aeX3DHcWG_GZKqL5ytfjx4gsjynPlWngqkB18hX7J_OJ867Z2ZJrdM_RPtYaJCFUf7MxKP_AgLxa-wQD0PjFX2PnjOtW
+2021-11-15 22:01:05.411  [ERROR][DataBase SaveToken] 11111111,dUzr7a4mT6Oj4DEjXbwF9b:APA91bF_nNc4gbNBrSwWbXAi5luNxERC0IJfo18fBPjKudm_aeX3DHcWG_GZKqL5ytfjx4gsjynPlWngqkB18hX7J_OJ867Z2ZJrdM_RPtYaJCFUf7MxKP_AgLxa-wQD0PjFX2PnjOtW
+2021-11-15 22:01:05.411  [ERROR][DataBase SaveToken] Duplicate entry 'dUzr7a4mT6Oj4DEjXbwF9b:APA91bF_nNc4gbNBrSwWbXAi5luNxERC0IJfo18fB' for key 'tb_devices_admin.PRIMARY'
+2021-11-15 22:01:05.877  [INFO][HttpGet getGateListController] 
+2021-11-15 22:01:05.877  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-11-15 22:01:45.667  [INFO][HttpPost PostCarnoImageInfo] 
+2021-11-15 22:01:45.668  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP4905531815523520179.jpg
+2021-11-15 22:01:45.703  [ERROR][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP4905531815523520179.jpg:차량번호 인식오류입니다
+2021-11-15 22:08:46.251  [INFO][HttpGet getGateListController] 
+2021-11-15 22:08:46.253  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-11-15 22:08:50.084  [INFO][HttpPost PostCarnoImageInfo] 
+2021-11-15 22:08:50.085  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP2143880939999608387.jpg
+2021-11-15 22:08:50.111  [ERROR][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP2143880939999608387.jpg:차량번호 인식오류입니다
+2021-11-15 22:12:18.915  [INFO][HttpGet getGateListController] 
+2021-11-15 22:12:18.916  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-11-15 22:12:21.809  [INFO][HttpPost PostCarnoImageInfo] 
+2021-11-15 22:12:21.810  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP761019566471731715.jpg
+2021-11-15 22:12:21.836  [ERROR][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP761019566471731715.jpg:차량번호 인식오류입니다
+2021-11-15 22:12:31.448  [INFO][HttpPost PostCarnoImageInfo] 
+2021-11-15 22:12:31.448  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP1204398256303489162.jpg
+2021-11-15 22:12:31.476  [ERROR][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP1204398256303489162.jpg:차량번호 인식오류입니다
+2021-11-15 22:12:33.735  [INFO][HttpPost PostCarnoImageInfo] 
+2021-11-15 22:12:33.736  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP5270681553495522429.jpg
+2021-11-15 22:12:33.763  [ERROR][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP5270681553495522429.jpg:차량번호 인식오류입니다
+2021-11-15 22:12:53.542  [INFO][HttpPost PostCarnoImageInfo] 
+2021-11-15 22:12:53.544  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP3118058781121444309.jpg
+2021-11-15 22:12:58.741  [INFO][HttpPost PostCarnoImageInfo] 
+2021-11-15 22:12:58.742  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP2514717803769608073.jpg
+2021-11-15 22:14:02.138  [INFO][HttpPost PostCarnoImageInfo] 
+2021-11-15 22:14:02.139  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP561268609629337030.jpg
+2021-11-15 22:14:02.173  [ERROR][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP561268609629337030.jpg:차량번호 인식오류입니다
+2021-11-15 22:14:18.284  [INFO][HttpPost PostCarnoImageInfo] 
+2021-11-15 22:14:18.285  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP8876034561900569071.jpg
+2021-11-15 22:14:33.816  [ERROR][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP8876034561900569071.jpg:차량번호 인식오류입니다
+2021-11-15 22:14:37.105  [INFO][HttpPost PostCarnoImageInfo] 
+2021-11-15 22:14:37.106  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP4175506477225210510.jpg
+2021-11-15 22:18:12.350  [ERROR][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP4175506477225210510.jpg:차량번호 인식오류입니다
+2021-11-15 22:18:23.061  [INFO][HttpPost PostCarnoImageInfo] 
+2021-11-15 22:18:23.062  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP8057210881609454025.jpg
+2021-11-15 22:18:39.175  [ERROR][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP8057210881609454025.jpg:차량번호 인식오류입니다
+2021-11-15 22:20:53.551  [INFO][HttpPost PostCarnoImageInfo] 
+2021-11-15 22:20:53.552  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP4500560733779652322.jpg
+2021-11-15 22:25:14.749  [ERROR][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP4500560733779652322.jpg:차량번호 인식오류입니다
+2021-11-15 22:25:42.652  [INFO][HttpPost PostCarnoImageInfo] 
+2021-11-15 22:25:42.654  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP5969882734596750739.jpg
+2021-11-15 22:26:05.003  [ERROR][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP5969882734596750739.jpg:차량번호 인식오류입니다
+2021-11-15 22:27:13.728  [INFO][HttpPost PostCarnoImageInfo] 
+2021-11-15 22:27:13.734  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP6997366637564372669.jpg
+2021-11-15 22:27:38.151  [ERROR][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP6997366637564372669.jpg:차량번호 인식오류입니다
+2021-11-15 22:44:40.498  [INFO][HttpPost PostCarnoImageInfo] 
+2021-11-15 22:44:40.500  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP9078927714279716395.jpg
+2021-11-15 22:57:45.341  [INFO][HttpPost PostCarnoImageInfo] 
+2021-11-15 22:57:45.343  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP3904289938430190330.jpg

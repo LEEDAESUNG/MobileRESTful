@@ -1,0 +1,6 @@
+2021-12-01 21:53:26.921  [INFO][HttpGet getCustInfoController] 
+2021-12-01 21:53:26.924  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:dUzr7a4mT6Oj4DEjXbwF9b:APA91bF_nNc4gbNBrSwWbXAi5luNxERC0IJfo18fBPjKudm_aeX3DHcWG_GZKqL5ytfjx4gsjynPlWngqkB18hX7J_OJ867Z2ZJrdM_RPtYaJCFUf7MxKP_AgLxa-wQD0PjFX2PnjOtW
+2021-12-01 21:53:27.476  [ERROR][DataBase SaveToken] 11111111,dUzr7a4mT6Oj4DEjXbwF9b:APA91bF_nNc4gbNBrSwWbXAi5luNxERC0IJfo18fBPjKudm_aeX3DHcWG_GZKqL5ytfjx4gsjynPlWngqkB18hX7J_OJ867Z2ZJrdM_RPtYaJCFUf7MxKP_AgLxa-wQD0PjFX2PnjOtW
+2021-12-01 21:53:27.477  [ERROR][DataBase SaveToken] Duplicate entry 'dUzr7a4mT6Oj4DEjXbwF9b:APA91bF_nNc4gbNBrSwWbXAi5luNxERC0IJfo18fB' for key 'tb_devices_admin.PRIMARY'
+2021-12-01 21:53:27.950  [INFO][HttpGet getGateListController] 
+2021-12-01 21:53:27.951  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist

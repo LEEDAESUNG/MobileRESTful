@@ -1,0 +1,18 @@
+2022-01-20 00:13:47.489  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-01-20 00:13:47.494  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2022-01-20 00:13:47.903  [ERROR][webdcPartnerInfo Exception] Could not find specified column in results: PDC1_COUNT
+2022-01-20 00:14:25.730  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-01-20 00:14:25.731  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2022-01-20 00:14:37.847  [ERROR][webdcPartnerInfo Exception] Could not find specified column in results: PDC1_COUNT
+2022-01-20 00:25:31.490  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-01-20 00:25:31.491  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2022-01-20 00:25:31.921  [DataBase GetStringFieldValue] Could not find specified column in results: PDC1_COUNT
+2022-01-20 00:25:31.937  [DataBase GetStringFieldValue] Could not find specified column in results: PDC1_FREECOUNT
+2022-01-20 00:25:31.952  [DataBase GetStringFieldValue] Could not find specified column in results: PDC2_COUNT
+2022-01-20 00:25:31.967  [DataBase GetStringFieldValue] Could not find specified column in results: PDC2_FREECOUNT
+2022-01-20 00:25:31.985  [DataBase GetStringFieldValue] Could not find specified column in results: PDC3_COUNT
+2022-01-20 00:25:32.000  [DataBase GetStringFieldValue] Could not find specified column in results: PDC3_FREECOUNT
+2022-01-20 00:25:32.016  [DataBase GetStringFieldValue] Could not find specified column in results: PDC4_COUNT
+2022-01-20 00:25:32.034  [DataBase GetStringFieldValue] Could not find specified column in results: PDC4_FREECOUNT
+2022-01-20 00:25:32.053  [DataBase GetStringFieldValue] Could not find specified column in results: PDC5_COUNT
+2022-01-20 00:25:32.070  [DataBase GetStringFieldValue] Could not find specified column in results: PDC5_FREECOUNT

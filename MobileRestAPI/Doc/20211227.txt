@@ -1,0 +1,26 @@
+2021-12-27 09:56:17.287  [INFO][HttpGet getCustInfoController] 
+2021-12-27 09:56:17.291  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:en47HqCeSjOCfZGBESNIKy:APA91bEnYG3rKIOKYEzaoxLe-7MrRpeudPJBgQMl8rjOjJ56-bgeS4_4MxY4v8EdtYkzgTrWFSGGt8BGYPzqVUsyBaiFmLoZpcucohSLzMqwD9fnWQMGoJyawmvDJVUnGdC6G85F2XE_
+2021-12-27 09:56:17.383  [ERROR][DataBase SaveToken] 11111111,en47HqCeSjOCfZGBESNIKy:APA91bEnYG3rKIOKYEzaoxLe-7MrRpeudPJBgQMl8rjOjJ56-bgeS4_4MxY4v8EdtYkzgTrWFSGGt8BGYPzqVUsyBaiFmLoZpcucohSLzMqwD9fnWQMGoJyawmvDJVUnGdC6G85F2XE_
+2021-12-27 09:56:17.383  [ERROR][DataBase SaveToken] Duplicate entry 'en47HqCeSjOCfZGBESNIKy:APA91bEnYG3rKIOKYEzaoxLe-7MrRpeudPJBgQMl8' for key 'tb_devices_admin.PRIMARY'
+2021-12-27 09:56:17.550  [INFO][HttpGet getReserveInfoController] 
+2021-12-27 09:56:17.550  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:en47HqCeSjOCfZGBESNIKy:APA91bEnYG3rKIOKYEzaoxLe-7MrRpeudPJBgQMl8rjOjJ56-bgeS4_4MxY4v8EdtYkzgTrWFSGGt8BGYPzqVUsyBaiFmLoZpcucohSLzMqwD9fnWQMGoJyawmvDJVUnGdC6G85F2XE_
+2021-12-27 09:56:17.689  [INFO][HttpGet getGateListController] 
+2021-12-27 09:56:17.690  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-27 09:56:17.708  [ERROR][Recv Host gateList Error] Data is Null. This method or property cannot be called on Null values.
+2021-12-27 09:56:40.738  [INFO][HttpGet getReserveInfoController] 
+2021-12-27 09:56:40.740  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:en47HqCeSjOCfZGBESNIKy:APA91bEnYG3rKIOKYEzaoxLe-7MrRpeudPJBgQMl8rjOjJ56-bgeS4_4MxY4v8EdtYkzgTrWFSGGt8BGYPzqVUsyBaiFmLoZpcucohSLzMqwD9fnWQMGoJyawmvDJVUnGdC6G85F2XE_
+2021-12-27 09:56:45.150  [INFO][HttpGet getReservationCarListController] 
+2021-12-27 09:56:45.151  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-27 18:17:00.912  [INFO][HttpGet getCustInfoController] 
+2021-12-27 18:17:00.915  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:en47HqCeSjOCfZGBESNIKy:APA91bEnYG3rKIOKYEzaoxLe-7MrRpeudPJBgQMl8rjOjJ56-bgeS4_4MxY4v8EdtYkzgTrWFSGGt8BGYPzqVUsyBaiFmLoZpcucohSLzMqwD9fnWQMGoJyawmvDJVUnGdC6G85F2XE_
+2021-12-27 18:17:01.005  [ERROR][DataBase SaveToken] 11111111,en47HqCeSjOCfZGBESNIKy:APA91bEnYG3rKIOKYEzaoxLe-7MrRpeudPJBgQMl8rjOjJ56-bgeS4_4MxY4v8EdtYkzgTrWFSGGt8BGYPzqVUsyBaiFmLoZpcucohSLzMqwD9fnWQMGoJyawmvDJVUnGdC6G85F2XE_
+2021-12-27 18:17:01.006  [ERROR][DataBase SaveToken] Duplicate entry 'en47HqCeSjOCfZGBESNIKy:APA91bEnYG3rKIOKYEzaoxLe-7MrRpeudPJBgQMl8' for key 'tb_devices_admin.PRIMARY'
+2021-12-27 18:17:01.499  [INFO][HttpGet getReserveInfoController] 
+2021-12-27 18:17:01.500  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:en47HqCeSjOCfZGBESNIKy:APA91bEnYG3rKIOKYEzaoxLe-7MrRpeudPJBgQMl8rjOjJ56-bgeS4_4MxY4v8EdtYkzgTrWFSGGt8BGYPzqVUsyBaiFmLoZpcucohSLzMqwD9fnWQMGoJyawmvDJVUnGdC6G85F2XE_
+2021-12-27 18:17:01.611  [INFO][HttpGet getGateListController] 
+2021-12-27 18:17:01.612  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-27 18:17:01.628  [ERROR][Recv Host gateList Error] Data is Null. This method or property cannot be called on Null values.
+2021-12-27 18:17:07.276  [INFO][HttpGet getReservationCarListController] 
+2021-12-27 18:17:07.278  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-27 18:17:49.148  [INFO][HttpPost PostCarnoImageInfo] 
+2021-12-27 18:17:49.149  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP1713923959870797645.jpg

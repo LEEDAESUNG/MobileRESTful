@@ -1,0 +1,112 @@
+2021-12-08 22:50:48.446  [INFO][HttpGet setReserveCarnoController] 
+2021-12-08 22:50:48.452  [INFO][HttpGet setReserveCarnoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G, carno:555555555
+2021-12-08 22:50:48.859  [ERROR][setReserveCarno] 방문예약차량 등록 실패:555555555:Parameter '@pass_yn' has already been defined.
+2021-12-08 22:50:57.184  [INFO][HttpGet setReserveCarnoController] 
+2021-12-08 22:50:57.185  [INFO][HttpGet setReserveCarnoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G, carno:555555555
+2021-12-08 22:50:57.206  [ERROR][setReserveCarno] 방문예약차량 등록 실패:555555555:Parameter '@pass_yn' has already been defined.
+2021-12-08 22:52:04.806  [INFO][HttpGet setReserveCarnoController] 
+2021-12-08 22:52:04.812  [INFO][HttpGet setReserveCarnoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G, carno:555555555
+2021-12-08 22:53:02.459  [ERROR][setReserveCarno] 방문예약차량 등록 실패:555555555:Parameter '@pass_yn' has already been defined.
+2021-12-08 22:54:12.871  [INFO][HttpGet setReserveCarnoController] 
+2021-12-08 22:54:12.874  [INFO][HttpGet setReserveCarnoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G, carno:555555555
+2021-12-08 22:54:37.962  [INFO][setReserveCarno] 방문예약 등록 성공:11111111, 차량번호:555555555
+2021-12-08 22:56:34.373  [INFO][HttpGet setReserveCarnoController] 
+2021-12-08 22:56:34.374  [INFO][HttpGet setReserveCarnoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G, carno:555555555
+2021-12-08 22:56:48.900  [INFO][setReserveCarno] 방문예약 등록 성공:11111111, 차량번호:555555555
+2021-12-08 22:58:13.052  [INFO][HttpGet setReserveCarnoController] 
+2021-12-08 22:58:13.053  [INFO][HttpGet setReserveCarnoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G, carno:666666666
+2021-12-08 22:58:13.066  [INFO][setReserveCarno] 방문예약 등록 성공:11111111, 차량번호:666666666
+2021-12-08 23:00:24.901  [INFO][HttpGet getCustInfoController] 
+2021-12-08 23:00:24.902  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-08 23:00:24.955  [ERROR][DataBase SaveToken] 11111111,fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-08 23:00:24.955  [ERROR][DataBase SaveToken] Duplicate entry 'fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLU' for key 'tb_devices_admin.PRIMARY'
+2021-12-08 23:00:25.520  [INFO][HttpGet getGateListController] 
+2021-12-08 23:00:25.521  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-08 23:06:01.916  [INFO][HttpGet getReserveInfoController] 
+2021-12-08 23:06:01.917  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-08 23:06:43.331  [INFO][HttpGet getGateListController] 
+2021-12-08 23:06:43.332  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-08 23:06:55.416  [INFO][HttpGet setReserveCarnoController] 
+2021-12-08 23:06:55.417  [INFO][HttpGet setReserveCarnoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G, carno:777777777
+2021-12-08 23:06:55.422  [INFO][setReserveCarno] 방문예약 등록 성공:11111111, 차량번호:777777777
+2021-12-08 23:07:08.401  [INFO][HttpGet setReserveCarnoController] 
+2021-12-08 23:07:08.402  [INFO][HttpGet setReserveCarnoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G, carno:888888888
+2021-12-08 23:07:08.414  [INFO][setReserveCarno] 방문예약 등록 성공:11111111, 차량번호:888888888
+2021-12-08 23:08:08.380  [INFO][HttpGet getGateListController] 
+2021-12-08 23:08:08.381  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-08 23:08:16.330  [INFO][HttpGet setReserveCarnoController] 
+2021-12-08 23:08:16.331  [INFO][HttpGet setReserveCarnoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G, carno:888888888
+2021-12-08 23:08:16.335  [INFO][setReserveCarno] 방문예약 등록 성공:11111111, 차량번호:888888888
+2021-12-08 23:08:26.591  [INFO][HttpGet setReserveCarnoController] 
+2021-12-08 23:08:26.592  [INFO][HttpGet setReserveCarnoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G, carno:999999999
+2021-12-08 23:08:26.601  [INFO][setReserveCarno] 방문예약 등록 성공:11111111, 차량번호:999999999
+2021-12-08 23:08:35.026  [INFO][HttpGet setReserveCarnoController] 
+2021-12-08 23:08:35.026  [INFO][HttpGet setReserveCarnoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G, carno:00000000
+2021-12-08 23:08:35.034  [INFO][setReserveCarno] 방문예약 등록 성공:11111111, 차량번호:00000000
+2021-12-08 23:09:21.235  [INFO][HttpGet getGateListController] 
+2021-12-08 23:09:21.238  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-08 23:09:27.023  [INFO][HttpGet setReserveCarnoController] 
+2021-12-08 23:09:27.023  [INFO][HttpGet setReserveCarnoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G, carno:111111111
+2021-12-08 23:09:27.031  [INFO][setReserveCarno] 방문예약 등록 성공:11111111, 차량번호:111111111
+2021-12-08 23:09:35.242  [INFO][HttpGet setReserveCarnoController] 
+2021-12-08 23:09:35.243  [INFO][HttpGet setReserveCarnoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G, carno:222222222
+2021-12-08 23:09:35.251  [INFO][setReserveCarno] 방문예약 등록 성공:11111111, 차량번호:222222222
+2021-12-08 23:09:43.106  [INFO][HttpGet setReserveCarnoController] 
+2021-12-08 23:09:43.107  [INFO][HttpGet setReserveCarnoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G, carno:33333333
+2021-12-08 23:09:43.113  [INFO][setReserveCarno] 방문예약 등록 성공:11111111, 차량번호:33333333
+2021-12-08 23:09:52.697  [INFO][HttpGet setReserveCarnoController] 
+2021-12-08 23:09:52.697  [INFO][HttpGet setReserveCarnoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G, carno:44444444
+2021-12-08 23:09:52.702  [INFO][setReserveCarno] 방문예약 등록 성공:11111111, 차량번호:44444444
+2021-12-08 23:10:17.944  [INFO][HttpGet getGateListController] 
+2021-12-08 23:10:17.948  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-08 23:11:01.218  [INFO][HttpGet getReserveInfoController] 
+2021-12-08 23:11:01.218  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-08 23:16:58.136  [INFO][HttpGet getGateListController] 
+2021-12-08 23:16:58.139  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-08 23:17:11.295  [INFO][HttpGet setReserveCarnoController] 
+2021-12-08 23:17:11.296  [INFO][HttpGet setReserveCarnoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G, carno:000000000
+2021-12-08 23:17:11.306  [INFO][setReserveCarno] 방문예약 등록 성공:11111111, 차량번호:000000000
+2021-12-08 23:19:42.652  [INFO][HttpGet setReserveCarnoController] 
+2021-12-08 23:19:42.653  [INFO][HttpGet setReserveCarnoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G, carno:000000000
+2021-12-08 23:19:42.665  [INFO][setReserveCarno] 방문예약 등록 성공:11111111, 차량번호:000000000
+2021-12-08 23:22:43.311  [INFO][HttpGet setReserveCarnoController] 
+2021-12-08 23:22:43.313  [INFO][HttpGet setReserveCarnoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G, carno:111111111
+2021-12-08 23:22:43.667  [INFO][setReserveCarno] 방문예약 등록 성공:11111111, 차량번호:111111111
+2021-12-08 23:23:29.518  [INFO][HttpGet setReserveCarnoController] 
+2021-12-08 23:23:29.518  [INFO][HttpGet setReserveCarnoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G, carno:222222222
+2021-12-08 23:23:29.526  [INFO][setReserveCarno] 방문예약 등록 성공:11111111, 차량번호:222222222
+2021-12-08 23:29:34.579  [INFO][HttpGet getGateListController] 
+2021-12-08 23:29:34.581  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-08 23:29:51.305  [INFO][HttpGet setReserveCarnoController] 
+2021-12-08 23:29:51.306  [INFO][HttpGet setReserveCarnoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G, carno:333333333
+2021-12-08 23:29:51.319  [INFO][setReserveCarno] 방문예약 등록 성공:11111111, 차량번호:333333333
+2021-12-08 23:29:51.585  [INFO][HttpGet getReserveInfoController] 
+2021-12-08 23:29:51.585  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-08 23:30:12.686  [INFO][HttpGet getGateListController] 
+2021-12-08 23:30:12.686  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-08 23:39:26.920  [INFO][HttpGet getGateListController] 
+2021-12-08 23:39:26.921  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-08 23:39:39.195  [INFO][HttpGet getReserveInfoController] 
+2021-12-08 23:39:39.196  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-08 23:56:35.050  [INFO][HttpGet getGateListController] 
+2021-12-08 23:56:35.051  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-08 23:57:24.498  [INFO][HttpGet getGateListController] 
+2021-12-08 23:57:24.499  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-08 23:57:36.145  [INFO][HttpGet getGateListController] 
+2021-12-08 23:57:36.146  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-08 23:57:53.449  [INFO][HttpGet getGateListController] 
+2021-12-08 23:57:53.450  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-08 23:57:59.465  [INFO][HttpGet getGateListController] 
+2021-12-08 23:57:59.465  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-08 23:58:04.822  [INFO][HttpGet getGateListController] 
+2021-12-08 23:58:04.822  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-08 23:58:18.531  [INFO][HttpGet getGateListController] 
+2021-12-08 23:58:18.531  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-08 23:58:32.922  [INFO][HttpGet getGateListController] 
+2021-12-08 23:58:32.923  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-08 23:59:05.608  [INFO][HttpGet getReserveInfoController] 
+2021-12-08 23:59:05.609  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-08 23:59:10.023  [INFO][HttpGet getCustInfoController] 
+2021-12-08 23:59:10.024  [INFO][HttpGet getCustInfoController] : id:, password:, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-08 23:59:31.911  [INFO][HttpGet getCustInfoController] 
+2021-12-08 23:59:31.914  [INFO][HttpGet getCustInfoController] : id:, password:, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G

@@ -1,0 +1,12 @@
+2021-11-19 00:01:34.186  [INFO][HttpGet getGateListController] 
+2021-11-19 00:01:34.196  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-11-19 00:01:46.793  [INFO][HttpPost PostCarnoImageInfo] 
+2021-11-19 00:01:46.793  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP2099213074113676053.jpg
+2021-11-19 15:20:02.900  [INFO][HttpGet getCustInfoController] 
+2021-11-19 15:20:02.906  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:en47HqCeSjOCfZGBESNIKy:APA91bEnYG3rKIOKYEzaoxLe-7MrRpeudPJBgQMl8rjOjJ56-bgeS4_4MxY4v8EdtYkzgTrWFSGGt8BGYPzqVUsyBaiFmLoZpcucohSLzMqwD9fnWQMGoJyawmvDJVUnGdC6G85F2XE_
+2021-11-19 15:20:03.345  [ERROR][DataBase SaveToken] 11111111,en47HqCeSjOCfZGBESNIKy:APA91bEnYG3rKIOKYEzaoxLe-7MrRpeudPJBgQMl8rjOjJ56-bgeS4_4MxY4v8EdtYkzgTrWFSGGt8BGYPzqVUsyBaiFmLoZpcucohSLzMqwD9fnWQMGoJyawmvDJVUnGdC6G85F2XE_
+2021-11-19 15:20:03.345  [ERROR][DataBase SaveToken] Duplicate entry 'en47HqCeSjOCfZGBESNIKy:APA91bEnYG3rKIOKYEzaoxLe-7MrRpeudPJBgQMl8' for key 'tb_devices_admin.PRIMARY'
+2021-11-19 15:20:03.535  [INFO][HttpGet getGateListController] 
+2021-11-19 15:20:03.536  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-11-19 15:20:25.350  [INFO][HttpPost PostCarnoImageInfo] 
+2021-11-19 15:20:25.351  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP4407788319893879226.jpg

@@ -1,0 +1,104 @@
+2021-12-09 00:00:24.127  [INFO][HttpGet getCustInfoController] 
+2021-12-09 00:00:24.131  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-09 00:00:24.195  [ERROR][DataBase SaveToken] 11111111,fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-09 00:00:24.195  [ERROR][DataBase SaveToken] Duplicate entry 'fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLU' for key 'tb_devices_admin.PRIMARY'
+2021-12-09 00:00:24.797  [INFO][HttpGet getGateListController] 
+2021-12-09 00:00:24.798  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-09 00:00:38.440  [INFO][HttpGet getReserveInfoController] 
+2021-12-09 00:00:38.441  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-09 00:01:35.856  [INFO][HttpGet getGateListController] 
+2021-12-09 00:01:35.856  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-09 00:01:50.663  [INFO][HttpGet getReserveInfoController] 
+2021-12-09 00:01:50.663  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-09 00:02:14.670  [INFO][HttpGet getGateListController] 
+2021-12-09 00:02:14.672  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-09 00:02:16.865  [INFO][HttpGet getReserveInfoController] 
+2021-12-09 00:02:16.866  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-09 00:02:42.471  [INFO][HttpGet getGateListController] 
+2021-12-09 00:02:42.472  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-09 00:02:44.987  [INFO][HttpGet getReserveInfoController] 
+2021-12-09 00:02:44.987  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-09 00:03:12.031  [INFO][HttpGet getReserveInfoController] 
+2021-12-09 00:03:12.031  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-09 00:03:21.547  [INFO][HttpGet getReserveInfoController] 
+2021-12-09 00:03:21.550  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-09 00:05:03.724  [INFO][HttpGet getGateListController] 
+2021-12-09 00:05:03.726  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-09 00:05:16.130  [INFO][HttpGet getGateListController] 
+2021-12-09 00:05:16.130  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-09 00:05:19.213  [INFO][HttpGet getReserveInfoController] 
+2021-12-09 00:05:19.213  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-09 00:05:58.910  [INFO][HttpGet getGateListController] 
+2021-12-09 00:05:58.912  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-09 00:06:02.754  [INFO][HttpGet getReserveInfoController] 
+2021-12-09 00:06:02.754  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-09 00:06:26.333  [INFO][HttpGet getGateListController] 
+2021-12-09 00:06:26.334  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-09 00:06:47.504  [INFO][HttpGet getGateListController] 
+2021-12-09 00:06:47.506  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-09 22:24:42.262  [INFO][HttpGet getCustInfoController] 
+2021-12-09 22:24:42.266  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-09 22:24:42.381  [ERROR][DataBase SaveToken] 11111111,fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-09 22:24:42.381  [ERROR][DataBase SaveToken] Duplicate entry 'fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLU' for key 'tb_devices_admin.PRIMARY'
+2021-12-09 22:24:42.900  [INFO][HttpGet getGateListController] 
+2021-12-09 22:24:42.901  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-09 22:25:07.150  [INFO][HttpGet getReserveInfoController] 
+2021-12-09 22:25:07.151  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-09 22:28:26.935  [INFO][HttpGet getGateListController] 
+2021-12-09 22:28:26.936  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-09 22:28:54.230  [INFO][HttpGet getGateListController] 
+2021-12-09 22:28:54.231  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-09 22:29:13.482  [INFO][HttpGet getGateListController] 
+2021-12-09 22:29:13.483  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-09 22:54:45.142  [INFO][HttpGet getGateListController] 
+2021-12-09 22:54:45.145  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-09 22:54:52.950  [INFO][HttpGet getGateListController] 
+2021-12-09 22:54:52.950  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-09 22:55:13.825  [INFO][HttpGet getGateListController] 
+2021-12-09 22:55:13.829  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-09 23:03:26.729  [INFO][HttpGet getGateListController] 
+2021-12-09 23:03:26.753  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-09 23:04:21.310  [INFO][HttpGet getGateListController] 
+2021-12-09 23:04:21.311  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-09 23:04:32.006  [INFO][HttpGet getReserveInfoController] 
+2021-12-09 23:04:32.007  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-09 23:05:10.513  [INFO][HttpGet getGateListController] 
+2021-12-09 23:05:10.514  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-09 23:05:17.104  [INFO][HttpGet getReserveInfoController] 
+2021-12-09 23:05:17.104  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-09 23:05:33.686  [INFO][HttpGet getGateListController] 
+2021-12-09 23:05:33.686  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-09 23:09:55.615  [INFO][HttpGet getGateListController] 
+2021-12-09 23:09:55.616  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-09 23:11:28.651  [INFO][HttpGet getGateListController] 
+2021-12-09 23:11:28.653  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-09 23:11:48.274  [INFO][HttpGet getGateListController] 
+2021-12-09 23:11:48.275  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-09 23:19:58.584  [INFO][HttpGet getGateListController] 
+2021-12-09 23:19:58.586  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-09 23:20:06.530  [INFO][HttpGet getGateListController] 
+2021-12-09 23:20:06.531  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-09 23:20:45.663  [INFO][HttpGet getGateListController] 
+2021-12-09 23:20:45.664  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-09 23:21:05.017  [INFO][HttpGet getGateListController] 
+2021-12-09 23:21:05.017  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-09 23:21:22.502  [INFO][HttpGet getGateListController] 
+2021-12-09 23:21:22.503  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-09 23:21:33.360  [INFO][HttpGet getGateListController] 
+2021-12-09 23:21:33.360  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-09 23:23:57.396  [INFO][HttpGet getGateListController] 
+2021-12-09 23:23:57.397  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-09 23:24:03.267  [INFO][HttpGet getGateListController] 
+2021-12-09 23:24:03.267  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-09 23:24:16.833  [INFO][HttpGet getGateListController] 
+2021-12-09 23:24:16.833  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-09 23:24:24.083  [INFO][HttpGet getGateListController] 
+2021-12-09 23:24:24.084  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-09 23:24:29.831  [INFO][HttpGet getGateListController] 
+2021-12-09 23:24:29.832  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-09 23:24:46.842  [INFO][HttpGet getGateListController] 
+2021-12-09 23:24:46.843  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-09 23:24:54.674  [INFO][HttpGet getGateListController] 
+2021-12-09 23:24:54.675  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-09 23:25:00.156  [INFO][HttpGet getGateListController] 
+2021-12-09 23:25:00.157  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist

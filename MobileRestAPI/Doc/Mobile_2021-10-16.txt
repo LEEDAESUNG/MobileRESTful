@@ -1,0 +1,11 @@
+2021-10-16 23:11:07  Local IP:192.168.100.253
+2021-10-16 23:16:05  Local IP:192.168.100.253
+2021-10-16 23:31:50  Local IP:192.168.100.253
+2021-10-16 23:31:50  Startup exception : System.Net.Sockets.SocketException (10048): 각 소켓 주소(프로토콜/네트워크 주소/포트)는 하나만 사용할 수 있습니다.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at System.Net.Sockets.UdpClient..ctor(Int32 port, AddressFamily family)
+   at System.Net.Sockets.UdpClient..ctor(Int32 port)
+   at SimpleUdp.UdpEndpoint..ctor(String ip, Int32 port)
+   at MobileRestAPI.Startup..ctor(IConfiguration configuration, IWebHostEnvironment env)

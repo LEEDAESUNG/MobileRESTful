@@ -1,0 +1,501 @@
+2021-12-12 00:24:59.347  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 00:24:59.350  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 00:26:04.732  [INFO][HttpGet getGateListController] 
+2021-12-12 00:26:04.733  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 00:26:16.004  [INFO][HttpGet getReserveInfoController] 
+2021-12-12 00:26:16.005  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-12 00:26:29.363  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 00:26:29.367  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 12:21:27.510  [INFO][HttpGet getCustInfoController] 
+2021-12-12 12:21:27.512  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-12 12:21:27.899  [ERROR][DataBase SaveToken] 11111111,fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-12 12:21:27.900  [ERROR][DataBase SaveToken] Duplicate entry 'fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLU' for key 'tb_devices_admin.PRIMARY'
+2021-12-12 12:21:28.425  [INFO][HttpGet getGateListController] 
+2021-12-12 12:21:28.426  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 12:24:16.888  [INFO][HttpGet getReserveInfoController] 
+2021-12-12 12:24:16.888  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-12 12:24:17.883  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 12:24:17.884  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 12:26:12.695  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 12:26:12.698  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 12:27:03.613  [ERROR][reserveCarList Exception] Fatal error encountered during command execution.
+2021-12-12 12:29:03.048  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 12:29:03.054  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 12:32:09.280  [INFO][HttpGet getCustInfoController] 
+2021-12-12 12:32:09.281  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-12 12:32:09.331  [ERROR][DataBase SaveToken] 11111111,fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-12 12:32:09.332  [ERROR][DataBase SaveToken] Duplicate entry 'fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLU' for key 'tb_devices_admin.PRIMARY'
+2021-12-12 12:32:09.915  [INFO][HttpGet getGateListController] 
+2021-12-12 12:32:09.916  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 12:32:13.735  [INFO][HttpGet getReserveInfoController] 
+2021-12-12 12:32:13.736  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-12 12:32:20.974  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 12:32:20.975  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 12:54:48.187  [INFO][HttpGet getGateListController] 
+2021-12-12 12:54:48.188  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 12:54:48.220  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 12:54:48.221  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 12:54:53.540  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 12:54:53.541  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 12:54:59.524  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 12:54:59.525  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 12:55:20.503  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 12:55:20.504  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 12:55:28.417  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 12:55:28.418  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 12:55:56.791  [INFO][HttpGet getCustInfoController] 
+2021-12-12 12:55:56.792  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-12 12:55:56.828  [ERROR][DataBase SaveToken] 11111111,fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-12 12:55:56.828  [ERROR][DataBase SaveToken] Duplicate entry 'fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLU' for key 'tb_devices_admin.PRIMARY'
+2021-12-12 12:55:57.382  [INFO][HttpGet getGateListController] 
+2021-12-12 12:55:57.382  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 12:56:02.810  [INFO][HttpGet getReserveInfoController] 
+2021-12-12 12:56:02.811  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-12 12:56:04.570  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 12:56:04.571  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 12:56:50.589  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 12:56:50.590  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 12:57:55.862  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 12:57:55.863  [INFO][HttpGet getGateListController] 
+2021-12-12 12:57:55.866  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 12:57:55.867  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 12:58:02.170  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 12:58:02.171  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 13:01:14.115  [INFO][HttpGet getCustInfoController] 
+2021-12-12 13:01:14.117  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-12 13:01:14.140  [ERROR][DataBase SaveToken] 11111111,fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-12 13:01:14.141  [ERROR][DataBase SaveToken] Duplicate entry 'fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLU' for key 'tb_devices_admin.PRIMARY'
+2021-12-12 13:01:14.586  [INFO][HttpGet getGateListController] 
+2021-12-12 13:01:14.587  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 13:01:19.174  [INFO][HttpGet getReserveInfoController] 
+2021-12-12 13:01:19.174  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-12 13:01:19.877  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 13:01:19.877  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 13:02:09.515  [INFO][HttpGet getGateListController] 
+2021-12-12 13:02:09.517  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 13:02:09.565  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 13:02:09.565  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 13:02:50.727  [INFO][HttpGet getGateListController] 
+2021-12-12 13:02:50.729  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 13:02:52.999  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 13:02:53.000  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 13:08:21.868  [INFO][HttpGet getGateListController] 
+2021-12-12 13:08:21.868  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 13:08:21.885  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 13:08:21.885  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 13:08:50.353  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 13:08:50.355  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 13:10:51.774  [INFO][HttpGet getGateListController] 
+2021-12-12 13:10:51.775  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 13:10:51.781  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 13:10:51.782  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 13:14:57.277  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 13:14:57.278  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 13:16:29.531  [INFO][HttpGet getGateListController] 
+2021-12-12 13:16:29.532  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 13:16:29.534  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 13:16:29.535  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 13:16:30.496  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 13:16:30.496  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 13:16:43.566  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 13:16:43.566  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 13:17:24.586  [INFO][HttpGet getGateListController] 
+2021-12-12 13:17:24.587  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 13:17:24.619  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 13:17:24.619  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 13:18:14.106  [INFO][HttpGet getGateListController] 
+2021-12-12 13:18:14.107  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 13:18:14.278  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 13:18:14.279  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 13:20:52.627  [INFO][HttpGet getGateListController] 
+2021-12-12 13:20:52.628  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 13:20:52.652  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 13:20:52.652  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 13:21:27.854  [INFO][HttpGet getGateListController] 
+2021-12-12 13:21:27.855  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 13:21:27.860  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 13:21:27.860  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 13:21:28.484  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 13:21:28.484  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 13:22:00.495  [INFO][HttpGet getGateListController] 
+2021-12-12 13:22:00.496  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 13:22:00.644  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 13:22:00.644  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 13:23:04.279  [INFO][HttpGet getGateListController] 
+2021-12-12 13:23:04.280  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 13:23:04.371  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 13:23:04.371  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 13:23:16.910  [INFO][HttpGet getGateListController] 
+2021-12-12 13:23:16.911  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 13:23:16.926  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 13:23:16.927  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 13:23:59.500  [INFO][HttpGet getGateListController] 
+2021-12-12 13:23:59.501  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 13:23:59.593  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 13:23:59.594  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 13:25:37.525  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 13:25:37.526  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 13:25:37.542  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 13:25:37.544  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 13:25:37.546  [INFO][HttpGet getGateListController] 
+2021-12-12 13:25:37.547  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 13:29:47.335  [INFO][HttpGet getGateListController] 
+2021-12-12 13:29:47.336  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 13:29:47.347  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 13:29:47.348  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 13:29:47.618  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 13:29:47.619  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 14:05:29.391  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 14:05:29.393  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 14:06:07.765  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 14:06:07.766  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 14:06:11.266  [INFO][HttpGet getGateListController] 
+2021-12-12 14:06:11.266  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 14:06:11.309  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 14:06:11.310  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 14:06:13.868  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 14:06:13.868  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 14:06:16.463  [INFO][HttpGet getGateListController] 
+2021-12-12 14:06:16.463  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 14:06:16.464  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 14:06:16.465  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 14:06:21.422  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 14:06:21.423  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 14:06:44.333  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 14:06:44.334  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 14:08:04.140  [INFO][HttpGet getCustInfoController] 
+2021-12-12 14:08:04.141  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-12 14:08:04.166  [ERROR][DataBase SaveToken] 11111111,fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-12 14:08:04.166  [ERROR][DataBase SaveToken] Duplicate entry 'fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLU' for key 'tb_devices_admin.PRIMARY'
+2021-12-12 14:08:04.671  [INFO][HttpGet getGateListController] 
+2021-12-12 14:08:04.671  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 14:08:08.033  [INFO][HttpGet getReserveInfoController] 
+2021-12-12 14:08:08.033  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-12 14:08:09.025  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 14:08:09.027  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 14:08:54.359  [INFO][HttpGet getGateListController] 
+2021-12-12 14:08:54.360  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 14:08:54.397  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 14:08:54.397  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 14:08:55.236  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 14:08:55.237  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 14:11:25.420  [INFO][HttpGet getGateListController] 
+2021-12-12 14:11:25.422  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 14:11:25.432  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 14:11:25.432  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 14:11:45.925  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 14:11:45.927  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 14:11:45.933  [INFO][HttpGet getGateListController] 
+2021-12-12 14:11:45.934  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 14:18:16.005  [INFO][HttpGet getGateListController] 
+2021-12-12 14:18:16.006  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 14:18:16.011  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 14:18:16.012  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 14:18:33.097  [INFO][HttpGet getGateListController] 
+2021-12-12 14:18:33.097  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 14:18:33.102  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 14:18:33.103  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 14:18:38.478  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 14:18:38.479  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 14:18:57.072  [INFO][HttpGet getGateListController] 
+2021-12-12 14:18:57.073  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 14:18:57.078  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 14:18:57.079  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 14:19:01.601  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 14:19:01.601  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 14:20:04.929  [INFO][HttpGet getGateListController] 
+2021-12-12 14:20:04.930  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 14:20:04.934  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 14:20:04.935  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 14:20:10.306  [INFO][HttpGet getReserveInfoController] 
+2021-12-12 14:20:10.307  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-12 14:20:10.735  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 14:20:10.735  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 14:20:36.481  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 14:20:36.482  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 14:20:36.487  [INFO][HttpGet getGateListController] 
+2021-12-12 14:20:36.488  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 14:21:00.137  [INFO][HttpGet getGateListController] 
+2021-12-12 14:21:00.137  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 14:21:00.142  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 14:21:00.144  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 14:21:24.673  [INFO][HttpGet getReserveInfoController] 
+2021-12-12 14:21:24.674  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-12 14:23:13.575  [INFO][HttpGet getGateListController] 
+2021-12-12 14:23:13.577  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 14:23:14.817  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 14:23:14.817  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 14:26:54.187  [INFO][HttpGet getReserveInfoController] 
+2021-12-12 14:26:54.188  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-12 14:26:59.297  [INFO][HttpGet getGateListController] 
+2021-12-12 14:26:59.298  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 14:27:02.027  [INFO][HttpGet getReserveInfoController] 
+2021-12-12 14:27:02.028  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-12 14:27:04.701  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 14:27:04.702  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 14:28:49.835  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 14:28:49.836  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 14:28:49.839  [INFO][HttpGet getGateListController] 
+2021-12-12 14:28:49.839  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 14:28:49.846  [INFO][HttpGet getGateListController] 
+2021-12-12 14:28:49.847  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 14:39:16.734  [INFO][HttpGet getGateListController] 
+2021-12-12 14:39:16.735  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 14:39:16.744  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 14:39:16.745  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 14:39:16.753  [INFO][HttpGet getGateListController] 
+2021-12-12 14:39:16.753  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 14:39:20.310  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 14:39:20.311  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 14:40:03.675  [INFO][HttpGet getGateListController] 
+2021-12-12 14:40:03.677  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 14:40:03.681  [INFO][HttpGet getGateListController] 
+2021-12-12 14:40:03.681  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 14:40:03.682  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 14:40:03.684  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 14:40:06.770  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 14:40:06.770  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 15:49:08.980  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 15:49:08.982  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 15:49:08.984  [INFO][HttpGet getGateListController] 
+2021-12-12 15:49:08.985  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 15:49:08.988  [INFO][HttpGet getGateListController] 
+2021-12-12 15:49:08.989  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 15:49:11.999  [INFO][HttpGet getReserveInfoController] 
+2021-12-12 15:49:11.999  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-12 15:49:16.024  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 15:49:16.025  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 15:50:46.665  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 15:50:46.666  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 15:50:46.675  [INFO][HttpGet getGateListController] 
+2021-12-12 15:50:46.676  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 15:50:46.680  [INFO][HttpGet getGateListController] 
+2021-12-12 15:50:46.681  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 15:51:23.528  [INFO][HttpGet getGateListController] 
+2021-12-12 15:51:23.530  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 15:51:23.761  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 15:51:23.761  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 15:51:23.828  [INFO][HttpGet getGateListController] 
+2021-12-12 15:51:23.829  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 15:51:32.971  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 15:51:32.971  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 15:52:21.443  [INFO][HttpGet getGateListController] 
+2021-12-12 15:52:21.443  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 15:52:21.446  [INFO][HttpGet getGateListController] 
+2021-12-12 15:52:21.447  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 15:52:21.449  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 15:52:21.452  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 15:52:26.355  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 15:52:26.355  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 15:56:31.849  [INFO][HttpGet getGateListController] 
+2021-12-12 15:56:31.850  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 15:56:31.875  [INFO][HttpGet getGateListController] 
+2021-12-12 15:56:31.876  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 15:56:31.893  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 15:56:31.894  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 15:56:54.499  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 15:56:54.500  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 15:57:41.410  [INFO][HttpGet getGateListController] 
+2021-12-12 15:57:41.411  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 15:57:41.420  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 15:57:41.420  [INFO][HttpGet getGateListController] 
+2021-12-12 15:57:41.421  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 15:57:41.421  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 15:58:05.607  [INFO][HttpGet getReserveInfoController] 
+2021-12-12 15:58:05.608  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-12 15:58:07.808  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 15:58:07.809  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 15:59:38.687  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 15:59:38.688  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 15:59:38.696  [INFO][HttpGet getGateListController] 
+2021-12-12 15:59:38.698  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 15:59:38.702  [INFO][HttpGet getGateListController] 
+2021-12-12 15:59:38.704  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 16:00:27.214  [INFO][HttpGet getGateListController] 
+2021-12-12 16:00:27.215  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 16:00:27.220  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 16:00:27.221  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 16:00:27.290  [INFO][HttpGet getGateListController] 
+2021-12-12 16:00:27.291  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 16:00:33.957  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 16:00:33.958  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 16:00:38.704  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 16:00:38.704  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 16:02:59.445  [INFO][HttpGet getGateListController] 
+2021-12-12 16:02:59.446  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 16:02:59.466  [INFO][HttpGet getGateListController] 
+2021-12-12 16:02:59.467  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 16:02:59.484  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 16:02:59.484  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 16:05:27.302  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 16:05:27.303  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 16:05:27.310  [INFO][HttpGet getGateListController] 
+2021-12-12 16:05:27.311  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 16:05:27.315  [INFO][HttpGet getGateListController] 
+2021-12-12 16:05:27.315  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 16:06:22.509  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 16:06:22.510  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 16:06:22.516  [INFO][HttpGet getGateListController] 
+2021-12-12 16:06:22.516  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 16:06:22.522  [INFO][HttpGet getGateListController] 
+2021-12-12 16:06:22.522  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 16:16:22.626  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 16:16:22.627  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 16:16:22.632  [INFO][HttpGet getGateListController] 
+2021-12-12 16:16:22.633  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 16:16:22.638  [INFO][HttpGet getGateListController] 
+2021-12-12 16:16:22.638  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 16:16:25.270  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 16:16:25.271  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 16:16:33.074  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 16:16:33.074  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 16:16:56.218  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 16:16:56.219  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 16:16:56.222  [INFO][HttpGet getGateListController] 
+2021-12-12 16:16:56.223  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 16:16:56.233  [INFO][HttpGet getGateListController] 
+2021-12-12 16:16:56.234  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 16:17:01.416  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 16:17:01.417  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 18:24:23.964  [INFO][HttpGet getGateListController] 
+2021-12-12 18:24:23.965  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 18:24:23.968  [INFO][HttpGet getGateListController] 
+2021-12-12 18:24:23.969  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 18:24:23.975  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 18:24:23.975  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 18:24:46.103  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 18:24:46.104  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 18:24:46.128  [INFO][HttpGet getGateListController] 
+2021-12-12 18:24:46.130  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 18:24:46.135  [INFO][HttpGet getGateListController] 
+2021-12-12 18:24:46.136  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 18:25:02.335  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 18:25:02.335  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 18:25:02.350  [INFO][HttpGet getGateListController] 
+2021-12-12 18:25:02.350  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 18:25:02.356  [INFO][HttpGet getGateListController] 
+2021-12-12 18:25:02.356  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 18:27:37.192  [INFO][HttpGet getGateListController] 
+2021-12-12 18:27:37.193  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 18:27:37.195  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 18:27:37.196  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 18:27:37.206  [INFO][HttpGet getGateListController] 
+2021-12-12 18:27:37.206  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 18:35:05.608  [INFO][HttpGet getGateListController] 
+2021-12-12 18:35:05.609  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 18:35:05.611  [INFO][HttpGet getGateListController] 
+2021-12-12 18:35:05.613  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 18:35:12.972  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 18:35:12.972  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 18:38:33.757  [INFO][HttpGet getGateListController] 
+2021-12-12 18:38:33.758  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 18:38:33.764  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 18:38:33.765  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 18:38:33.766  [INFO][HttpGet getGateListController] 
+2021-12-12 18:38:33.767  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 18:38:38.625  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 18:38:38.626  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 18:40:03.087  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 18:40:03.088  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 18:40:03.092  [INFO][HttpGet getGateListController] 
+2021-12-12 18:40:03.092  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 18:40:03.112  [INFO][HttpGet getGateListController] 
+2021-12-12 18:40:03.112  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 18:41:06.591  [INFO][HttpGet getGateListController] 
+2021-12-12 18:41:06.592  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 18:41:06.617  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 18:41:06.617  [INFO][HttpGet getGateListController] 
+2021-12-12 18:41:06.618  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 18:41:06.618  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 18:41:57.499  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 18:41:57.500  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 18:41:57.506  [INFO][HttpGet getGateListController] 
+2021-12-12 18:41:57.507  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 18:41:57.533  [INFO][HttpGet getGateListController] 
+2021-12-12 18:41:57.533  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 18:42:01.465  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 18:42:01.465  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 18:43:58.360  [INFO][HttpGet getCustInfoController] 
+2021-12-12 18:43:58.361  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-12 18:43:58.378  [ERROR][DataBase SaveToken] 11111111,fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-12 18:43:58.379  [ERROR][DataBase SaveToken] Duplicate entry 'fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLU' for key 'tb_devices_admin.PRIMARY'
+2021-12-12 18:43:58.847  [INFO][HttpGet getGateListController] 
+2021-12-12 18:43:58.848  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 18:44:02.849  [INFO][HttpGet getGateListController] 
+2021-12-12 18:44:02.849  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 18:44:05.175  [INFO][HttpGet getReserveInfoController] 
+2021-12-12 18:44:05.175  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-12 18:44:08.029  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 18:44:08.031  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 22:37:26.746  [INFO][HttpGet getGateListController] 
+2021-12-12 22:37:26.748  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 22:37:26.751  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 22:37:26.753  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 22:37:36.413  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 22:37:36.413  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 22:38:37.795  [INFO][HttpGet getGateListController] 
+2021-12-12 22:38:37.797  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 22:38:37.804  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 22:38:37.804  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 22:39:23.618  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 22:39:23.619  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 22:39:23.622  [INFO][HttpGet getGateListController] 
+2021-12-12 22:39:23.624  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 22:44:13.358  [INFO][HttpGet getGateListController] 
+2021-12-12 22:44:13.359  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 22:44:13.376  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 22:44:13.377  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 22:44:47.777  [INFO][HttpGet getGateListController] 
+2021-12-12 22:44:47.778  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 22:46:09.575  [INFO][HttpGet getGateListController] 
+2021-12-12 22:46:09.575  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 22:46:30.808  [INFO][HttpGet getGateListController] 
+2021-12-12 22:46:30.809  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 22:46:38.240  [INFO][HttpGet getGateListController] 
+2021-12-12 22:46:38.241  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 22:46:53.329  [INFO][HttpGet getGateListController] 
+2021-12-12 22:46:53.329  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 22:48:24.202  [INFO][HttpGet getGateListController] 
+2021-12-12 22:48:24.203  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 22:50:40.257  [INFO][HttpGet getGateListController] 
+2021-12-12 22:50:40.258  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 22:50:50.363  [INFO][HttpGet getGateListController] 
+2021-12-12 22:50:50.363  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 22:51:38.130  [INFO][HttpGet getGateListController] 
+2021-12-12 22:51:38.131  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 23:03:03.428  [INFO][HttpGet getGateListController] 
+2021-12-12 23:03:03.429  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 23:03:03.434  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 23:03:03.435  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 23:03:37.614  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 23:03:37.615  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 23:03:37.622  [INFO][HttpGet getGateListController] 
+2021-12-12 23:03:37.624  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 23:10:27.340  [INFO][HttpGet getReserveInfoController] 
+2021-12-12 23:10:27.341  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-12 23:10:29.506  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 23:10:29.507  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 23:11:21.070  [INFO][HttpGet getGateListController] 
+2021-12-12 23:11:21.071  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 23:11:21.074  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 23:11:21.075  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 23:11:33.588  [INFO][HttpGet getReserveInfoController] 
+2021-12-12 23:11:33.589  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-12 23:11:59.798  [INFO][HttpGet getGateListController] 
+2021-12-12 23:11:59.799  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 23:13:10.622  [INFO][HttpGet getGateListController] 
+2021-12-12 23:13:10.623  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 23:13:14.109  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 23:13:14.110  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 23:13:31.355  [INFO][HttpGet getGateListController] 
+2021-12-12 23:13:31.356  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 23:13:31.371  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 23:13:31.371  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 23:15:19.950  [INFO][HttpGet getGateListController] 
+2021-12-12 23:15:19.951  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 23:15:19.953  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 23:15:19.954  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2021-12-12 23:34:41.952  [INFO][HttpGet getGateListController] 
+2021-12-12 23:34:41.953  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-12 23:34:41.959  [INFO][HttpGet getReservationCarListController] 
+2021-12-12 23:34:41.960  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:

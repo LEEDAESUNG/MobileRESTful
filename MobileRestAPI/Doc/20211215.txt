@@ -1,0 +1,91 @@
+2021-12-15 22:47:26.234  [INFO][HttpGet getCustInfoController] 
+2021-12-15 22:47:26.236  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-15 22:47:26.725  [ERROR][DataBase SaveToken] 11111111,fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-15 22:47:26.726  [ERROR][DataBase SaveToken] Duplicate entry 'fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLU' for key 'tb_devices_admin.PRIMARY'
+2021-12-15 22:47:27.285  [INFO][HttpGet getGateListController] 
+2021-12-15 22:47:27.285  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-15 22:47:27.315  [ERROR][Recv Host gateList Error] Data is Null. This method or property cannot be called on Null values.
+2021-12-15 23:00:37.824  [INFO][HttpGet getReserveInfoController] 
+2021-12-15 23:00:37.825  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-15 23:07:44.042  [INFO][HttpGet getGateListController] 
+2021-12-15 23:07:44.043  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-15 23:07:44.083  [ERROR][Recv Host gateList Error] Data is Null. This method or property cannot be called on Null values.
+2021-12-15 23:12:30.429  [INFO][HttpGet getGateListController] 
+2021-12-15 23:12:30.430  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-15 23:12:30.464  [ERROR][Recv Host gateList Error] Data is Null. This method or property cannot be called on Null values.
+2021-12-15 23:12:51.556  [INFO][HttpGet getGateListController] 
+2021-12-15 23:12:51.556  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-15 23:12:51.571  [ERROR][Recv Host gateList Error] Data is Null. This method or property cannot be called on Null values.
+2021-12-15 23:26:51.926  [INFO][HttpGet getGateListController] 
+2021-12-15 23:26:51.927  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-15 23:26:51.963  [ERROR][Recv Host gateList Error] Data is Null. This method or property cannot be called on Null values.
+2021-12-15 23:27:32.371  [INFO][HttpGet getGateListController] 
+2021-12-15 23:27:32.372  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-15 23:27:32.392  [ERROR][Recv Host gateList Error] Data is Null. This method or property cannot be called on Null values.
+2021-12-15 23:27:39.141  [INFO][HttpGet getReserveInfoController] 
+2021-12-15 23:27:39.142  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-15 23:28:52.210  [INFO][HttpGet getGateListController] 
+2021-12-15 23:28:52.210  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-15 23:28:52.226  [ERROR][Recv Host gateList Error] Data is Null. This method or property cannot be called on Null values.
+2021-12-15 23:28:57.404  [INFO][HttpGet getGateListController] 
+2021-12-15 23:28:57.405  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-15 23:28:57.421  [ERROR][Recv Host gateList Error] Data is Null. This method or property cannot be called on Null values.
+2021-12-15 23:29:06.184  [INFO][HttpGet getReserveInfoController] 
+2021-12-15 23:29:06.185  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-15 23:33:56.099  [INFO][HttpGet getGateListController] 
+2021-12-15 23:33:56.100  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-15 23:33:56.130  [ERROR][Recv Host gateList Error] Data is Null. This method or property cannot be called on Null values.
+2021-12-15 23:34:16.323  [INFO][HttpGet getGateListController] 
+2021-12-15 23:34:16.324  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-15 23:34:16.341  [ERROR][Recv Host gateList Error] Data is Null. This method or property cannot be called on Null values.
+2021-12-15 23:34:30.983  [INFO][HttpGet getReserveInfoController] 
+2021-12-15 23:34:30.984  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-15 23:36:15.462  [INFO][HttpGet getCustInfoController] 
+2021-12-15 23:36:15.462  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-15 23:36:15.492  [ERROR][DataBase SaveToken] 11111111,fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-15 23:36:15.492  [ERROR][DataBase SaveToken] Duplicate entry 'fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLU' for key 'tb_devices_admin.PRIMARY'
+2021-12-15 23:36:16.030  [INFO][HttpGet getGateListController] 
+2021-12-15 23:36:16.031  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-15 23:36:16.047  [ERROR][Recv Host gateList Error] Data is Null. This method or property cannot be called on Null values.
+2021-12-15 23:47:06.412  [INFO][HttpGet getGateListController] 
+2021-12-15 23:47:06.414  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-15 23:47:06.453  [ERROR][Recv Host gateList Error] Data is Null. This method or property cannot be called on Null values.
+2021-12-15 23:47:13.311  [INFO][HttpGet getReserveInfoController] 
+2021-12-15 23:47:13.312  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-15 23:48:23.063  [INFO][HttpGet getGateListController] 
+2021-12-15 23:48:23.064  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-15 23:48:23.080  [ERROR][Recv Host gateList Error] Data is Null. This method or property cannot be called on Null values.
+2021-12-15 23:48:25.847  [INFO][HttpGet getReserveInfoController] 
+2021-12-15 23:48:25.847  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-15 23:49:41.328  [INFO][HttpGet getGateListController] 
+2021-12-15 23:49:41.330  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-15 23:49:41.347  [ERROR][Recv Host gateList Error] Data is Null. This method or property cannot be called on Null values.
+2021-12-15 23:50:36.590  [INFO][HttpGet getGateListController] 
+2021-12-15 23:50:36.591  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-15 23:50:36.612  [ERROR][Recv Host gateList Error] Data is Null. This method or property cannot be called on Null values.
+2021-12-15 23:51:22.117  [INFO][HttpGet getReserveInfoController] 
+2021-12-15 23:51:22.118  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-15 23:52:19.448  [INFO][HttpGet getGateListController] 
+2021-12-15 23:52:19.450  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-15 23:52:19.470  [ERROR][Recv Host gateList Error] Data is Null. This method or property cannot be called on Null values.
+2021-12-15 23:52:27.237  [INFO][HttpGet getGateListController] 
+2021-12-15 23:52:27.237  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-15 23:52:27.252  [ERROR][Recv Host gateList Error] Data is Null. This method or property cannot be called on Null values.
+2021-12-15 23:52:34.797  [INFO][HttpGet getReserveInfoController] 
+2021-12-15 23:52:34.797  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-15 23:52:51.261  [INFO][HttpGet getGateListController] 
+2021-12-15 23:52:51.261  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-15 23:52:51.278  [ERROR][Recv Host gateList Error] Data is Null. This method or property cannot be called on Null values.
+2021-12-15 23:52:58.250  [INFO][HttpGet getGateListController] 
+2021-12-15 23:52:58.250  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-15 23:52:58.266  [ERROR][Recv Host gateList Error] Data is Null. This method or property cannot be called on Null values.
+2021-12-15 23:59:18.000  [INFO][HttpGet getGateListController] 
+2021-12-15 23:59:18.001  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-15 23:59:18.040  [ERROR][Recv Host gateList Error] Data is Null. This method or property cannot be called on Null values.
+2021-12-15 23:59:22.959  [INFO][HttpGet getReserveInfoController] 
+2021-12-15 23:59:22.959  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2021-12-15 23:59:47.579  [INFO][HttpGet getGateListController] 
+2021-12-15 23:59:47.581  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-12-15 23:59:47.597  [ERROR][Recv Host gateList Error] Data is Null. This method or property cannot be called on Null values.
+2021-12-15 23:59:52.946  [INFO][HttpGet getReserveInfoController] 
+2021-12-15 23:59:52.948  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G

@@ -1,0 +1,4 @@
+2021-11-12 00:00:39.468  [INFO][HttpGet getGateListController] 
+2021-11-12 00:00:39.471  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-11-12 10:22:33.291  [INFO][HttpGet getGateListController] 
+2021-11-12 10:22:33.291  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist

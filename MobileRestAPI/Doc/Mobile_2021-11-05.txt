@@ -1,0 +1,25 @@
+2021-11-05 13:29:14  Local IP:192.168.100.253
+2021-11-05 13:29:14  udpServer start : 192.168.100.253:38157
+2021-11-05 15:47:18  Local IP:192.168.100.253
+2021-11-05 15:47:18  udpServer start : 192.168.100.253:38157
+2021-11-05 16:41:10  Local IP:192.168.100.253
+2021-11-05 16:41:10  udpServer start : 192.168.100.253:38157
+2021-11-05 16:41:42  Local IP:192.168.100.253
+2021-11-05 16:41:45  udpServer start : 192.168.100.253:38157
+2021-11-05 16:59:18  Local IP:192.168.100.253
+2021-11-05 16:59:18  udpServer start : 192.168.100.253:38157
+2021-11-05 17:18:29  Local IP:192.168.100.253
+2021-11-05 17:18:29  udpServer start : 192.168.100.253:38157
+2021-11-05 17:37:12  Local IP:192.168.100.253
+2021-11-05 17:37:12  udpServer start : 192.168.100.253:38157
+2021-11-05 17:45:25  [Recv from Host] Err : Index was outside the bounds of the array.
+2021-11-05 17:45:49  [Recv from Host] Err : Index was outside the bounds of the array.
+2021-11-05 17:46:00  [Recv from Host] Err : Index was outside the bounds of the array.
+2021-11-05 17:46:07  [Recv from Host] Err : Index was outside the bounds of the array.
+2021-11-05 17:46:25  [Recv from Host] Err : Index was outside the bounds of the array.
+2021-11-05 17:46:36  [Recv from Host] Err : Index was outside the bounds of the array.
+2021-11-05 17:46:59  [Recv from Host] Err : Index was outside the bounds of the array.
+2021-11-05 17:48:46  Local IP:192.168.100.253
+2021-11-05 17:48:46  udpServer start : 192.168.100.253:38157
+2021-11-05 17:49:53  Local IP:192.168.100.253
+2021-11-05 17:49:53  udpServer start : 192.168.100.253:38157

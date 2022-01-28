@@ -1,0 +1,4 @@
+2021-11-18 23:56:57.050  [INFO][HttpGet getGateListController] 
+2021-11-18 23:56:57.053  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-11-18 23:57:07.978  [INFO][HttpPost PostCarnoImageInfo] 
+2021-11-18 23:57:07.979  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP5526984281334849095.jpg

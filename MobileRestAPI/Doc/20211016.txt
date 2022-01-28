@@ -1,0 +1,13 @@
+2021-10-16 22:54:30.460  [INFO][HttpGet getGateListController] 
+2021-10-16 22:54:30.464  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-10-16 22:54:31.560  [INFO][HttpGet setGateOpenController] 
+2021-10-16 22:54:31.561  [INFO][HttpGet setGateOpenController] : id:11111111, password:1234, cmd:GATEUP, gateno:0
+2021-10-16 22:54:31.719  [Recv Host gateOpen Result] ACK
+2021-10-16 22:55:35.232  [INFO][HttpGet getGateListController] 
+2021-10-16 22:55:35.234  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-10-16 22:55:43.571  [INFO][HttpGet getGateListController] 
+2021-10-16 22:55:43.572  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-10-16 22:55:57.074  [INFO][HttpGet getGateListController] 
+2021-10-16 22:55:57.077  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-10-16 23:16:31.288  [INFO][HttpGet getGateListController] 
+2021-10-16 23:16:31.291  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist

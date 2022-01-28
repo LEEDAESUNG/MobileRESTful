@@ -1,0 +1,26 @@
+2022-01-17 00:12:34.918  [INFO][HttpGet getGateListController] 
+2022-01-17 00:12:34.920  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-01-17 00:13:40.162  [INFO][HttpGet getGateListController] 
+2022-01-17 00:13:40.163  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-01-17 00:29:31.234  [INFO][HttpGet getGateListController] 
+2022-01-17 00:29:31.234  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-01-17 00:31:10.563  [INFO][HttpGet getGateListController] 
+2022-01-17 00:31:10.566  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-01-17 00:31:34.114  [INFO][HttpGet getGateListController] 
+2022-01-17 00:31:34.117  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-01-17 00:32:01.704  [INFO][HttpGet getGateListController] 
+2022-01-17 00:32:01.706  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-01-17 13:14:17.986  [INFO][HttpGet getCustInfoController] 
+2022-01-17 13:14:17.987  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:en47HqCeSjOCfZGBESNIKy:APA91bEnYG3rKIOKYEzaoxLe-7MrRpeudPJBgQMl8rjOjJ56-bgeS4_4MxY4v8EdtYkzgTrWFSGGt8BGYPzqVUsyBaiFmLoZpcucohSLzMqwD9fnWQMGoJyawmvDJVUnGdC6G85F2XE_
+2022-01-17 13:14:18.080  [ERROR][DataBase SaveToken] 11111111,en47HqCeSjOCfZGBESNIKy:APA91bEnYG3rKIOKYEzaoxLe-7MrRpeudPJBgQMl8rjOjJ56-bgeS4_4MxY4v8EdtYkzgTrWFSGGt8BGYPzqVUsyBaiFmLoZpcucohSLzMqwD9fnWQMGoJyawmvDJVUnGdC6G85F2XE_
+2022-01-17 13:14:18.081  [ERROR][DataBase SaveToken] Duplicate entry 'en47HqCeSjOCfZGBESNIKy:APA91bEnYG3rKIOKYEzaoxLe-7MrRpeudPJBgQMl8' for key 'tb_devices_admin.PRIMARY'
+2022-01-17 13:14:18.204  [INFO][HttpGet getReserveInfoController] 
+2022-01-17 13:14:18.205  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:en47HqCeSjOCfZGBESNIKy:APA91bEnYG3rKIOKYEzaoxLe-7MrRpeudPJBgQMl8rjOjJ56-bgeS4_4MxY4v8EdtYkzgTrWFSGGt8BGYPzqVUsyBaiFmLoZpcucohSLzMqwD9fnWQMGoJyawmvDJVUnGdC6G85F2XE_
+2022-01-17 13:14:18.274  [INFO][HttpGet getWebDCInfoController] 
+2022-01-17 13:14:18.274  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:en47HqCeSjOCfZGBESNIKy:APA91bEnYG3rKIOKYEzaoxLe-7MrRpeudPJBgQMl8rjOjJ56-bgeS4_4MxY4v8EdtYkzgTrWFSGGt8BGYPzqVUsyBaiFmLoZpcucohSLzMqwD9fnWQMGoJyawmvDJVUnGdC6G85F2XE_
+2022-01-17 13:14:18.394  [INFO][HttpGet getGateListController] 
+2022-01-17 13:14:18.395  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-01-17 13:14:23.495  [INFO][HttpGet getInCarListCarnoController] 
+2022-01-17 13:14:23.495  [INFO][HttpGet getInCarListCarnoController] : id:11111111, password:1234, carno:, token:
+2022-01-17 13:14:25.064  [INFO][HttpGet getInCarListCarnoController] 
+2022-01-17 13:14:25.065  [INFO][HttpGet getInCarListCarnoController] : id:11111111, password:1234, carno:, token:

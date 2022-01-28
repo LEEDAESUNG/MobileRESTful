@@ -1,0 +1,42 @@
+2021-11-16 12:22:40.371  [INFO][HttpGet getGateListController] 
+2021-11-16 12:22:40.374  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-11-16 12:23:15.080  [INFO][HttpPost PostCarnoImageInfo] 
+2021-11-16 12:23:15.081  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP5299887625594251957.jpg
+2021-11-16 12:30:35.154  [INFO][HttpPost PostCarnoImageInfo] 
+2021-11-16 12:30:35.156  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP7547902389152053063.jpg
+2021-11-16 21:49:09.186  [INFO][HttpGet getCustInfoController] 
+2021-11-16 21:49:09.189  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:dUzr7a4mT6Oj4DEjXbwF9b:APA91bF_nNc4gbNBrSwWbXAi5luNxERC0IJfo18fBPjKudm_aeX3DHcWG_GZKqL5ytfjx4gsjynPlWngqkB18hX7J_OJ867Z2ZJrdM_RPtYaJCFUf7MxKP_AgLxa-wQD0PjFX2PnjOtW
+2021-11-16 21:49:09.602  [ERROR][DataBase SaveToken] 11111111,dUzr7a4mT6Oj4DEjXbwF9b:APA91bF_nNc4gbNBrSwWbXAi5luNxERC0IJfo18fBPjKudm_aeX3DHcWG_GZKqL5ytfjx4gsjynPlWngqkB18hX7J_OJ867Z2ZJrdM_RPtYaJCFUf7MxKP_AgLxa-wQD0PjFX2PnjOtW
+2021-11-16 21:49:09.602  [ERROR][DataBase SaveToken] Duplicate entry 'dUzr7a4mT6Oj4DEjXbwF9b:APA91bF_nNc4gbNBrSwWbXAi5luNxERC0IJfo18fB' for key 'tb_devices_admin.PRIMARY'
+2021-11-16 21:49:10.113  [INFO][HttpGet getGateListController] 
+2021-11-16 21:49:10.114  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-11-16 21:52:01.816  [INFO][HttpGet getCustInfoController] 
+2021-11-16 21:52:01.816  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:en47HqCeSjOCfZGBESNIKy:APA91bEnYG3rKIOKYEzaoxLe-7MrRpeudPJBgQMl8rjOjJ56-bgeS4_4MxY4v8EdtYkzgTrWFSGGt8BGYPzqVUsyBaiFmLoZpcucohSLzMqwD9fnWQMGoJyawmvDJVUnGdC6G85F2XE_
+2021-11-16 21:52:01.833  [ERROR][DataBase SaveToken] 11111111,en47HqCeSjOCfZGBESNIKy:APA91bEnYG3rKIOKYEzaoxLe-7MrRpeudPJBgQMl8rjOjJ56-bgeS4_4MxY4v8EdtYkzgTrWFSGGt8BGYPzqVUsyBaiFmLoZpcucohSLzMqwD9fnWQMGoJyawmvDJVUnGdC6G85F2XE_
+2021-11-16 21:52:01.834  [ERROR][DataBase SaveToken] Duplicate entry 'en47HqCeSjOCfZGBESNIKy:APA91bEnYG3rKIOKYEzaoxLe-7MrRpeudPJBgQMl8' for key 'tb_devices_admin.PRIMARY'
+2021-11-16 21:52:01.996  [INFO][HttpGet getGateListController] 
+2021-11-16 21:52:01.997  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2021-11-16 21:52:22.336  [INFO][HttpPost PostCarnoImageInfo] 
+2021-11-16 21:52:22.337  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP3345556228075569344.jpg
+2021-11-16 21:54:52.586  [INFO][HttpPost PostCarnoImageInfo] 
+2021-11-16 21:54:52.588  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP2261747788494652659.jpg
+2021-11-16 21:57:22.557  [INFO][HttpPost PostCarnoImageInfo] 
+2021-11-16 21:57:22.559  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP1261429317672164801.jpg
+2021-11-16 22:14:45.071  [INFO][HttpPost PostCarnoImageInfo] 
+2021-11-16 22:14:45.073  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP4886464007631935515.jpg
+2021-11-16 22:17:10.624  [INFO][HttpPost PostCarnoImageInfo] 
+2021-11-16 22:17:10.626  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP825520579347633795.jpg
+2021-11-16 22:19:58.015  [INFO][HttpPost PostCarnoImageInfo] 
+2021-11-16 22:19:58.017  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP8048853664955181695.jpg
+2021-11-16 22:22:00.224  [INFO][HttpPost PostCarnoImageInfo] 
+2021-11-16 22:22:00.226  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP6166553568030725716.jpg
+2021-11-16 22:41:12.853  [INFO][HttpPost PostCarnoImageInfo] 
+2021-11-16 22:41:12.855  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP7517069513200586811.jpg
+2021-11-16 22:46:01.425  [INFO][HttpPost PostCarnoImageInfo] 
+2021-11-16 22:46:01.427  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP2049631447064473023.jpg
+2021-11-16 22:46:59.003  [INFO][HttpPost PostCarnoImageInfo] 
+2021-11-16 22:46:59.005  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP6955001072884644360.jpg
+2021-11-16 22:57:42.604  [INFO][HttpPost PostCarnoImageInfo] 
+2021-11-16 22:57:42.606  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP5572872111244903956.jpg
+2021-11-16 23:00:25.711  [INFO][HttpPost PostCarnoImageInfo] 
+2021-11-16 23:00:25.719  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP5614783237888209139.jpg
