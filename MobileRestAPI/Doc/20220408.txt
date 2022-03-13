@@ -1,0 +1,117 @@
+2022-04-08 23:10:14.682  [INFO][HttpGet getCustInfoController] 
+2022-04-08 23:10:14.688  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-04-08 23:10:15.177  [DataBase SaveToken] 11111111,dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-04-08 23:10:15.449  [INFO][HttpGet getReserveInfoController] 
+2022-04-08 23:10:15.450  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-04-08 23:10:15.525  [INFO][HttpGet getWebDCInfoController] 
+2022-04-08 23:10:15.525  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-04-08 23:10:15.863  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-08 23:10:15.864  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-04-08 23:10:15.874  [INFO][HttpGet getGateListController] 
+2022-04-08 23:10:15.875  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-04-08 23:25:44.133  [INFO][HttpGet getPushAlarmController] 
+2022-04-08 23:25:44.135  [INFO][HttpGet getPushAlarmController] : sender:SYSTEM, recever:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-04-08 23:25:44, rtsp:rtsp://admin:jawootek@kc-arzen.iptime.org:5000/profile1
+2022-04-08 23:25:44.604  [PUSH ALARM] {"multicast_id":3702335499607688367,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1649427949937944%c195b7dcc195b7dc"}]}
+2022-04-08 23:25:44.660  [ERROR][pushAlarm Exception] There is already an open DataReader associated with this Connection which must be closed first.
+2022-04-08 23:26:35.108  [INFO][HttpGet getCustInfoController] 
+2022-04-08 23:26:35.109  [INFO][HttpGet getCustInfoController] : id:, password:, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-04-08 23:26:47.272  [INFO][HttpGet getCustInfoController] 
+2022-04-08 23:26:47.273  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-04-08 23:26:47.312  [ERROR][DataBase SaveToken] 11111111,dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-04-08 23:26:47.313  [ERROR][DataBase SaveToken] Duplicate entry 'dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU' for key 'tb_devices_admin.PRIMARY'
+2022-04-08 23:26:47.504  [INFO][HttpGet getReserveInfoController] 
+2022-04-08 23:26:47.504  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-04-08 23:26:47.661  [INFO][HttpGet getWebDCInfoController] 
+2022-04-08 23:26:47.662  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-04-08 23:26:48.065  [INFO][HttpGet getGateListController] 
+2022-04-08 23:26:48.066  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-04-08 23:26:48.085  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-08 23:26:48.085  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-04-08 23:26:52.108  [INFO][HttpGet getPushAlarmController] 
+2022-04-08 23:26:52.109  [INFO][HttpGet getPushAlarmController] : sender:SYSTEM, recever:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-04-08 23:26:52, rtsp:rtsp://admin:jawootek@kc-arzen.iptime.org:5000/profile1
+2022-04-08 23:26:52.335  [PUSH ALARM] {"multicast_id":7000267087922898105,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1649428017674959%c195b7dcc195b7dc"}]}
+2022-04-08 23:26:52.352  [ERROR][pushAlarm Exception] There is already an open DataReader associated with this Connection which must be closed first.
+2022-04-08 23:27:01.845  [INFO][HttpGet getPushAlarmController] 
+2022-04-08 23:27:01.846  [INFO][HttpGet getPushAlarmController] : sender:SYSTEM, recever:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-04-08 23:27:01, rtsp:rtsp://admin:jawootek@kc-arzen.iptime.org:5000/profile1
+2022-04-08 23:27:02.055  [PUSH ALARM] {"multicast_id":5569196237965919775,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1649428027407592%c195b7dcc195b7dc"}]}
+2022-04-08 23:27:02.072  [ERROR][pushAlarm Exception] There is already an open DataReader associated with this Connection which must be closed first.
+2022-04-08 23:27:11.374  [INFO][HttpGet getPushAlarmController] 
+2022-04-08 23:27:11.374  [INFO][HttpGet getPushAlarmController] : sender:SYSTEM, recever:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-04-08 23:27:11, rtsp:rtsp://admin:jawootek@kc-arzen.iptime.org:5000/profile1
+2022-04-08 23:27:11.597  [PUSH ALARM] {"multicast_id":7892891290112808920,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1649428036943812%c195b7dcc195b7dc"}]}
+2022-04-08 23:27:11.614  [ERROR][pushAlarm Exception] There is already an open DataReader associated with this Connection which must be closed first.
+2022-04-08 23:27:52.943  [INFO][HttpGet getPushAlarmController] 
+2022-04-08 23:27:52.943  [INFO][HttpGet getPushAlarmController] : sender:SYSTEM, recever:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-04-08 23:27:52, rtsp:rtsp://admin:jawootek@kc-arzen.iptime.org:5000/profile1
+2022-04-08 23:28:03.903  [PUSH ALARM] {"multicast_id":3182873617846772449,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1649428089254729%c195b7dcc195b7dc"}]}
+2022-04-08 23:28:03.922  [ERROR][pushAlarm Exception] There is already an open DataReader associated with this Connection which must be closed first.
+2022-04-08 23:29:03.283  [INFO][HttpGet getCustInfoController] 
+2022-04-08 23:29:03.285  [INFO][HttpGet getCustInfoController] : id:, password:, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-04-08 23:29:30.813  [INFO][HttpGet getCustInfoController] 
+2022-04-08 23:29:30.816  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-04-08 23:29:30.839  [ERROR][DataBase SaveToken] 11111111,dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-04-08 23:29:30.839  [ERROR][DataBase SaveToken] Duplicate entry 'dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU' for key 'tb_devices_admin.PRIMARY'
+2022-04-08 23:29:31.004  [INFO][HttpGet getReserveInfoController] 
+2022-04-08 23:29:31.005  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-04-08 23:29:31.121  [INFO][HttpGet getWebDCInfoController] 
+2022-04-08 23:29:31.121  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-04-08 23:29:31.505  [INFO][HttpGet getGateListController] 
+2022-04-08 23:29:31.506  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-04-08 23:29:31.609  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-08 23:29:31.609  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-04-08 23:30:09.786  [INFO][HttpGet getPushAlarmController] 
+2022-04-08 23:30:09.788  [INFO][HttpGet getPushAlarmController] : sender:SYSTEM, recever:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-04-08 23:30:09, rtsp:rtsp://admin:jawootek@kc-arzen.iptime.org:5000/profile1
+2022-04-08 23:30:12.937  [PUSH ALARM] {"multicast_id":2671446887053219472,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1649428218280832%c195b7dcc195b7dc"}]}
+2022-04-08 23:30:12.955  [ERROR][pushAlarm Exception] There is already an open DataReader associated with this Connection which must be closed first.
+2022-04-08 23:31:13.475  [INFO][HttpGet getPushAlarmController] 
+2022-04-08 23:31:13.478  [INFO][HttpGet getPushAlarmController] : sender:SYSTEM, recever:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-04-08 23:31:13, rtsp:rtsp://admin:jawootek@kc-arzen.iptime.org:5000/profile1
+2022-04-08 23:31:13.688  [PUSH ALARM] {"multicast_id":7538016278434165637,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-04-08 23:31:13.705  [ERROR][pushAlarm Exception] There is already an open DataReader associated with this Connection which must be closed first.
+2022-04-08 23:31:18.195  [INFO][HttpGet getPushAlarmController] 
+2022-04-08 23:31:18.198  [INFO][HttpGet getPushAlarmController] : sender:SYSTEM, recever:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-04-08 23:31:18, rtsp:rtsp://admin:jawootek@kc-arzen.iptime.org:5000/profile1
+2022-04-08 23:31:18.394  [PUSH ALARM] {"multicast_id":8275971421281261735,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-04-08 23:31:18.410  [ERROR][pushAlarm Exception] There is already an open DataReader associated with this Connection which must be closed first.
+2022-04-08 23:31:22.240  [INFO][HttpGet getPushAlarmController] 
+2022-04-08 23:31:22.240  [INFO][HttpGet getPushAlarmController] : sender:SYSTEM, recever:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-04-08 23:31:22, rtsp:rtsp://admin:jawootek@kc-arzen.iptime.org:5000/profile1
+2022-04-08 23:31:22.493  [PUSH ALARM] {"multicast_id":264405505526762792,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-04-08 23:31:22.510  [ERROR][pushAlarm Exception] There is already an open DataReader associated with this Connection which must be closed first.
+2022-04-08 23:32:59.146  [INFO][HttpGet getPushAlarmController] 
+2022-04-08 23:32:59.147  [INFO][HttpGet getPushAlarmController] : sender:SYSTEM, recever:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-04-08 23:32:59, rtsp:rtsp://admin:jawootek@kc-arzen.iptime.org:5000/profile1
+2022-04-08 23:32:59.350  [PUSH ALARM] {"multicast_id":4555082990256234914,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-04-08 23:32:59.366  [ERROR][pushAlarm Exception] There is already an open DataReader associated with this Connection which must be closed first.
+2022-04-08 23:41:16.924  [INFO][HttpGet getPushAlarmController] 
+2022-04-08 23:41:16.927  [INFO][HttpGet getPushAlarmController] : sender:SYSTEM, recever:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-04-08 23:41:16, rtsp:rtsp://admin:jawootek@kc-arzen.iptime.org:5000/profile1
+2022-04-08 23:41:17.162  [PUSH ALARM] {"multicast_id":2450748339952416820,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-04-08 23:41:17.177  [ERROR][pushAlarm Exception] There is already an open DataReader associated with this Connection which must be closed first.
+2022-04-08 23:41:24.182  [INFO][HttpGet getPushAlarmController] 
+2022-04-08 23:41:24.183  [INFO][HttpGet getPushAlarmController] : sender:SYSTEM, recever:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-04-08 23:41:24, rtsp:rtsp://admin:jawootek@kc-arzen.iptime.org:5000/profile1
+2022-04-08 23:41:24.372  [PUSH ALARM] {"multicast_id":609472452518654439,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-04-08 23:41:24.387  [ERROR][pushAlarm Exception] There is already an open DataReader associated with this Connection which must be closed first.
+2022-04-08 23:42:54.606  [INFO][HttpGet getPushAlarmController] 
+2022-04-08 23:42:54.608  [INFO][HttpGet getPushAlarmController] : sender:SYSTEM, recever:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-04-08 23:42:54, rtsp:rtsp://admin:jawootek@kc-arzen.iptime.org:5000/profile1
+2022-04-08 23:42:54.847  [PUSH ALARM] {"multicast_id":8674258887325641492,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1649428980190994%c195b7dcc195b7dc"}]}
+2022-04-08 23:46:00.039  [ERROR][pushAlarm Exception] There is already an open DataReader associated with this Connection which must be closed first.
+2022-04-08 23:46:00.044  [INFO][HttpGet getPushAlarmController] 
+2022-04-08 23:46:00.048  [INFO][HttpGet getPushAlarmController] : sender:SYSTEM, recever:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-04-08 23:45:54, rtsp:rtsp://admin:jawootek@kc-arzen.iptime.org:5000/profile1
+2022-04-08 23:46:00.291  [PUSH ALARM] {"multicast_id":223441253986506749,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1649429165634770%c195b7dcc195b7dc"}]}
+2022-04-08 23:46:15.456  [ERROR][pushAlarm Exception] There is already an open DataReader associated with this Connection which must be closed first.
+2022-04-08 23:46:17.707  [INFO][HttpGet getPushAlarmController] 
+2022-04-08 23:46:17.708  [INFO][HttpGet getPushAlarmController] : sender:SYSTEM, recever:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-04-08 23:46:17, rtsp:rtsp://admin:jawootek@kc-arzen.iptime.org:5000/profile1
+2022-04-08 23:46:17.911  [PUSH ALARM] {"multicast_id":7415673067007761799,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1649429183273891%c195b7dcc195b7dc"}]}
+2022-04-08 23:46:32.769  [ERROR][pushAlarm Exception] There is already an open DataReader associated with this Connection which must be closed first.
+2022-04-08 23:46:35.192  [INFO][HttpGet getPushAlarmController] 
+2022-04-08 23:46:35.193  [INFO][HttpGet getPushAlarmController] : sender:SYSTEM, recever:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-04-08 23:46:35, rtsp:rtsp://admin:jawootek@kc-arzen.iptime.org:5000/profile1
+2022-04-08 23:46:35.409  [PUSH ALARM] {"multicast_id":1429999338207444448,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1649429200765311%c195b7dcc195b7dc"}]}
+2022-04-08 23:48:31.781  [ERROR][pushAlarm Exception] Connection must be valid and open.
+2022-04-08 23:48:34.442  [INFO][HttpGet getPushAlarmController] 
+2022-04-08 23:48:34.443  [INFO][HttpGet getPushAlarmController] : sender:SYSTEM, recever:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-04-08 23:48:34, rtsp:rtsp://admin:jawootek@kc-arzen.iptime.org:5000/profile1
+2022-04-08 23:48:34.657  [PUSH ALARM] {"multicast_id":7411856596780516639,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1649429320011691%c195b7dcc195b7dc"}]}
+2022-04-08 23:48:55.350  [ERROR][pushAlarm Exception] Connection must be valid and open.
+2022-04-08 23:48:57.537  [INFO][HttpGet getPushAlarmController] 
+2022-04-08 23:48:57.538  [INFO][HttpGet getPushAlarmController] : sender:SYSTEM, recever:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-04-08 23:48:57, rtsp:rtsp://admin:jawootek@kc-arzen.iptime.org:5000/profile1
+2022-04-08 23:48:57.739  [PUSH ALARM] {"multicast_id":395683871786523362,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1649429343098926%c195b7dcc195b7dc"}]}
+2022-04-08 23:50:00.238  [ERROR][pushAlarm Exception] Connection must be valid and open.
+2022-04-08 23:50:17.452  [INFO][HttpGet getPushAlarmController] 
+2022-04-08 23:50:17.455  [INFO][HttpGet getPushAlarmController] : sender:SYSTEM, recever:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-04-08 23:50:17, rtsp:rtsp://admin:jawootek@kc-arzen.iptime.org:5000/profile1
+2022-04-08 23:50:18.276  [PUSH ALARM] {"multicast_id":4230421071907704619,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1649429423616022%c195b7dcc195b7dc"}]}
+2022-04-08 23:50:26.857  [ERROR][DataBase Notice] 푸시알림 성공 수신아이디:11111111
+2022-04-08 23:50:27.111  [PUSH ALARM] {"multicast_id":7085012141576973361,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1649429432425445%c195b7dcc195b7dc"}]}
+2022-04-08 23:50:27.936  [ERROR][DataBase Notice] 푸시알림 성공 수신아이디:11111111

@@ -1,0 +1,26 @@
+2022-03-01 18:19:34.420  [INFO][HttpGet getCustInfoController] 
+2022-03-01 18:19:34.422  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:ee8iKe7OT5Oj-wODFzG6fK:APA91bHAX82YhAUiiQukhbre73Bik2Ea92MoC51MgE_0Kax-pdXKQi_ZX6O5CnZb1NG1nIm_4-0r8j5lXdHfEdV8jrhZU5U7lmsHDtNiuewNYVKpA0iDxf_yI5_F5tbvOwjLS2o4-BVK
+2022-03-01 18:19:34.558  [ERROR][DataBase SaveToken] 11111111,ee8iKe7OT5Oj-wODFzG6fK:APA91bHAX82YhAUiiQukhbre73Bik2Ea92MoC51MgE_0Kax-pdXKQi_ZX6O5CnZb1NG1nIm_4-0r8j5lXdHfEdV8jrhZU5U7lmsHDtNiuewNYVKpA0iDxf_yI5_F5tbvOwjLS2o4-BVK
+2022-03-01 18:19:34.559  [ERROR][DataBase SaveToken] Duplicate entry 'ee8iKe7OT5Oj-wODFzG6fK:APA91bHAX82YhAUiiQukhbre73Bik2Ea92MoC51Mg' for key 'tb_devices_admin.PRIMARY'
+2022-03-01 18:19:34.655  [INFO][HttpGet getReserveInfoController] 
+2022-03-01 18:19:34.656  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:ee8iKe7OT5Oj-wODFzG6fK:APA91bHAX82YhAUiiQukhbre73Bik2Ea92MoC51MgE_0Kax-pdXKQi_ZX6O5CnZb1NG1nIm_4-0r8j5lXdHfEdV8jrhZU5U7lmsHDtNiuewNYVKpA0iDxf_yI5_F5tbvOwjLS2o4-BVK
+2022-03-01 18:19:34.725  [INFO][HttpGet getWebDCInfoController] 
+2022-03-01 18:19:34.726  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:ee8iKe7OT5Oj-wODFzG6fK:APA91bHAX82YhAUiiQukhbre73Bik2Ea92MoC51MgE_0Kax-pdXKQi_ZX6O5CnZb1NG1nIm_4-0r8j5lXdHfEdV8jrhZU5U7lmsHDtNiuewNYVKpA0iDxf_yI5_F5tbvOwjLS2o4-BVK
+2022-03-01 18:19:34.853  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-03-01 18:19:34.853  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:ee8iKe7OT5Oj-wODFzG6fK:APA91bHAX82YhAUiiQukhbre73Bik2Ea92MoC51MgE_0Kax-pdXKQi_ZX6O5CnZb1NG1nIm_4-0r8j5lXdHfEdV8jrhZU5U7lmsHDtNiuewNYVKpA0iDxf_yI5_F5tbvOwjLS2o4-BVK
+2022-03-01 18:19:34.862  [INFO][HttpGet getGateListController] 
+2022-03-01 18:19:34.863  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-03-01 21:04:16.654  [INFO][HttpGet getReserveInfoController] 
+2022-03-01 21:04:16.657  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:ee8iKe7OT5Oj-wODFzG6fK:APA91bHAX82YhAUiiQukhbre73Bik2Ea92MoC51MgE_0Kax-pdXKQi_ZX6O5CnZb1NG1nIm_4-0r8j5lXdHfEdV8jrhZU5U7lmsHDtNiuewNYVKpA0iDxf_yI5_F5tbvOwjLS2o4-BVK
+2022-03-01 21:04:21.839  [INFO][HttpGet getReserveInfoController] 
+2022-03-01 21:04:21.839  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:ee8iKe7OT5Oj-wODFzG6fK:APA91bHAX82YhAUiiQukhbre73Bik2Ea92MoC51MgE_0Kax-pdXKQi_ZX6O5CnZb1NG1nIm_4-0r8j5lXdHfEdV8jrhZU5U7lmsHDtNiuewNYVKpA0iDxf_yI5_F5tbvOwjLS2o4-BVK
+2022-03-01 21:04:24.795  [INFO][HttpGet getReservationCarListController] 
+2022-03-01 21:04:24.796  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2022-03-01 21:04:35.562  [INFO][HttpGet getReservationCarListController] 
+2022-03-01 21:04:35.563  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2022-03-01 21:04:37.087  [INFO][HttpGet getReservationCarListController] 
+2022-03-01 21:04:37.088  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2022-03-01 21:04:44.571  [INFO][HttpGet getGateListController] 
+2022-03-01 21:04:44.571  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-03-01 21:04:55.485  [INFO][HttpPost PostCarnoImageInfo] 
+2022-03-01 21:04:55.486  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP5155992275810280584.jpg

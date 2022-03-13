@@ -1,0 +1,310 @@
+2022-04-07 00:08:36.038  [INFO][HttpGet getCustInfoController] 
+2022-04-07 00:08:36.041  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 00:08:36.125  [ERROR][DataBase SaveToken] 11111111,dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 00:08:36.126  [ERROR][DataBase SaveToken] Field 'CONN_DATE' doesn't have a default value
+2022-04-07 00:08:36.444  [INFO][HttpGet getReserveInfoController] 
+2022-04-07 00:08:36.445  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 00:08:36.649  [INFO][HttpGet getWebDCInfoController] 
+2022-04-07 00:08:36.649  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 00:08:36.915  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-07 00:08:36.916  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 00:08:36.950  [INFO][HttpGet getGateListController] 
+2022-04-07 00:08:36.950  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-04-07 00:08:48.710  [INFO][HttpGet getReserveInfoController] 
+2022-04-07 00:08:48.711  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 00:08:55.289  [INFO][HttpGet getCustInfoController] 
+2022-04-07 00:08:55.289  [INFO][HttpGet getCustInfoController] : id:, password:, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 00:09:05.911  [INFO][HttpGet getCustInfoController] 
+2022-04-07 00:09:05.911  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 00:09:05.932  [ERROR][DataBase SaveToken] 11111111,dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 00:09:05.933  [ERROR][DataBase SaveToken] Field 'CONN_DATE' doesn't have a default value
+2022-04-07 00:09:06.391  [INFO][HttpGet getReserveInfoController] 
+2022-04-07 00:09:06.393  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 00:09:06.517  [INFO][HttpGet getWebDCInfoController] 
+2022-04-07 00:09:06.517  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 00:09:06.711  [INFO][HttpGet getGateListController] 
+2022-04-07 00:09:06.712  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-04-07 00:09:07.051  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-07 00:09:07.052  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 00:13:40.524  [INFO][HttpGet getCustInfoController] 
+2022-04-07 00:13:40.526  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 00:13:40.550  [ERROR][DataBase SaveToken] 11111111,dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 00:13:40.550  [ERROR][DataBase SaveToken] Field 'CONN_DATE' doesn't have a default value
+2022-04-07 00:13:40.965  [INFO][HttpGet getReserveInfoController] 
+2022-04-07 00:13:40.966  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 00:13:41.107  [INFO][HttpGet getWebDCInfoController] 
+2022-04-07 00:13:41.107  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 00:13:41.565  [INFO][HttpGet getGateListController] 
+2022-04-07 00:13:41.566  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-04-07 00:13:41.573  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-07 00:13:41.574  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 00:14:41.724  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-07 00:14:41.725  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 00:14:44.297  [INFO][HttpGet getInCarListWebdcListController] 
+2022-04-07 00:14:44.298  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:, token:
+2022-04-07 00:14:51.687  [INFO][HttpGet setWebdcProcController] 
+2022-04-07 00:14:51.688  [INFO][HttpGet setWebdcProcController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a, seq:3, carno:111가2222, dctime:30, dcdesc:30분할인, pcode:, pname:총괄관리자, pgubun:T
+2022-04-07 00:14:52.064  [INFO][HttpGet getInCarListWebdcListController] 
+2022-04-07 00:14:52.065  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:, token:
+2022-04-07 00:14:52.069  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-07 00:14:52.070  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 00:15:03.794  [INFO][HttpGet setWebdcProcController] 
+2022-04-07 00:15:03.794  [INFO][HttpGet setWebdcProcController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a, seq:3, carno:000다0000, dctime:30, dcdesc:30분할인, pcode:, pname:총괄관리자, pgubun:T
+2022-04-07 00:15:03.890  [INFO][HttpGet getInCarListWebdcListController] 
+2022-04-07 00:15:03.891  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:, token:
+2022-04-07 00:15:03.902  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-07 00:15:03.902  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 00:15:07.003  [INFO][HttpGet getInCarListWebdcListController] 
+2022-04-07 00:15:07.003  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:, token:
+2022-04-07 00:15:11.816  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-07 00:15:11.816  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 00:15:15.316  [INFO][HttpGet getInCarListWebdcListController] 
+2022-04-07 00:15:15.317  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:, token:
+2022-04-07 00:15:19.488  [INFO][HttpGet setWebdcProcController] 
+2022-04-07 00:15:19.489  [INFO][HttpGet setWebdcProcController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a, seq:3, carno:111가2222, dctime:30, dcdesc:30분할인, pcode:, pname:총괄관리자, pgubun:T
+2022-04-07 00:15:19.614  [INFO][HttpGet getInCarListWebdcListController] 
+2022-04-07 00:15:19.614  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:, token:
+2022-04-07 00:15:19.626  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-07 00:15:19.626  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 00:15:29.708  [INFO][HttpGet setWebdcProcController] 
+2022-04-07 00:15:29.709  [INFO][HttpGet setWebdcProcController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a, seq:3, carno:000다0000, dctime:30, dcdesc:30분할인, pcode:, pname:총괄관리자, pgubun:T
+2022-04-07 00:15:29.826  [INFO][HttpGet getInCarListWebdcListController] 
+2022-04-07 00:15:29.826  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:, token:
+2022-04-07 00:15:29.838  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-07 00:15:29.839  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 00:15:31.335  [INFO][HttpGet getReserveInfoController] 
+2022-04-07 00:15:31.335  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 00:16:21.249  [INFO][HttpGet setReserveCarnoController] 
+2022-04-07 00:16:21.249  [INFO][HttpGet setReserveCarnoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a, carno:123가0000
+2022-04-07 00:16:21.256  [INFO][setReserveCarno] 방문예약 등록 성공:11111111, 차량번호:123가0000
+2022-04-07 00:16:21.440  [INFO][HttpGet getReserveInfoController] 
+2022-04-07 00:16:21.441  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 00:16:31.157  [INFO][HttpGet getReservationCarListController] 
+2022-04-07 00:16:31.158  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2022-04-07 00:16:47.166  [INFO][HttpGet getReserveInfoController] 
+2022-04-07 00:16:47.167  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 00:16:52.923  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-07 00:16:52.924  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 21:49:07.729  [INFO][HttpGet getCustInfoController] 
+2022-04-07 21:49:07.732  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 21:49:08.300  [ERROR][DataBase SaveToken] 11111111,dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 21:49:08.300  [ERROR][DataBase SaveToken] Field 'CONN_DATE' doesn't have a default value
+2022-04-07 21:49:08.830  [INFO][HttpGet getReserveInfoController] 
+2022-04-07 21:49:08.831  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 21:49:08.961  [INFO][HttpGet getWebDCInfoController] 
+2022-04-07 21:49:08.961  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 21:49:09.145  [INFO][HttpGet getGateListController] 
+2022-04-07 21:49:09.145  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-04-07 21:49:09.200  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-07 21:49:09.200  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 21:49:37.869  [INFO][HttpGet getReserveInfoController] 
+2022-04-07 21:49:37.870  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 21:49:53.237  [INFO][HttpGet setReserveCarnoController] 
+2022-04-07 21:49:53.239  [INFO][HttpGet setReserveCarnoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a, carno:555구5555
+2022-04-07 21:49:53.249  [INFO][setReserveCarno] 방문예약 등록 성공:11111111, 차량번호:555구5555
+2022-04-07 21:49:53.392  [INFO][HttpGet getReserveInfoController] 
+2022-04-07 21:49:53.393  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 21:50:30.485  [INFO][HttpGet getReserveInfoController] 
+2022-04-07 21:50:30.486  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 21:53:54.648  [INFO][HttpGet getCustInfoController] 
+2022-04-07 21:53:54.652  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-04-07 21:53:54.679  [ERROR][DataBase SaveToken] 11111111,dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-04-07 21:53:54.680  [ERROR][DataBase SaveToken] Field 'CONN_DATE' doesn't have a default value
+2022-04-07 21:53:55.079  [INFO][HttpGet getReserveInfoController] 
+2022-04-07 21:53:55.080  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-04-07 21:53:55.162  [INFO][HttpGet getWebDCInfoController] 
+2022-04-07 21:53:55.162  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-04-07 21:53:55.445  [INFO][HttpGet getGateListController] 
+2022-04-07 21:53:55.445  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-07 21:53:55.446  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-04-07 21:53:55.446  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-04-07 21:55:15.347  [INFO][HttpGet getReserveInfoController] 
+2022-04-07 21:55:15.350  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-04-07 21:55:45.355  [INFO][HttpGet getCustInfoController] 
+2022-04-07 21:55:45.358  [INFO][HttpGet getCustInfoController] : id:, password:, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 21:55:54.360  [INFO][HttpGet getCustInfoController] 
+2022-04-07 21:55:54.361  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 21:55:54.385  [ERROR][DataBase SaveToken] 11111111,dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 21:55:54.385  [ERROR][DataBase SaveToken] Field 'CONN_DATE' doesn't have a default value
+2022-04-07 21:55:54.472  [INFO][HttpGet getReserveInfoController] 
+2022-04-07 21:55:54.472  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 21:55:54.592  [INFO][HttpGet getWebDCInfoController] 
+2022-04-07 21:55:54.592  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 21:55:54.872  [INFO][HttpGet getGateListController] 
+2022-04-07 21:55:54.873  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-04-07 21:55:54.883  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-07 21:55:54.883  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 21:55:57.920  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-07 21:55:57.921  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 21:56:08.003  [INFO][HttpGet getCustInfoController] 
+2022-04-07 21:56:08.004  [INFO][HttpGet getCustInfoController] : id:, password:, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-04-07 21:56:14.299  [INFO][HttpGet getCustInfoController] 
+2022-04-07 21:56:14.300  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-04-07 21:56:14.331  [ERROR][DataBase SaveToken] 11111111,dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-04-07 21:56:14.331  [ERROR][DataBase SaveToken] Field 'CONN_DATE' doesn't have a default value
+2022-04-07 21:56:14.513  [INFO][HttpGet getReserveInfoController] 
+2022-04-07 21:56:14.514  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-04-07 21:56:14.601  [INFO][HttpGet getWebDCInfoController] 
+2022-04-07 21:56:14.602  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-04-07 21:56:15.206  [INFO][HttpGet getGateListController] 
+2022-04-07 21:56:15.207  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-04-07 21:56:15.214  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-07 21:56:15.215  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-04-07 21:56:17.118  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-07 21:56:17.119  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-04-07 21:56:19.319  [INFO][HttpGet getInCarListWebdcListController] 
+2022-04-07 21:56:19.320  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:, token:
+2022-04-07 21:56:35.444  [INFO][HttpGet setWebdcProcController] 
+2022-04-07 21:56:35.445  [INFO][HttpGet setWebdcProcController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop, seq:3, carno:111가2222, dctime:30, dcdesc:30분할인, pcode:, pname:총괄관리자, pgubun:T
+2022-04-07 21:59:20.974  [INFO][HttpGet getInCarListWebdcListController] 
+2022-04-07 21:59:20.978  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:, token:
+2022-04-07 21:59:20.978  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-07 21:59:20.979  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-04-07 22:00:31.617  [INFO][HttpGet getInCarListWebdcListController] 
+2022-04-07 22:00:31.618  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:, token:
+2022-04-07 22:02:08.272  [INFO][HttpGet setWebdcProcController] 
+2022-04-07 22:02:08.277  [INFO][HttpGet setWebdcProcController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a, seq:3, carno:000다0000, dctime:30, dcdesc:30분할인, pcode:, pname:총괄관리자, pgubun:T
+2022-04-07 22:02:14.258  [INFO][HttpGet getInCarListWebdcListController] 
+2022-04-07 22:02:14.260  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:, token:
+2022-04-07 22:02:14.260  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-07 22:02:14.264  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 22:03:20.893  [INFO][HttpGet getReserveInfoController] 
+2022-04-07 22:03:20.895  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 22:03:29.861  [INFO][HttpGet getReserveInfoController] 
+2022-04-07 22:03:29.861  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-04-07 22:05:27.966  [INFO][HttpGet setReserveCarnoController] 
+2022-04-07 22:05:27.968  [INFO][HttpGet setReserveCarnoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a, carno:777가7777
+2022-04-07 22:05:27.981  [INFO][setReserveCarno] 방문예약 등록 성공:11111111, 차량번호:777가7777
+2022-04-07 22:05:28.132  [INFO][HttpGet getReserveInfoController] 
+2022-04-07 22:05:28.132  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 22:30:33.761  [INFO][HttpGet getGateListController] 
+2022-04-07 22:30:33.763  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-04-07 22:30:36.413  [INFO][HttpGet getGateListController] 
+2022-04-07 22:30:36.414  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-04-07 22:31:24.743  [INFO][HttpGet setReserveCarnoController] 
+2022-04-07 22:31:24.745  [INFO][HttpGet setReserveCarnoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop, carno:222445555
+2022-04-07 22:31:24.759  [INFO][setReserveCarno] 방문예약 등록 성공:11111111, 차량번호:222445555
+2022-04-07 22:31:25.032  [INFO][HttpGet getReserveInfoController] 
+2022-04-07 22:31:25.033  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-04-07 22:32:35.247  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-07 22:32:35.248  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-04-07 22:32:36.497  [INFO][HttpGet getInCarListWebdcListController] 
+2022-04-07 22:32:36.499  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:, token:
+2022-04-07 22:32:43.566  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-07 22:32:43.566  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-04-07 22:32:49.006  [INFO][HttpGet getReserveInfoController] 
+2022-04-07 22:32:49.007  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-04-07 22:34:15.854  [INFO][HttpGet getCustInfoController] 
+2022-04-07 22:34:15.855  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-04-07 22:34:15.881  [ERROR][DataBase SaveToken] 11111111,dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-04-07 22:34:15.882  [ERROR][DataBase SaveToken] Field 'CONN_DATE' doesn't have a default value
+2022-04-07 22:34:16.322  [INFO][HttpGet getReserveInfoController] 
+2022-04-07 22:34:16.323  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-04-07 22:34:16.398  [INFO][HttpGet getWebDCInfoController] 
+2022-04-07 22:34:16.398  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-04-07 22:34:16.709  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-07 22:34:16.709  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-04-07 22:34:16.715  [INFO][HttpGet getGateListController] 
+2022-04-07 22:34:16.715  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-04-07 22:36:05.800  [INFO][HttpGet getCustInfoController] 
+2022-04-07 22:36:05.801  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 22:36:05.822  [ERROR][DataBase SaveToken] 11111111,dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 22:36:05.823  [ERROR][DataBase SaveToken] Field 'CONN_DATE' doesn't have a default value
+2022-04-07 22:36:06.133  [INFO][HttpGet getReserveInfoController] 
+2022-04-07 22:36:06.134  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 22:36:06.409  [INFO][HttpGet getWebDCInfoController] 
+2022-04-07 22:36:06.410  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 22:36:06.571  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-07 22:36:06.572  [INFO][HttpGet getGateListController] 
+2022-04-07 22:36:06.572  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-04-07 22:36:06.572  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 22:36:11.782  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-07 22:36:11.783  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 22:36:15.941  [INFO][HttpGet getReserveInfoController] 
+2022-04-07 22:36:15.942  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 22:37:00.093  [INFO][HttpGet setReserveCarnoController] 
+2022-04-07 22:37:00.094  [INFO][HttpGet setReserveCarnoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a, carno:111가2222
+2022-04-07 22:37:00.106  [INFO][setReserveCarno] 방문예약 등록 성공:11111111, 차량번호:111가2222
+2022-04-07 22:37:00.274  [INFO][HttpGet getReserveInfoController] 
+2022-04-07 22:37:00.275  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 23:18:22.716  [INFO][HttpGet getCustInfoController] 
+2022-04-07 23:18:22.721  [INFO][HttpGet getCustInfoController] : id:, password:, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 23:19:52.989  [INFO][HttpGet getCustInfoController] 
+2022-04-07 23:19:52.991  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 23:24:22.215  [ERROR][DataBase SaveToken] 11111111,dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 23:24:22.648  [ERROR][DataBase SaveToken] Field 'CONN_DATE' doesn't have a default value
+2022-04-07 23:24:55.037  [INFO][HttpGet getCustInfoController] 
+2022-04-07 23:24:55.040  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 23:25:43.436  [ERROR][DataBase SaveToken] 11111111,dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 23:25:43.444  [ERROR][DataBase SaveToken] Incorrect datetime value: '' for column 'CONN_DATE' at row 1
+2022-04-07 23:25:43.744  [INFO][HttpGet getReserveInfoController] 
+2022-04-07 23:25:43.745  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 23:25:43.891  [INFO][HttpGet getWebDCInfoController] 
+2022-04-07 23:25:43.892  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 23:25:44.450  [INFO][HttpGet getGateListController] 
+2022-04-07 23:25:44.451  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-04-07 23:25:44.629  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-07 23:25:44.630  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 23:25:50.975  [INFO][HttpGet getCustInfoController] 
+2022-04-07 23:25:50.976  [INFO][HttpGet getCustInfoController] : id:, password:, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 23:25:58.342  [INFO][HttpGet getCustInfoController] 
+2022-04-07 23:25:58.342  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 23:25:58.366  [ERROR][DataBase SaveToken] 11111111,dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 23:25:58.366  [ERROR][DataBase SaveToken] Incorrect datetime value: '' for column 'CONN_DATE' at row 1
+2022-04-07 23:25:58.706  [INFO][HttpGet getReserveInfoController] 
+2022-04-07 23:25:58.706  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 23:25:59.329  [INFO][HttpGet getWebDCInfoController] 
+2022-04-07 23:25:59.329  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 23:25:59.890  [INFO][HttpGet getGateListController] 
+2022-04-07 23:25:59.891  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-04-07 23:25:59.937  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-07 23:25:59.938  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 23:27:20.898  [INFO][HttpGet getCustInfoController] 
+2022-04-07 23:27:20.898  [INFO][HttpGet getCustInfoController] 
+2022-04-07 23:27:20.909  [INFO][HttpGet getCustInfoController] : id:, password:, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 23:27:20.909  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 23:27:25.180  [DataBase SaveToken] 11111111,dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 23:27:27.504  [INFO][HttpGet getReserveInfoController] 
+2022-04-07 23:27:27.504  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 23:27:27.670  [INFO][HttpGet getWebDCInfoController] 
+2022-04-07 23:27:27.671  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 23:27:27.851  [INFO][HttpGet getGateListController] 
+2022-04-07 23:27:27.852  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-04-07 23:27:27.895  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-07 23:27:27.896  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 23:33:14.962  [INFO][HttpGet getPushAlarmController] 
+2022-04-07 23:33:14.964  [INFO][HttpGet getPushAlarmController] : sender:SYSTEM, recever:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-04-07 23:33:14, rtsp:rtsp://admin:jawootek@kc-arzen.iptime.org:5000/profile1
+2022-04-07 23:33:31.298  [PUSH ALARM] {"multicast_id":4923389835470544417,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1649342023331229%c195b7dcc195b7dc"}]}
+2022-04-07 23:33:31.319  [ERROR][pushAlarm Exception] There is already an open DataReader associated with this Connection which must be closed first.
+2022-04-07 23:34:01.128  [INFO][HttpGet getPushAlarmController] 
+2022-04-07 23:34:01.129  [INFO][HttpGet getPushAlarmController] : sender:SYSTEM, recever:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-04-07 23:34:01, rtsp:rtsp://admin:jawootek@kc-arzen.iptime.org:5000/profile1
+2022-04-07 23:34:02.895  [PUSH ALARM] {"multicast_id":3944103021828733631,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1649342054926906%c195b7dcc195b7dc"}]}
+2022-04-07 23:34:02.915  [ERROR][pushAlarm Exception] There is already an open DataReader associated with this Connection which must be closed first.
+2022-04-07 23:40:47.712  [INFO][HttpGet getCustInfoController] 
+2022-04-07 23:40:47.713  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 23:40:57.816  [ERROR][DataBase SaveToken] 11111111,dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 23:40:57.817  [ERROR][DataBase SaveToken] Duplicate entry 'dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB' for key 'tb_devices_admin.PRIMARY'
+2022-04-07 23:40:58.005  [INFO][HttpGet getReserveInfoController] 
+2022-04-07 23:40:58.005  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 23:40:58.235  [INFO][HttpGet getWebDCInfoController] 
+2022-04-07 23:40:58.236  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 23:40:58.441  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-07 23:40:58.442  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-04-07 23:40:58.513  [INFO][HttpGet getGateListController] 
+2022-04-07 23:40:58.514  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-04-07 23:41:07.633  [INFO][HttpGet getPushAlarmController] 
+2022-04-07 23:41:07.635  [INFO][HttpGet getPushAlarmController] : sender:SYSTEM, recever:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-04-07 23:41:07, rtsp:rtsp://admin:jawootek@kc-arzen.iptime.org:5000/profile1
+2022-04-07 23:41:11.209  [PUSH ALARM] {"multicast_id":3006633674279255720,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1649342483986958%c195b7dcc195b7dc"}]}
+2022-04-07 23:41:11.228  [ERROR][pushAlarm Exception] There is already an open DataReader associated with this Connection which must be closed first.
+2022-04-07 23:43:58.282  [INFO][HttpGet getPushAlarmController] 
+2022-04-07 23:43:58.286  [INFO][HttpGet getPushAlarmController] : sender:SYSTEM, recever:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-04-07 23:43:58, rtsp:rtsp://admin:jawootek@kc-arzen.iptime.org:5000/profile1
+2022-04-07 23:45:03.445  [INFO][HttpGet getGateListController] 
+2022-04-07 23:45:03.445  [INFO][HttpGet getGateListController] 
+2022-04-07 23:45:03.447  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-04-07 23:45:03.448  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-04-07 23:45:03.639  [PUSH ALARM] {"multicast_id":1186922241291283892,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1649342716432898%c195b7dcc195b7dc"}]}
+2022-04-07 23:45:03.657  [ERROR][pushAlarm Exception] There is already an open DataReader associated with this Connection which must be closed first.
+2022-04-07 23:45:15.359  [INFO][HttpGet getPushAlarmController] 
+2022-04-07 23:45:15.360  [INFO][HttpGet getPushAlarmController] : sender:SYSTEM, recever:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-04-07 23:45:15, rtsp:rtsp://admin:jawootek@kc-arzen.iptime.org:5000/profile1
+2022-04-07 23:45:15.560  [PUSH ALARM] {"multicast_id":3427188124455767986,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1649342728340898%c195b7dcc195b7dc"}]}
+2022-04-07 23:45:15.575  [ERROR][pushAlarm Exception] There is already an open DataReader associated with this Connection which must be closed first.

@@ -1,0 +1,435 @@
+2022-03-20 14:47:43.030  [INFO][HttpGet getCustInfoController] 
+2022-03-20 14:47:43.033  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 14:47:43.141  [DataBase SaveToken] 11111111,dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 14:47:43.479  [INFO][HttpGet getReserveInfoController] 
+2022-03-20 14:47:43.480  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 14:47:43.553  [INFO][HttpGet getWebDCInfoController] 
+2022-03-20 14:47:43.554  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 14:47:43.856  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-03-20 14:47:43.856  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 14:47:43.859  [INFO][HttpGet getGateListController] 
+2022-03-20 14:47:43.860  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-03-20 15:01:23.797  [INFO][HttpGet getGateListController] 
+2022-03-20 15:01:23.799  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-03-20 15:50:15.788  [INFO][HttpGet getGateListController] 
+2022-03-20 15:50:15.791  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-03-20 16:00:48.381  [INFO][HttpGet getCustInfoController] 
+2022-03-20 16:00:48.383  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-03-20 16:00:48.448  [ERROR][DataBase SaveToken] 11111111,dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-03-20 16:00:48.449  [ERROR][DataBase SaveToken] Duplicate entry 'dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB' for key 'tb_devices_admin.PRIMARY'
+2022-03-20 16:00:48.544  [INFO][HttpGet getReserveInfoController] 
+2022-03-20 16:00:48.544  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-03-20 16:00:48.762  [INFO][HttpGet getWebDCInfoController] 
+2022-03-20 16:00:48.763  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-03-20 16:00:48.877  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-03-20 16:00:48.878  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-03-20 16:00:48.881  [INFO][HttpGet getGateListController] 
+2022-03-20 16:00:48.881  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-03-20 16:06:03.958  [INFO][HttpGet getGateListController] 
+2022-03-20 16:06:03.960  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-03-20 16:08:51.119  [INFO][HttpGet getGateListController] 
+2022-03-20 16:08:51.120  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-03-20 16:11:16.214  [INFO][HttpGet getGateListController] 
+2022-03-20 16:11:16.215  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-03-20 16:11:41.959  [INFO][HttpGet getGateListController] 
+2022-03-20 16:11:41.960  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-03-20 16:52:03.583  [INFO][HttpGet getCustInfoController] 
+2022-03-20 16:52:03.585  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 16:52:03.653  [ERROR][DataBase SaveToken] 11111111,dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 16:52:03.654  [ERROR][DataBase SaveToken] Duplicate entry 'dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU' for key 'tb_devices_admin.PRIMARY'
+2022-03-20 16:52:04.035  [INFO][HttpGet getReserveInfoController] 
+2022-03-20 16:52:04.035  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 16:52:04.104  [INFO][HttpGet getWebDCInfoController] 
+2022-03-20 16:52:04.105  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 16:52:04.408  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-03-20 16:52:04.409  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 16:52:04.450  [INFO][HttpGet getGateListController] 
+2022-03-20 16:52:04.451  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-03-20 16:52:58.439  [INFO][HttpGet getPushAlarmController] 
+2022-03-20 16:52:58.441  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다
+2022-03-20 16:52:58.693  [PUSH ALARM] {"multicast_id":4247885794442030849,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647762779407470%c195b7dcc195b7dc"}]}
+2022-03-20 16:52:58.909  [PUSH ALARM] {"multicast_id":6916445766752455290,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 16:52:59.097  [PUSH ALARM] {"multicast_id":1025728432185511127,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-03-20 16:52:59.288  [PUSH ALARM] {"multicast_id":4391458851589559820,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 16:52:59.503  [PUSH ALARM] {"multicast_id":7772457567894418297,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647762780219222%c195b7dcc195b7dc"}]}
+2022-03-20 17:05:42.222  [INFO][HttpGet getPushAlarmController] 
+2022-03-20 17:05:42.225  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-03-20 17:05:42
+2022-03-20 17:05:43.234  [PUSH ALARM] {"multicast_id":3519689333767890387,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647763544433364%c195b7dcc195b7dc"}]}
+2022-03-20 17:05:43.432  [PUSH ALARM] {"multicast_id":6719393322822381168,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 17:05:43.617  [PUSH ALARM] {"multicast_id":8960892627982115419,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-03-20 17:05:43.806  [PUSH ALARM] {"multicast_id":3810703120925360597,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 17:05:44.025  [PUSH ALARM] {"multicast_id":5707907439414505772,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647763545274346%c195b7dcc195b7dc"}]}
+2022-03-20 17:06:39.177  [INFO][HttpGet getPushAlarmController] 
+2022-03-20 17:06:39.178  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-03-20 17:06:39
+2022-03-20 17:06:39.183  [INFO][HttpGet getGateListController] 
+2022-03-20 17:06:39.184  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-03-20 17:06:39.403  [PUSH ALARM] {"multicast_id":1997267999160823185,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647763600636330%c195b7dcc195b7dc"}]}
+2022-03-20 17:06:39.590  [PUSH ALARM] {"multicast_id":7536671808862910785,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 17:06:39.793  [PUSH ALARM] {"multicast_id":4976977660407175311,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-03-20 17:06:39.980  [PUSH ALARM] {"multicast_id":8959362351030237455,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 17:06:40.205  [PUSH ALARM] {"multicast_id":7142797814085252031,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647763601436191%c195b7dcc195b7dc"}]}
+2022-03-20 17:09:54.016  [INFO][HttpGet getGateListController] 
+2022-03-20 17:09:54.017  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-03-20 17:10:24.647  [INFO][HttpGet getGateListController] 
+2022-03-20 17:10:24.648  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-03-20 17:10:30.046  [INFO][HttpGet getPushAlarmController] 
+2022-03-20 17:10:30.047  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-03-20 17:10:30
+2022-03-20 17:10:30.278  [PUSH ALARM] {"multicast_id":7891588958962844444,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647763831511256%c195b7dcc195b7dc"}]}
+2022-03-20 17:10:30.501  [PUSH ALARM] {"multicast_id":1405640365154834808,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 17:10:30.694  [PUSH ALARM] {"multicast_id":7373745513995385133,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-03-20 17:10:30.894  [PUSH ALARM] {"multicast_id":3428287042596150385,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 17:10:31.110  [PUSH ALARM] {"multicast_id":5311842234144333681,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647763832344974%c195b7dcc195b7dc"}]}
+2022-03-20 17:11:02.525  [INFO][HttpGet getPushAlarmController] 
+2022-03-20 17:11:02.527  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-03-20 17:11:02
+2022-03-20 17:11:02.736  [PUSH ALARM] {"multicast_id":6291636104849676666,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647763863984408%c195b7dcc195b7dc"}]}
+2022-03-20 17:11:02.942  [PUSH ALARM] {"multicast_id":3685768787739024698,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 17:11:03.134  [PUSH ALARM] {"multicast_id":6723267888188994191,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-03-20 17:11:03.327  [PUSH ALARM] {"multicast_id":8064041618282485099,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 17:11:03.550  [PUSH ALARM] {"multicast_id":5267167182079102919,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647763864778752%c195b7dcc195b7dc"}]}
+2022-03-20 17:12:19.129  [INFO][HttpGet getPushAlarmController] 
+2022-03-20 17:12:19.132  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-03-20 17:12:19
+2022-03-20 17:12:19.351  [PUSH ALARM] {"multicast_id":921096593702217679,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647763940594753%c195b7dcc195b7dc"}]}
+2022-03-20 17:12:19.544  [PUSH ALARM] {"multicast_id":3943487619675850332,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 17:12:19.725  [PUSH ALARM] {"multicast_id":4924197258761004864,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-03-20 17:12:19.923  [PUSH ALARM] {"multicast_id":7987924359903704909,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 17:12:20.129  [PUSH ALARM] {"multicast_id":9206649646390014614,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647763941373822%c195b7dcc195b7dc"}]}
+2022-03-20 17:13:48.244  [INFO][HttpGet getPushAlarmController] 
+2022-03-20 17:13:48.247  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-03-20 17:13:48
+2022-03-20 17:13:48.471  [PUSH ALARM] {"multicast_id":6486116893762624537,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647764029704221%c195b7dcc195b7dc"}]}
+2022-03-20 17:13:48.664  [PUSH ALARM] {"multicast_id":2031992076169538807,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 17:13:48.848  [PUSH ALARM] {"multicast_id":1988574391953993748,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-03-20 17:13:49.037  [PUSH ALARM] {"multicast_id":619199691108465544,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 17:13:49.250  [PUSH ALARM] {"multicast_id":2077070943833447515,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647764030481414%c195b7dcc195b7dc"}]}
+2022-03-20 17:14:17.862  [INFO][HttpGet getGateListController] 
+2022-03-20 17:14:17.864  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-03-20 17:15:36.530  [INFO][HttpGet getGateListController] 
+2022-03-20 17:15:36.532  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-03-20 17:15:44.832  [INFO][HttpGet getPushAlarmController] 
+2022-03-20 17:15:44.832  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-03-20 17:15:44
+2022-03-20 17:15:45.055  [PUSH ALARM] {"multicast_id":5915796746407366034,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647764146290582%c195b7dcc195b7dc"}]}
+2022-03-20 17:15:45.246  [PUSH ALARM] {"multicast_id":8769606278157825515,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 17:15:45.423  [PUSH ALARM] {"multicast_id":2980961977777478540,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-03-20 17:15:45.602  [PUSH ALARM] {"multicast_id":7968566131096289516,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 17:15:45.784  [PUSH ALARM] {"multicast_id":1035122486679035167,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647764147037404%c195b7dcc195b7dc"}]}
+2022-03-20 17:16:31.942  [INFO][HttpGet getGateListController] 
+2022-03-20 17:16:31.943  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-03-20 17:16:32.766  [INFO][HttpGet getPushAlarmController] 
+2022-03-20 17:16:32.768  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-03-20 17:16:32
+2022-03-20 17:16:32.982  [PUSH ALARM] {"multicast_id":8301137853342236558,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647764194223319%c195b7dcc195b7dc"}]}
+2022-03-20 17:16:33.157  [PUSH ALARM] {"multicast_id":1219181560344513923,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 17:16:33.346  [PUSH ALARM] {"multicast_id":717190507528683937,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-03-20 17:16:33.540  [PUSH ALARM] {"multicast_id":8042089371601257597,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 17:16:33.752  [PUSH ALARM] {"multicast_id":3893705903053890243,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647764194991677%c195b7dcc195b7dc"}]}
+2022-03-20 17:17:01.209  [INFO][HttpGet getGateListController] 
+2022-03-20 17:17:01.210  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-03-20 17:17:04.431  [INFO][HttpGet getPushAlarmController] 
+2022-03-20 17:17:04.432  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-03-20 17:17:04
+2022-03-20 17:17:04.619  [PUSH ALARM] {"multicast_id":3656765205683705470,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647764225870418%c195b7dcc195b7dc"}]}
+2022-03-20 17:17:04.797  [PUSH ALARM] {"multicast_id":478648105459430214,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 17:17:04.973  [PUSH ALARM] {"multicast_id":6125801797857519067,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-03-20 17:17:05.170  [PUSH ALARM] {"multicast_id":303702954608057441,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 17:17:05.374  [PUSH ALARM] {"multicast_id":3856414541216870853,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647764226611960%c195b7dcc195b7dc"}]}
+2022-03-20 17:18:49.321  [INFO][HttpGet getGateListController] 
+2022-03-20 17:18:49.344  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-03-20 17:18:55.149  [INFO][HttpGet getPushAlarmController] 
+2022-03-20 17:18:55.150  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-03-20 17:18:55
+2022-03-20 17:18:55.366  [PUSH ALARM] {"multicast_id":2902511916723370942,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647764336607547%c195b7dcc195b7dc"}]}
+2022-03-20 17:18:55.560  [PUSH ALARM] {"multicast_id":8463505745333425180,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 17:18:55.755  [PUSH ALARM] {"multicast_id":7914540901613464597,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-03-20 17:18:55.944  [PUSH ALARM] {"multicast_id":4297463805924253200,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 17:18:56.152  [PUSH ALARM] {"multicast_id":1527733021849444111,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647764337392836%c195b7dcc195b7dc"}]}
+2022-03-20 17:19:17.108  [INFO][HttpGet getGateListController] 
+2022-03-20 17:19:17.110  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-03-20 17:19:18.493  [INFO][HttpGet getPushAlarmController] 
+2022-03-20 17:19:18.496  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-03-20 17:19:18
+2022-03-20 17:19:18.696  [PUSH ALARM] {"multicast_id":3701761934879931764,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647764359947451%c195b7dcc195b7dc"}]}
+2022-03-20 17:19:18.879  [PUSH ALARM] {"multicast_id":1386858174141177458,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 17:19:19.069  [PUSH ALARM] {"multicast_id":8390605869714963073,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-03-20 17:19:19.253  [PUSH ALARM] {"multicast_id":8797680984608939692,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 17:19:19.463  [PUSH ALARM] {"multicast_id":163244280020556668,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647764360698887%c195b7dcc195b7dc"}]}
+2022-03-20 17:20:28.397  [INFO][HttpGet getCustInfoController] 
+2022-03-20 17:20:28.398  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 17:20:28.444  [ERROR][DataBase SaveToken] 11111111,dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 17:20:28.445  [ERROR][DataBase SaveToken] Duplicate entry 'dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU' for key 'tb_devices_admin.PRIMARY'
+2022-03-20 17:20:28.689  [INFO][HttpGet getReserveInfoController] 
+2022-03-20 17:20:28.690  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 17:20:28.762  [INFO][HttpGet getWebDCInfoController] 
+2022-03-20 17:20:28.762  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 17:20:29.025  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-03-20 17:20:29.025  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 17:20:29.102  [INFO][HttpGet getGateListController] 
+2022-03-20 17:20:29.103  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-03-20 17:20:33.824  [INFO][HttpGet getPushAlarmController] 
+2022-03-20 17:20:33.825  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-03-20 17:20:33
+2022-03-20 17:20:34.048  [PUSH ALARM] {"multicast_id":4492563057193274654,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647764435284548%c195b7dcc195b7dc"}]}
+2022-03-20 17:20:34.240  [PUSH ALARM] {"multicast_id":4381595064127713485,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 17:20:34.434  [PUSH ALARM] {"multicast_id":58904334516960562,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-03-20 17:20:34.620  [PUSH ALARM] {"multicast_id":7609712892257505726,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 17:20:34.838  [PUSH ALARM] {"multicast_id":5795200308525153350,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647764436065097%c195b7dcc195b7dc"}]}
+2022-03-20 17:28:16.610  [INFO][HttpGet getCustInfoController] 
+2022-03-20 17:28:16.612  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 17:28:16.679  [ERROR][DataBase SaveToken] 11111111,dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 17:28:16.680  [ERROR][DataBase SaveToken] Duplicate entry 'dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU' for key 'tb_devices_admin.PRIMARY'
+2022-03-20 17:28:17.042  [INFO][HttpGet getReserveInfoController] 
+2022-03-20 17:28:17.043  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 17:28:17.107  [INFO][HttpGet getWebDCInfoController] 
+2022-03-20 17:28:17.107  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 17:28:17.385  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-03-20 17:28:17.385  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 17:28:17.439  [INFO][HttpGet getGateListController] 
+2022-03-20 17:28:17.439  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-03-20 17:28:24.038  [INFO][HttpGet getPushAlarmController] 
+2022-03-20 17:28:24.039  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-03-20 17:28:24
+2022-03-20 17:28:24.264  [PUSH ALARM] {"multicast_id":1034160532649723832,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647764905493878%c195b7dcc195b7dc"}]}
+2022-03-20 17:28:24.448  [PUSH ALARM] {"multicast_id":5465304941446570012,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 17:28:24.645  [PUSH ALARM] {"multicast_id":6566076938038307539,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-03-20 17:28:24.834  [PUSH ALARM] {"multicast_id":5157829095907890595,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 17:28:25.022  [PUSH ALARM] {"multicast_id":8662735495442349217,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647764906274002%c195b7dcc195b7dc"}]}
+2022-03-20 17:30:49.564  [INFO][HttpGet getPushAlarmController] 
+2022-03-20 17:30:49.565  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-03-20 17:30:49
+2022-03-20 17:30:49.788  [PUSH ALARM] {"multicast_id":7575477924770388830,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647765051021491%c195b7dcc195b7dc"}]}
+2022-03-20 17:30:49.985  [PUSH ALARM] {"multicast_id":1722930845324577814,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 17:30:50.162  [PUSH ALARM] {"multicast_id":5733186544788403824,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-03-20 17:30:50.343  [PUSH ALARM] {"multicast_id":6172474452509278389,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 17:30:50.528  [PUSH ALARM] {"multicast_id":5359301160433763824,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647765051785150%c195b7dcc195b7dc"}]}
+2022-03-20 17:33:09.539  [INFO][HttpGet getCustInfoController] 
+2022-03-20 17:33:09.540  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 17:33:09.571  [ERROR][DataBase SaveToken] 11111111,dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 17:33:09.571  [ERROR][DataBase SaveToken] Duplicate entry 'dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU' for key 'tb_devices_admin.PRIMARY'
+2022-03-20 17:33:09.967  [INFO][HttpGet getReserveInfoController] 
+2022-03-20 17:33:09.968  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 17:33:10.031  [INFO][HttpGet getWebDCInfoController] 
+2022-03-20 17:33:10.033  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 17:33:10.308  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-03-20 17:33:10.308  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 17:33:10.378  [INFO][HttpGet getGateListController] 
+2022-03-20 17:33:10.379  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-03-20 17:33:50.238  [INFO][HttpGet getGateListController] 
+2022-03-20 17:33:50.239  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-03-20 17:34:49.782  [INFO][HttpGet getCustInfoController] 
+2022-03-20 17:34:49.784  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 17:34:49.806  [ERROR][DataBase SaveToken] 11111111,dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 17:34:49.806  [ERROR][DataBase SaveToken] Duplicate entry 'dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU' for key 'tb_devices_admin.PRIMARY'
+2022-03-20 17:34:50.005  [INFO][HttpGet getReserveInfoController] 
+2022-03-20 17:34:50.005  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 17:34:50.071  [INFO][HttpGet getWebDCInfoController] 
+2022-03-20 17:34:50.071  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 17:34:50.389  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-03-20 17:34:50.389  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 17:34:50.398  [INFO][HttpGet getGateListController] 
+2022-03-20 17:34:50.398  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-03-20 17:34:55.192  [INFO][HttpGet getPushAlarmController] 
+2022-03-20 17:34:55.193  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-03-20 17:34:55
+2022-03-20 17:34:55.400  [PUSH ALARM] {"multicast_id":671403228461262237,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647765296648132%c195b7dcc195b7dc"}]}
+2022-03-20 17:34:55.580  [PUSH ALARM] {"multicast_id":1701018817134198314,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 17:34:55.755  [PUSH ALARM] {"multicast_id":8057003153595083496,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-03-20 17:34:55.943  [PUSH ALARM] {"multicast_id":8857941978982831510,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 17:34:56.148  [PUSH ALARM] {"multicast_id":7980161852129331355,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647765297390776%c195b7dcc195b7dc"}]}
+2022-03-20 17:56:00.491  [INFO][HttpGet getCustInfoController] 
+2022-03-20 17:56:00.493  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 17:56:00.556  [ERROR][DataBase SaveToken] 11111111,dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 17:56:00.557  [ERROR][DataBase SaveToken] Duplicate entry 'dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU' for key 'tb_devices_admin.PRIMARY'
+2022-03-20 17:56:00.760  [INFO][HttpGet getReserveInfoController] 
+2022-03-20 17:56:00.760  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 17:56:00.826  [INFO][HttpGet getWebDCInfoController] 
+2022-03-20 17:56:00.827  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 17:56:01.167  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-03-20 17:56:01.167  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 17:56:01.286  [INFO][HttpGet getGateListController] 
+2022-03-20 17:56:01.286  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-03-20 17:58:28.374  [INFO][HttpGet getPushAlarmController] 
+2022-03-20 17:58:28.375  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-03-20 17:58:28
+2022-03-20 17:58:28.645  [PUSH ALARM] {"multicast_id":7987505999457268104,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647766709874878%c195b7dcc195b7dc"}]}
+2022-03-20 17:58:28.829  [PUSH ALARM] {"multicast_id":6646712532822437311,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 17:58:29.069  [PUSH ALARM] {"multicast_id":6279271224350923677,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-03-20 17:58:29.253  [PUSH ALARM] {"multicast_id":5808761636456705675,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 17:58:29.477  [PUSH ALARM] {"multicast_id":8364150198316446377,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647766710717283%c195b7dcc195b7dc"}]}
+2022-03-20 17:59:52.774  [INFO][HttpGet getPushAlarmController] 
+2022-03-20 17:59:52.775  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-03-20 17:59:52
+2022-03-20 17:59:52.992  [PUSH ALARM] {"multicast_id":277543413615720974,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647766794246444%c195b7dcc195b7dc"}]}
+2022-03-20 17:59:53.172  [PUSH ALARM] {"multicast_id":8234616711154094680,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 17:59:53.364  [PUSH ALARM] {"multicast_id":3437768224649431267,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-03-20 17:59:53.548  [PUSH ALARM] {"multicast_id":1236224520782275329,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 17:59:53.754  [PUSH ALARM] {"multicast_id":8430568538706143484,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647766794994382%c195b7dcc195b7dc"}]}
+2022-03-20 18:07:02.633  [INFO][HttpGet getCustInfoController] 
+2022-03-20 18:07:02.635  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 18:07:02.695  [ERROR][DataBase SaveToken] 11111111,dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 18:07:02.695  [ERROR][DataBase SaveToken] Duplicate entry 'dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU' for key 'tb_devices_admin.PRIMARY'
+2022-03-20 18:07:02.887  [INFO][HttpGet getReserveInfoController] 
+2022-03-20 18:07:02.887  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 18:07:02.976  [INFO][HttpGet getWebDCInfoController] 
+2022-03-20 18:07:02.976  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 18:07:03.290  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-03-20 18:07:03.290  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 18:07:03.424  [INFO][HttpGet getGateListController] 
+2022-03-20 18:07:03.424  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-03-20 18:08:29.203  [INFO][HttpGet getCustInfoController] 
+2022-03-20 18:08:29.205  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 18:08:29.234  [ERROR][DataBase SaveToken] 11111111,dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 18:08:29.234  [ERROR][DataBase SaveToken] Duplicate entry 'dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU' for key 'tb_devices_admin.PRIMARY'
+2022-03-20 18:08:29.632  [INFO][HttpGet getReserveInfoController] 
+2022-03-20 18:08:29.633  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 18:08:29.691  [INFO][HttpGet getWebDCInfoController] 
+2022-03-20 18:08:29.691  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 18:08:29.992  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-03-20 18:08:29.992  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 18:08:30.006  [INFO][HttpGet getGateListController] 
+2022-03-20 18:08:30.006  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-03-20 18:08:34.337  [INFO][HttpGet getPushAlarmController] 
+2022-03-20 18:08:34.338  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-03-20 18:08:34
+2022-03-20 18:08:34.559  [PUSH ALARM] {"multicast_id":396650996651333161,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647767316656710%c195b7dcc195b7dc"}]}
+2022-03-20 18:08:34.743  [PUSH ALARM] {"multicast_id":8010904179740370629,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 18:08:34.923  [PUSH ALARM] {"multicast_id":4470247319602180649,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-03-20 18:08:35.114  [PUSH ALARM] {"multicast_id":228915593617458397,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 18:08:35.318  [PUSH ALARM] {"multicast_id":1890772548934723499,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647767317413741%c195b7dcc195b7dc"}]}
+2022-03-20 18:22:28.909  [INFO][HttpGet getPushAlarmController] 
+2022-03-20 18:22:28.911  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-03-20 18:22:28
+2022-03-20 18:22:29.270  [PUSH ALARM] {"multicast_id":61851490361980780,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647768151342382%c195b7dcc195b7dc"}]}
+2022-03-20 18:22:29.458  [PUSH ALARM] {"multicast_id":4889272213944036941,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 18:22:29.637  [PUSH ALARM] {"multicast_id":2641641589545198050,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-03-20 18:22:29.823  [PUSH ALARM] {"multicast_id":7300653967411053736,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 18:22:30.026  [PUSH ALARM] {"multicast_id":5818887152477070236,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647768152133906%c195b7dcc195b7dc"}]}
+2022-03-20 18:23:13.560  [INFO][HttpGet getCustInfoController] 
+2022-03-20 18:23:13.561  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 18:23:13.610  [ERROR][DataBase SaveToken] 11111111,dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 18:23:13.610  [ERROR][DataBase SaveToken] Duplicate entry 'dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU' for key 'tb_devices_admin.PRIMARY'
+2022-03-20 18:23:14.004  [INFO][HttpGet getReserveInfoController] 
+2022-03-20 18:23:14.005  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 18:23:14.072  [INFO][HttpGet getWebDCInfoController] 
+2022-03-20 18:23:14.072  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 18:23:14.367  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-03-20 18:23:14.367  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 18:23:14.374  [INFO][HttpGet getGateListController] 
+2022-03-20 18:23:14.375  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-03-20 18:35:32.865  [INFO][HttpGet getCustInfoController] 
+2022-03-20 18:35:32.868  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 18:35:32.937  [ERROR][DataBase SaveToken] 11111111,dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 18:35:32.937  [ERROR][DataBase SaveToken] Duplicate entry 'dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU' for key 'tb_devices_admin.PRIMARY'
+2022-03-20 18:35:33.298  [INFO][HttpGet getReserveInfoController] 
+2022-03-20 18:35:33.298  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 18:35:33.362  [INFO][HttpGet getWebDCInfoController] 
+2022-03-20 18:35:33.363  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 18:35:33.667  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-03-20 18:35:33.668  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 18:35:33.674  [INFO][HttpGet getGateListController] 
+2022-03-20 18:35:33.675  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-03-20 18:35:37.261  [INFO][HttpGet getPushAlarmController] 
+2022-03-20 18:35:37.261  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-03-20 18:35:37
+2022-03-20 18:35:37.469  [PUSH ALARM] {"multicast_id":7768414544411175297,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647768939573612%c195b7dcc195b7dc"}]}
+2022-03-20 18:35:37.668  [PUSH ALARM] {"multicast_id":646643651225851286,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 18:35:37.858  [PUSH ALARM] {"multicast_id":4319187227167891550,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-03-20 18:35:38.052  [PUSH ALARM] {"multicast_id":1389556015723306168,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 18:35:38.272  [PUSH ALARM] {"multicast_id":55476676233580141,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647768940376896%c195b7dcc195b7dc"}]}
+2022-03-20 19:52:04.395  [INFO][HttpGet getCustInfoController] 
+2022-03-20 19:52:04.398  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 19:52:04.531  [ERROR][DataBase SaveToken] 11111111,dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 19:52:04.532  [ERROR][DataBase SaveToken] Duplicate entry 'dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU' for key 'tb_devices_admin.PRIMARY'
+2022-03-20 19:52:04.881  [INFO][HttpGet getReserveInfoController] 
+2022-03-20 19:52:04.883  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 19:52:04.955  [INFO][HttpGet getWebDCInfoController] 
+2022-03-20 19:52:04.955  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 19:52:05.258  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-03-20 19:52:05.258  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 19:52:05.295  [INFO][HttpGet getGateListController] 
+2022-03-20 19:52:05.296  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-03-20 19:56:32.457  [INFO][HttpGet getPushAlarmController] 
+2022-03-20 19:56:32.458  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-03-20 19:56:32
+2022-03-20 19:56:32.688  [PUSH ALARM] {"multicast_id":8630968190799286981,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647773795368878%c195b7dcc195b7dc"}]}
+2022-03-20 19:56:32.886  [PUSH ALARM] {"multicast_id":1776171510878993650,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 19:56:33.077  [PUSH ALARM] {"multicast_id":4170154315709517290,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-03-20 19:56:33.275  [PUSH ALARM] {"multicast_id":3605449849228920793,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 19:56:33.478  [PUSH ALARM] {"multicast_id":8297810120911495018,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647773796165128%c195b7dcc195b7dc"}]}
+2022-03-20 19:58:04.137  [INFO][HttpGet getGateListController] 
+2022-03-20 19:58:04.138  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-03-20 19:59:03.764  [INFO][HttpGet getCustInfoController] 
+2022-03-20 19:59:03.765  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 19:59:03.784  [ERROR][DataBase SaveToken] 11111111,dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 19:59:03.785  [ERROR][DataBase SaveToken] Duplicate entry 'dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU' for key 'tb_devices_admin.PRIMARY'
+2022-03-20 19:59:04.180  [INFO][HttpGet getReserveInfoController] 
+2022-03-20 19:59:04.180  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 19:59:04.250  [INFO][HttpGet getWebDCInfoController] 
+2022-03-20 19:59:04.251  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 19:59:04.499  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-03-20 19:59:04.500  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 19:59:04.584  [INFO][HttpGet getGateListController] 
+2022-03-20 19:59:04.584  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-03-20 19:59:08.006  [INFO][HttpGet getPushAlarmController] 
+2022-03-20 19:59:08.007  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-03-20 19:59:07
+2022-03-20 19:59:08.217  [PUSH ALARM] {"multicast_id":393347448864841823,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647773950904626%c195b7dcc195b7dc"}]}
+2022-03-20 19:59:08.412  [PUSH ALARM] {"multicast_id":4303700356615371141,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 19:59:08.591  [PUSH ALARM] {"multicast_id":2245808921083689215,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-03-20 19:59:08.784  [PUSH ALARM] {"multicast_id":6001164805827471448,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 19:59:09.001  [PUSH ALARM] {"multicast_id":2571399690058794099,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647773951675458%c195b7dcc195b7dc"}]}
+2022-03-20 20:02:11.778  [INFO][HttpGet getGateListController] 
+2022-03-20 20:02:11.779  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-03-20 20:35:49.359  [INFO][HttpGet getPushAlarmController] 
+2022-03-20 20:35:49.360  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:
+2022-03-20 20:35:49.674  [PUSH ALARM] {"multicast_id":110918059508647429,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647776152596228%c195b7dcc195b7dc"}]}
+2022-03-20 20:35:49.865  [PUSH ALARM] {"multicast_id":5869239820621373654,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 20:35:50.042  [PUSH ALARM] {"multicast_id":3134488767544260914,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-03-20 20:35:50.246  [PUSH ALARM] {"multicast_id":7725691956892045576,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 20:35:50.480  [PUSH ALARM] {"multicast_id":844144760823936020,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647776153394033%c195b7dcc195b7dc"}]}
+2022-03-20 21:10:12.683  [INFO][HttpGet getGateListController] 
+2022-03-20 21:10:12.687  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-03-20 23:02:46.968  [INFO][HttpGet getGateListController] 
+2022-03-20 23:02:46.971  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-03-20 23:04:26.987  [INFO][HttpGet getCustInfoController] 
+2022-03-20 23:04:26.988  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 23:04:27.026  [ERROR][DataBase SaveToken] 11111111,dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 23:04:27.026  [ERROR][DataBase SaveToken] Duplicate entry 'dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU' for key 'tb_devices_admin.PRIMARY'
+2022-03-20 23:04:27.390  [INFO][HttpGet getReserveInfoController] 
+2022-03-20 23:04:27.391  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 23:04:27.456  [INFO][HttpGet getWebDCInfoController] 
+2022-03-20 23:04:27.457  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 23:04:27.747  [INFO][HttpGet getGateListController] 
+2022-03-20 23:04:27.747  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-03-20 23:04:27.753  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-03-20 23:04:27.753  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 23:04:31.417  [INFO][HttpGet getPushAlarmController] 
+2022-03-20 23:04:31.417  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-03-20 23:04:31
+2022-03-20 23:04:31.658  [PUSH ALARM] {"multicast_id":8099837239190681240,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647785076095157%c195b7dcc195b7dc"}]}
+2022-03-20 23:04:31.855  [PUSH ALARM] {"multicast_id":383008835035011245,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 23:04:32.043  [PUSH ALARM] {"multicast_id":2662427502556016609,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-03-20 23:04:32.235  [PUSH ALARM] {"multicast_id":5041345170644476729,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 23:04:32.469  [PUSH ALARM] {"multicast_id":4052986671354980643,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647785076906279%c195b7dcc195b7dc"}]}
+2022-03-20 23:05:17.067  [INFO][HttpGet getPushAlarmController] 
+2022-03-20 23:05:17.069  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-03-20 23:05:17
+2022-03-20 23:05:17.288  [PUSH ALARM] {"multicast_id":8796830410025231207,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647785121735265%c195b7dcc195b7dc"}]}
+2022-03-20 23:05:17.528  [PUSH ALARM] {"multicast_id":2637922806661154563,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 23:05:17.712  [PUSH ALARM] {"multicast_id":8394981498494142665,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-03-20 23:05:17.907  [PUSH ALARM] {"multicast_id":4656328498276047387,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 23:05:18.111  [PUSH ALARM] {"multicast_id":4494540088101745056,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647785122560378%c195b7dcc195b7dc"}]}
+2022-03-20 23:12:19.686  [INFO][HttpGet getGateListController] 
+2022-03-20 23:12:19.687  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-03-20 23:13:38.494  [INFO][HttpGet getGateListController] 
+2022-03-20 23:13:38.495  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-03-20 23:40:38.913  [INFO][HttpGet getGateListController] 
+2022-03-20 23:40:38.915  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-03-20 23:43:30.251  [INFO][HttpGet getCustInfoController] 
+2022-03-20 23:43:30.252  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 23:43:30.315  [ERROR][DataBase SaveToken] 11111111,dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 23:43:30.316  [ERROR][DataBase SaveToken] Duplicate entry 'dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU' for key 'tb_devices_admin.PRIMARY'
+2022-03-20 23:43:30.677  [INFO][HttpGet getReserveInfoController] 
+2022-03-20 23:43:30.678  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 23:43:30.749  [INFO][HttpGet getWebDCInfoController] 
+2022-03-20 23:43:30.749  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 23:43:31.073  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-03-20 23:43:31.074  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dWup30lOQGKAA0OUvIfbGq:APA91bHrl7NCK1wZ7Rm7pP2wGhI7BqxJTZ78nVOBU5PS_g7lEuNHmi3j-h1hDOyfvAEVVqrzudSwg0Wd8XPwuY14YjLld4wU57sSFyRdgBqspnP7DkpJoqWMCuI7JUk96jhRyfIjTlop
+2022-03-20 23:43:31.077  [INFO][HttpGet getGateListController] 
+2022-03-20 23:43:31.078  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-03-20 23:45:31.349  [INFO][HttpGet getPushAlarmController] 
+2022-03-20 23:45:31.350  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-03-20 23:45:31
+2022-03-20 23:45:31.613  [PUSH ALARM] {"multicast_id":7360762168351072464,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647787536051607%c195b7dcc195b7dc"}]}
+2022-03-20 23:45:31.802  [PUSH ALARM] {"multicast_id":1613798191020068792,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 23:45:32.095  [PUSH ALARM] {"multicast_id":5816789390918120603,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-03-20 23:45:32.282  [PUSH ALARM] {"multicast_id":7402494824548915167,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 23:45:32.371  [INFO][HttpGet getGateListController] 
+2022-03-20 23:45:32.372  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-03-20 23:45:32.497  [PUSH ALARM] {"multicast_id":3828670544106168522,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647787536946646%c195b7dcc195b7dc"}]}
+2022-03-20 23:45:57.837  [INFO][HttpGet getPushAlarmController] 
+2022-03-20 23:45:57.838  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:2022-03-20 23:45:57
+2022-03-20 23:45:58.068  [PUSH ALARM] {"multicast_id":1094936224841658661,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647787562510928%c195b7dcc195b7dc"}]}
+2022-03-20 23:45:58.270  [PUSH ALARM] {"multicast_id":684642106260399119,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 23:45:58.452  [PUSH ALARM] {"multicast_id":1911789841693609250,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-03-20 23:45:58.646  [PUSH ALARM] {"multicast_id":2075132768651817151,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-03-20 23:45:58.864  [PUSH ALARM] {"multicast_id":6327421895667392736,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1647787563310025%c195b7dcc195b7dc"}]}

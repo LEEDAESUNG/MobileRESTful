@@ -1,0 +1,12 @@
+2022-02-03 11:42:05.896  [INFO][HttpGet getCustInfoController] 
+2022-02-03 11:42:05.911  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:c_IWvRNwTj2wtt3w3PNtHZ:APA91bEyaZoCG8aDikPvgYSkmbGg0auQ6oP7KjnbpI5tLWubzJwb2QwNxdQ2hqsdYQJR7r9QujX6rmvjjdP45-MnYFmqTJs8JSc5U6FVfgOoxzWJWlG-Qn5dTBVfn0b7Gg0O-4PJSECl
+2022-02-03 11:42:06.344  [ERROR][DataBase SaveToken] 11111111,c_IWvRNwTj2wtt3w3PNtHZ:APA91bEyaZoCG8aDikPvgYSkmbGg0auQ6oP7KjnbpI5tLWubzJwb2QwNxdQ2hqsdYQJR7r9QujX6rmvjjdP45-MnYFmqTJs8JSc5U6FVfgOoxzWJWlG-Qn5dTBVfn0b7Gg0O-4PJSECl
+2022-02-03 11:42:06.345  [ERROR][DataBase SaveToken] Duplicate entry 'c_IWvRNwTj2wtt3w3PNtHZ:APA91bEyaZoCG8aDikPvgYSkmbGg0auQ6oP7Kjnbp' for key 'tb_devices_admin.PRIMARY'
+2022-02-03 11:42:06.509  [INFO][HttpGet getReserveInfoController] 
+2022-02-03 11:42:06.510  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:c_IWvRNwTj2wtt3w3PNtHZ:APA91bEyaZoCG8aDikPvgYSkmbGg0auQ6oP7KjnbpI5tLWubzJwb2QwNxdQ2hqsdYQJR7r9QujX6rmvjjdP45-MnYFmqTJs8JSc5U6FVfgOoxzWJWlG-Qn5dTBVfn0b7Gg0O-4PJSECl
+2022-02-03 11:42:06.576  [INFO][HttpGet getWebDCInfoController] 
+2022-02-03 11:42:06.577  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:c_IWvRNwTj2wtt3w3PNtHZ:APA91bEyaZoCG8aDikPvgYSkmbGg0auQ6oP7KjnbpI5tLWubzJwb2QwNxdQ2hqsdYQJR7r9QujX6rmvjjdP45-MnYFmqTJs8JSc5U6FVfgOoxzWJWlG-Qn5dTBVfn0b7Gg0O-4PJSECl
+2022-02-03 11:42:06.812  [INFO][HttpGet getGateListController] 
+2022-02-03 11:42:06.812  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-02-03 11:42:06.826  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-02-03 11:42:06.826  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:c_IWvRNwTj2wtt3w3PNtHZ:APA91bEyaZoCG8aDikPvgYSkmbGg0auQ6oP7KjnbpI5tLWubzJwb2QwNxdQ2hqsdYQJR7r9QujX6rmvjjdP45-MnYFmqTJs8JSc5U6FVfgOoxzWJWlG-Qn5dTBVfn0b7Gg0O-4PJSECl

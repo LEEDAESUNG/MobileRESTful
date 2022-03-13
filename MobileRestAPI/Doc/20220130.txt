@@ -1,0 +1,193 @@
+2022-01-30 00:07:49.180  [INFO][HttpGet getCustInfoController] 
+2022-01-30 00:07:49.184  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:c_IWvRNwTj2wtt3w3PNtHZ:APA91bEyaZoCG8aDikPvgYSkmbGg0auQ6oP7KjnbpI5tLWubzJwb2QwNxdQ2hqsdYQJR7r9QujX6rmvjjdP45-MnYFmqTJs8JSc5U6FVfgOoxzWJWlG-Qn5dTBVfn0b7Gg0O-4PJSECl
+2022-01-30 00:07:49.227  [DataBase SaveToken] 11111111,c_IWvRNwTj2wtt3w3PNtHZ:APA91bEyaZoCG8aDikPvgYSkmbGg0auQ6oP7KjnbpI5tLWubzJwb2QwNxdQ2hqsdYQJR7r9QujX6rmvjjdP45-MnYFmqTJs8JSc5U6FVfgOoxzWJWlG-Qn5dTBVfn0b7Gg0O-4PJSECl
+2022-01-30 00:07:49.330  [INFO][HttpGet getReserveInfoController] 
+2022-01-30 00:07:49.330  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:c_IWvRNwTj2wtt3w3PNtHZ:APA91bEyaZoCG8aDikPvgYSkmbGg0auQ6oP7KjnbpI5tLWubzJwb2QwNxdQ2hqsdYQJR7r9QujX6rmvjjdP45-MnYFmqTJs8JSc5U6FVfgOoxzWJWlG-Qn5dTBVfn0b7Gg0O-4PJSECl
+2022-01-30 00:07:49.365  [INFO][HttpGet getWebDCInfoController] 
+2022-01-30 00:07:49.365  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:c_IWvRNwTj2wtt3w3PNtHZ:APA91bEyaZoCG8aDikPvgYSkmbGg0auQ6oP7KjnbpI5tLWubzJwb2QwNxdQ2hqsdYQJR7r9QujX6rmvjjdP45-MnYFmqTJs8JSc5U6FVfgOoxzWJWlG-Qn5dTBVfn0b7Gg0O-4PJSECl
+2022-01-30 00:07:49.596  [INFO][HttpGet getGateListController] 
+2022-01-30 00:07:49.596  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-01-30 00:07:49.596  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-01-30 00:07:49.597  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:c_IWvRNwTj2wtt3w3PNtHZ:APA91bEyaZoCG8aDikPvgYSkmbGg0auQ6oP7KjnbpI5tLWubzJwb2QwNxdQ2hqsdYQJR7r9QujX6rmvjjdP45-MnYFmqTJs8JSc5U6FVfgOoxzWJWlG-Qn5dTBVfn0b7Gg0O-4PJSECl
+2022-01-30 00:07:49.616  [DataBase GetStringFieldValue] Could not find specified column in results: PDC1_COUNT
+2022-01-30 00:07:49.632  [DataBase GetStringFieldValue] Could not find specified column in results: PDC1_FREECOUNT
+2022-01-30 00:07:49.648  [DataBase GetStringFieldValue] Could not find specified column in results: PDC2_COUNT
+2022-01-30 00:07:49.662  [DataBase GetStringFieldValue] Could not find specified column in results: PDC2_FREECOUNT
+2022-01-30 00:07:49.682  [DataBase GetStringFieldValue] Could not find specified column in results: PDC3_COUNT
+2022-01-30 00:07:49.697  [DataBase GetStringFieldValue] Could not find specified column in results: PDC3_FREECOUNT
+2022-01-30 00:07:49.715  [DataBase GetStringFieldValue] Could not find specified column in results: PDC4_COUNT
+2022-01-30 00:07:49.732  [DataBase GetStringFieldValue] Could not find specified column in results: PDC4_FREECOUNT
+2022-01-30 00:07:49.749  [DataBase GetStringFieldValue] Could not find specified column in results: PDC5_COUNT
+2022-01-30 00:07:49.765  [DataBase GetStringFieldValue] Could not find specified column in results: PDC5_FREECOUNT
+2022-01-30 00:08:30.327  [INFO][HttpGet getInCarListCarnoController] 
+2022-01-30 00:08:30.328  [INFO][HttpGet getInCarListCarnoController] : id:11111111, password:1234, carno:, token:
+2022-01-30 00:08:59.112  [INFO][HttpGet getInCarListCarnoController] 
+2022-01-30 00:08:59.114  [INFO][HttpGet getInCarListCarnoController] : id:11111111, password:1234, carno:, token:
+2022-01-30 00:09:15.019  [INFO][HttpGet getCustInfoController] 
+2022-01-30 00:09:15.020  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2022-01-30 00:09:15.046  [ERROR][DataBase SaveToken] 11111111,fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2022-01-30 00:09:15.046  [ERROR][DataBase SaveToken] Duplicate entry 'fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLU' for key 'tb_devices_admin.PRIMARY'
+2022-01-30 00:09:15.398  [INFO][HttpGet getReserveInfoController] 
+2022-01-30 00:09:15.398  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2022-01-30 00:09:15.452  [INFO][HttpGet getWebDCInfoController] 
+2022-01-30 00:09:15.453  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2022-01-30 00:09:15.756  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-01-30 00:09:15.756  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2022-01-30 00:09:15.772  [DataBase GetStringFieldValue] Could not find specified column in results: PDC1_COUNT
+2022-01-30 00:09:15.772  [INFO][HttpGet getGateListController] 
+2022-01-30 00:09:15.774  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-01-30 00:09:15.788  [DataBase GetStringFieldValue] Could not find specified column in results: PDC1_FREECOUNT
+2022-01-30 00:09:15.803  [DataBase GetStringFieldValue] Could not find specified column in results: PDC2_COUNT
+2022-01-30 00:09:15.818  [DataBase GetStringFieldValue] Could not find specified column in results: PDC2_FREECOUNT
+2022-01-30 00:09:15.833  [DataBase GetStringFieldValue] Could not find specified column in results: PDC3_COUNT
+2022-01-30 00:09:15.849  [DataBase GetStringFieldValue] Could not find specified column in results: PDC3_FREECOUNT
+2022-01-30 00:09:15.867  [DataBase GetStringFieldValue] Could not find specified column in results: PDC4_COUNT
+2022-01-30 00:09:15.882  [DataBase GetStringFieldValue] Could not find specified column in results: PDC4_FREECOUNT
+2022-01-30 00:09:15.896  [DataBase GetStringFieldValue] Could not find specified column in results: PDC5_COUNT
+2022-01-30 00:09:15.910  [DataBase GetStringFieldValue] Could not find specified column in results: PDC5_FREECOUNT
+2022-01-30 00:09:17.629  [INFO][HttpGet getInCarListCarnoController] 
+2022-01-30 00:09:17.629  [INFO][HttpGet getInCarListCarnoController] : id:11111111, password:1234, carno:, token:
+2022-01-30 00:09:25.577  [INFO][HttpGet getInCarListCarnoController] 
+2022-01-30 00:09:25.577  [INFO][HttpGet getInCarListCarnoController] : id:11111111, password:1234, carno:, token:
+2022-01-30 00:16:45.230  [INFO][HttpGet getCustInfoController] 
+2022-01-30 00:16:45.231  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2022-01-30 00:16:45.284  [ERROR][DataBase SaveToken] 11111111,fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2022-01-30 00:16:45.284  [ERROR][DataBase SaveToken] Duplicate entry 'fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLU' for key 'tb_devices_admin.PRIMARY'
+2022-01-30 00:16:45.605  [INFO][HttpGet getReserveInfoController] 
+2022-01-30 00:16:45.606  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2022-01-30 00:16:45.666  [INFO][HttpGet getWebDCInfoController] 
+2022-01-30 00:16:45.666  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2022-01-30 00:16:45.965  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-01-30 00:16:45.965  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2022-01-30 00:16:45.981  [DataBase GetStringFieldValue] Could not find specified column in results: PDC1_COUNT
+2022-01-30 00:16:45.996  [DataBase GetStringFieldValue] Could not find specified column in results: PDC1_FREECOUNT
+2022-01-30 00:16:46.004  [INFO][HttpGet getGateListController] 
+2022-01-30 00:16:46.005  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-01-30 00:16:46.012  [DataBase GetStringFieldValue] Could not find specified column in results: PDC2_COUNT
+2022-01-30 00:16:46.027  [DataBase GetStringFieldValue] Could not find specified column in results: PDC2_FREECOUNT
+2022-01-30 00:16:46.041  [DataBase GetStringFieldValue] Could not find specified column in results: PDC3_COUNT
+2022-01-30 00:16:46.055  [DataBase GetStringFieldValue] Could not find specified column in results: PDC3_FREECOUNT
+2022-01-30 00:16:46.069  [DataBase GetStringFieldValue] Could not find specified column in results: PDC4_COUNT
+2022-01-30 00:16:46.084  [DataBase GetStringFieldValue] Could not find specified column in results: PDC4_FREECOUNT
+2022-01-30 00:16:46.099  [DataBase GetStringFieldValue] Could not find specified column in results: PDC5_COUNT
+2022-01-30 00:16:46.112  [DataBase GetStringFieldValue] Could not find specified column in results: PDC5_FREECOUNT
+2022-01-30 00:17:25.033  [INFO][HttpGet getGateListController] 
+2022-01-30 00:17:25.035  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-01-30 17:25:24.559  [INFO][HttpGet getCustInfoController] 
+2022-01-30 17:25:24.561  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2022-01-30 17:25:24.669  [ERROR][DataBase SaveToken] 11111111,fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2022-01-30 17:25:24.670  [ERROR][DataBase SaveToken] Duplicate entry 'fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLU' for key 'tb_devices_admin.PRIMARY'
+2022-01-30 17:25:24.928  [INFO][HttpGet getReserveInfoController] 
+2022-01-30 17:25:24.929  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2022-01-30 17:25:24.991  [INFO][HttpGet getWebDCInfoController] 
+2022-01-30 17:25:24.992  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2022-01-30 17:25:25.261  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-01-30 17:25:25.262  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2022-01-30 17:25:25.280  [DataBase GetStringFieldValue] Could not find specified column in results: PDC1_COUNT
+2022-01-30 17:25:25.295  [DataBase GetStringFieldValue] Could not find specified column in results: PDC1_FREECOUNT
+2022-01-30 17:25:25.309  [DataBase GetStringFieldValue] Could not find specified column in results: PDC2_COUNT
+2022-01-30 17:25:25.322  [DataBase GetStringFieldValue] Could not find specified column in results: PDC2_FREECOUNT
+2022-01-30 17:25:25.329  [INFO][HttpGet getGateListController] 
+2022-01-30 17:25:25.330  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-01-30 17:25:25.336  [DataBase GetStringFieldValue] Could not find specified column in results: PDC3_COUNT
+2022-01-30 17:25:25.351  [DataBase GetStringFieldValue] Could not find specified column in results: PDC3_FREECOUNT
+2022-01-30 17:25:25.365  [DataBase GetStringFieldValue] Could not find specified column in results: PDC4_COUNT
+2022-01-30 17:25:25.380  [DataBase GetStringFieldValue] Could not find specified column in results: PDC4_FREECOUNT
+2022-01-30 17:25:25.394  [DataBase GetStringFieldValue] Could not find specified column in results: PDC5_COUNT
+2022-01-30 17:25:25.407  [DataBase GetStringFieldValue] Could not find specified column in results: PDC5_FREECOUNT
+2022-01-30 22:23:58.769  [INFO][HttpGet getGateListController] 
+2022-01-30 22:23:58.772  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-01-30 22:25:09.014  [INFO][HttpGet getGateListController] 
+2022-01-30 22:25:09.015  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-01-30 22:25:15.045  [INFO][HttpGet getCustInfoController] 
+2022-01-30 22:25:15.046  [INFO][HttpGet getCustInfoController] : id:, password:, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2022-01-30 22:25:21.659  [INFO][HttpGet getCustInfoController] 
+2022-01-30 22:25:21.659  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2022-01-30 22:25:21.698  [ERROR][DataBase SaveToken] 11111111,fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2022-01-30 22:25:21.698  [ERROR][DataBase SaveToken] Duplicate entry 'fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLU' for key 'tb_devices_admin.PRIMARY'
+2022-01-30 22:25:22.115  [INFO][HttpGet getReserveInfoController] 
+2022-01-30 22:25:22.115  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2022-01-30 22:25:22.274  [INFO][HttpGet getWebDCInfoController] 
+2022-01-30 22:25:22.274  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2022-01-30 22:25:22.855  [INFO][HttpGet getGateListController] 
+2022-01-30 22:25:22.855  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-01-30 22:25:22.864  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-01-30 22:25:22.864  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2022-01-30 22:25:22.881  [DataBase GetStringFieldValue] Could not find specified column in results: PDC1_COUNT
+2022-01-30 22:25:22.896  [DataBase GetStringFieldValue] Could not find specified column in results: PDC1_FREECOUNT
+2022-01-30 22:25:22.911  [DataBase GetStringFieldValue] Could not find specified column in results: PDC2_COUNT
+2022-01-30 22:25:22.926  [DataBase GetStringFieldValue] Could not find specified column in results: PDC2_FREECOUNT
+2022-01-30 22:25:22.942  [DataBase GetStringFieldValue] Could not find specified column in results: PDC3_COUNT
+2022-01-30 22:25:22.957  [DataBase GetStringFieldValue] Could not find specified column in results: PDC3_FREECOUNT
+2022-01-30 22:25:22.971  [DataBase GetStringFieldValue] Could not find specified column in results: PDC4_COUNT
+2022-01-30 22:25:22.985  [DataBase GetStringFieldValue] Could not find specified column in results: PDC4_FREECOUNT
+2022-01-30 22:25:22.999  [DataBase GetStringFieldValue] Could not find specified column in results: PDC5_COUNT
+2022-01-30 22:25:23.013  [DataBase GetStringFieldValue] Could not find specified column in results: PDC5_FREECOUNT
+2022-01-30 22:27:15.960  [INFO][HttpGet getCustInfoController] 
+2022-01-30 22:27:15.961  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2022-01-30 22:27:15.982  [ERROR][DataBase SaveToken] 11111111,fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2022-01-30 22:27:15.982  [ERROR][DataBase SaveToken] Duplicate entry 'fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLU' for key 'tb_devices_admin.PRIMARY'
+2022-01-30 22:27:16.244  [INFO][HttpGet getReserveInfoController] 
+2022-01-30 22:27:16.244  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2022-01-30 22:27:16.303  [INFO][HttpGet getWebDCInfoController] 
+2022-01-30 22:27:16.303  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2022-01-30 22:27:16.538  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-01-30 22:27:16.539  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2022-01-30 22:27:16.555  [DataBase GetStringFieldValue] Could not find specified column in results: PDC1_COUNT
+2022-01-30 22:27:16.569  [DataBase GetStringFieldValue] Could not find specified column in results: PDC1_FREECOUNT
+2022-01-30 22:27:16.584  [DataBase GetStringFieldValue] Could not find specified column in results: PDC2_COUNT
+2022-01-30 22:27:16.599  [DataBase GetStringFieldValue] Could not find specified column in results: PDC2_FREECOUNT
+2022-01-30 22:27:16.613  [DataBase GetStringFieldValue] Could not find specified column in results: PDC3_COUNT
+2022-01-30 22:27:16.627  [DataBase GetStringFieldValue] Could not find specified column in results: PDC3_FREECOUNT
+2022-01-30 22:27:16.627  [INFO][HttpGet getGateListController] 
+2022-01-30 22:27:16.629  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-01-30 22:27:16.642  [DataBase GetStringFieldValue] Could not find specified column in results: PDC4_COUNT
+2022-01-30 22:27:16.656  [DataBase GetStringFieldValue] Could not find specified column in results: PDC4_FREECOUNT
+2022-01-30 22:27:16.671  [DataBase GetStringFieldValue] Could not find specified column in results: PDC5_COUNT
+2022-01-30 22:27:16.685  [DataBase GetStringFieldValue] Could not find specified column in results: PDC5_FREECOUNT
+2022-01-30 22:29:33.313  [INFO][HttpGet getGateListController] 
+2022-01-30 22:29:33.314  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-01-30 22:58:27.544  [INFO][HttpGet getGateListController] 
+2022-01-30 22:58:27.545  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-01-30 23:03:23.472  [INFO][HttpGet getGateListController] 
+2022-01-30 23:03:23.473  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-01-30 23:03:55.440  [INFO][HttpGet getGateListController] 
+2022-01-30 23:03:55.441  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-01-30 23:15:31.379  [INFO][HttpGet getInCarListCarnoController] 
+2022-01-30 23:15:31.380  [INFO][HttpGet getInCarListCarnoController] : id:11111111, password:1234, carno:, token:
+2022-01-30 23:30:50.413  [INFO][HttpGet getGateListController] 
+2022-01-30 23:30:50.415  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-01-30 23:34:12.422  [INFO][HttpGet getGateListController] 
+2022-01-30 23:34:12.423  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-01-30 23:34:13.462  [INFO][HttpGet getGateListController] 
+2022-01-30 23:34:13.463  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-01-30 23:34:23.797  [INFO][HttpGet getInCarListCarnoController] 
+2022-01-30 23:34:23.797  [INFO][HttpGet getInCarListCarnoController] : id:11111111, password:1234, carno:, token:
+2022-01-30 23:47:02.254  [INFO][HttpGet getGateListController] 
+2022-01-30 23:47:02.256  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-01-30 23:48:46.053  [INFO][HttpGet getGateListController] 
+2022-01-30 23:48:46.054  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-01-30 23:49:04.723  [INFO][HttpGet getGateListController] 
+2022-01-30 23:49:04.724  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-01-30 23:56:50.015  [INFO][HttpGet getCustInfoController] 
+2022-01-30 23:56:50.016  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2022-01-30 23:56:50.073  [ERROR][DataBase SaveToken] 11111111,fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2022-01-30 23:56:50.073  [ERROR][DataBase SaveToken] Duplicate entry 'fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLU' for key 'tb_devices_admin.PRIMARY'
+2022-01-30 23:56:50.308  [INFO][HttpGet getReserveInfoController] 
+2022-01-30 23:56:50.308  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2022-01-30 23:56:50.373  [INFO][HttpGet getWebDCInfoController] 
+2022-01-30 23:56:50.374  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2022-01-30 23:56:50.653  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-01-30 23:56:50.655  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:fqV0Vc-tQ8Gtb7r6hD39rj:APA91bF4p8ySrb2z0p2OsW_5-ENGhL1cFDd5hQTLUUSt9SWRla8mCcDDJhLxLLpq3N1MsjWtCk2lbsdxkwLg_5AiweHZOwCVRtjusJBomVkOlJ2X7abvCCcCyf-y15QH1dw54hcO-F3G
+2022-01-30 23:56:50.671  [DataBase GetStringFieldValue] Could not find specified column in results: PDC1_COUNT
+2022-01-30 23:56:50.679  [INFO][HttpGet getGateListController] 
+2022-01-30 23:56:50.680  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-01-30 23:56:50.686  [DataBase GetStringFieldValue] Could not find specified column in results: PDC1_FREECOUNT
+2022-01-30 23:56:50.701  [DataBase GetStringFieldValue] Could not find specified column in results: PDC2_COUNT
+2022-01-30 23:56:50.715  [DataBase GetStringFieldValue] Could not find specified column in results: PDC2_FREECOUNT
+2022-01-30 23:56:50.730  [DataBase GetStringFieldValue] Could not find specified column in results: PDC3_COUNT
+2022-01-30 23:56:50.744  [DataBase GetStringFieldValue] Could not find specified column in results: PDC3_FREECOUNT
+2022-01-30 23:56:50.758  [DataBase GetStringFieldValue] Could not find specified column in results: PDC4_COUNT
+2022-01-30 23:56:50.773  [DataBase GetStringFieldValue] Could not find specified column in results: PDC4_FREECOUNT
+2022-01-30 23:56:50.787  [DataBase GetStringFieldValue] Could not find specified column in results: PDC5_COUNT
+2022-01-30 23:56:50.801  [DataBase GetStringFieldValue] Could not find specified column in results: PDC5_FREECOUNT

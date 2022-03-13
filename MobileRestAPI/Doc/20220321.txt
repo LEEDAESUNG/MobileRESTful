@@ -1,0 +1,26 @@
+2022-03-21 23:04:40.254  [INFO][HttpGet getCustInfoController] 
+2022-03-21 23:04:40.256  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-03-21 23:04:40.401  [ERROR][DataBase SaveToken] 11111111,dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-03-21 23:04:40.402  [ERROR][DataBase SaveToken] Duplicate entry 'dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB' for key 'tb_devices_admin.PRIMARY'
+2022-03-21 23:04:40.640  [INFO][HttpGet getReserveInfoController] 
+2022-03-21 23:04:40.641  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-03-21 23:04:40.774  [INFO][HttpGet getWebDCInfoController] 
+2022-03-21 23:04:40.775  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-03-21 23:04:40.923  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-03-21 23:04:40.923  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-03-21 23:04:40.953  [INFO][HttpGet getGateListController] 
+2022-03-21 23:04:40.954  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-03-21 23:04:44.042  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-03-21 23:04:44.042  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-03-21 23:04:46.575  [INFO][HttpGet getInCarListWebdcListController] 
+2022-03-21 23:04:46.576  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:, token:
+2022-03-21 23:04:51.551  [INFO][HttpGet getInCarListWebdcListController] 
+2022-03-21 23:04:51.551  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:, token:
+2022-03-21 23:04:57.018  [INFO][HttpGet setWebdcProcController] 
+2022-03-21 23:04:57.019  [INFO][HttpGet setWebdcProcController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a, seq:3, carno:25구5401, dctime:30, dcdesc:30분할인, pcode:, pname:총괄관리자, pgubun:T
+2022-03-21 23:04:57.458  [INFO][HttpGet getInCarListWebdcListController] 
+2022-03-21 23:04:57.459  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-03-21 23:04:57.459  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:, token:
+2022-03-21 23:04:57.459  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-03-21 23:52:39.282  [INFO][HttpGet getInCarListWebdcListController] 
+2022-03-21 23:52:39.286  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:, token:

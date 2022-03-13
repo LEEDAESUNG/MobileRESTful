@@ -9,12 +9,12 @@ namespace MobileRestAPI.Controllers
 {
     [Route("[controller]")]
     [ApiController]
-    public class getInCarListCarnoController : Controller
+    public class getInCarListWebdcListController : Controller //입차내역 + 입차이후 웹할인리스트 처리여부
     {
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            Global.util.FileLogger("[INFO][HttpGet getInCarListCarnoController] ");
+            Global.util.FileLogger("[INFO][HttpGet getInCarListWebdcListController] ");
 
             JsonReturn JReturn = new JsonReturn();
             JObject respJson = new JObject();
@@ -27,9 +27,10 @@ namespace MobileRestAPI.Controllers
                 string password = "" + request.Query["Pw"];
                 string token = "" + request.Query["Token"];
                 string carno = "" + request.Query["Carno"];
-                Global.util.FileLogger("[INFO][HttpGet getInCarListCarnoController] : id:" + id + ", password:" + password + ", carno:" + carno + ", token:" + token);
+                string pname = "" + request.Query["Pname"];
+                Global.util.FileLogger("[INFO][HttpGet getInCarListWebdcListController] : id:" + id + ", password:" + password + ", carno:" + carno + ", token:" + token);
 
-                Global.getInCarListCarno(id, password, token, carno, ref respJson); //token:FCM token
+                Global.getInCarListWebdcList(id, password, token, carno, pname, ref respJson); //token:FCM token
                 return Json(respJson);
             }
             else

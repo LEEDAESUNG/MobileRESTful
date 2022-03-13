@@ -63,10 +63,6 @@
               "target": "Package",
               "version": "[1.0.24, )"
             },
-            "SimpleUdp": {
-              "target": "Package",
-              "version": "[1.0.0.4, )"
-            },
             "System.Data.Odbc": {
               "target": "Package",
               "version": "[5.0.0, )"

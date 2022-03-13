@@ -1,0 +1,56 @@
+2022-02-16 10:40:11.297  [INFO][HttpGet getCustInfoController] 
+2022-02-16 10:40:14.452  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:dYcAVr9DSnyN3TUFnI7UeP:APA91bFzWZnkWqq2zlLhAUiH3r4_eBaC3hX8ZuWDPmGxHYDAr0h9e0BUcNR6DQ1uni4MDZOgFfZ5Z1iYQtbkopRSAXN7oBCkxKq-Cj1iX7q7C2svUqwSKIMUqVvBbXwMGwRgI9RWLc57
+2022-02-16 10:40:14.897  [DataBase SaveToken] 11111111,dYcAVr9DSnyN3TUFnI7UeP:APA91bFzWZnkWqq2zlLhAUiH3r4_eBaC3hX8ZuWDPmGxHYDAr0h9e0BUcNR6DQ1uni4MDZOgFfZ5Z1iYQtbkopRSAXN7oBCkxKq-Cj1iX7q7C2svUqwSKIMUqVvBbXwMGwRgI9RWLc57
+2022-02-16 10:40:15.117  [INFO][HttpGet getGateListController] 
+2022-02-16 10:40:15.118  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-02-16 10:58:15.982  [INFO][HttpGet getCustInfoController] 
+2022-02-16 10:58:15.983  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:dYcAVr9DSnyN3TUFnI7UeP:APA91bFzWZnkWqq2zlLhAUiH3r4_eBaC3hX8ZuWDPmGxHYDAr0h9e0BUcNR6DQ1uni4MDZOgFfZ5Z1iYQtbkopRSAXN7oBCkxKq-Cj1iX7q7C2svUqwSKIMUqVvBbXwMGwRgI9RWLc57)
+2022-02-16 10:58:16.057  [DataBase SaveToken] 11111111,dYcAVr9DSnyN3TUFnI7UeP:APA91bFzWZnkWqq2zlLhAUiH3r4_eBaC3hX8ZuWDPmGxHYDAr0h9e0BUcNR6DQ1uni4MDZOgFfZ5Z1iYQtbkopRSAXN7oBCkxKq-Cj1iX7q7C2svUqwSKIMUqVvBbXwMGwRgI9RWLc57)
+2022-02-16 10:58:16.333  [INFO][HttpGet getGateListController] 
+2022-02-16 10:58:16.335  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-02-16 11:01:45.934  [INFO][HttpGet getGateListController] 
+2022-02-16 11:01:45.935  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-02-16 11:02:33.985  [INFO][HttpGet getCustInfoController] 
+2022-02-16 11:02:33.986  [INFO][HttpGet getCustInfoController] : id:, password:, token:dYcAVr9DSnyN3TUFnI7UeP:APA91bFzWZnkWqq2zlLhAUiH3r4_eBaC3hX8ZuWDPmGxHYDAr0h9e0BUcNR6DQ1uni4MDZOgFfZ5Z1iYQtbkopRSAXN7oBCkxKq-Cj1iX7q7C2svUqwSKIMUqVvBbXwMGwRgI9RWLc57)
+2022-02-16 11:02:44.760  [INFO][HttpGet getCustInfoController] 
+2022-02-16 11:02:44.761  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:dYcAVr9DSnyN3TUFnI7UeP:APA91bFzWZnkWqq2zlLhAUiH3r4_eBaC3hX8ZuWDPmGxHYDAr0h9e0BUcNR6DQ1uni4MDZOgFfZ5Z1iYQtbkopRSAXN7oBCkxKq-Cj1iX7q7C2svUqwSKIMUqVvBbXwMGwRgI9RWLc57
+2022-02-16 11:02:44.794  [DataBase SaveToken] 11111111,dYcAVr9DSnyN3TUFnI7UeP:APA91bFzWZnkWqq2zlLhAUiH3r4_eBaC3hX8ZuWDPmGxHYDAr0h9e0BUcNR6DQ1uni4MDZOgFfZ5Z1iYQtbkopRSAXN7oBCkxKq-Cj1iX7q7C2svUqwSKIMUqVvBbXwMGwRgI9RWLc57
+2022-02-16 11:02:44.950  [INFO][HttpGet getGateListController] 
+2022-02-16 11:02:44.951  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-02-16 11:28:14.062  [INFO][HttpGet getPushAlarmController] 
+2022-02-16 12:18:54.717  [INFO][HttpGet getPushAlarmController] 
+2022-02-16 12:19:08.459  [INFO][HttpGet getPushAlarmController] 
+2022-02-16 12:19:11.648  [INFO][HttpGet getPushAlarmController] 
+2022-02-16 12:19:38.023  [INFO][HttpGet getPushAlarmController] 
+2022-02-16 12:19:47.751  [INFO][HttpGet getPushAlarmController] : id:, password:, token:
+2022-02-16 12:19:56.384  [INFO][HttpGet getPushAlarmController] 
+2022-02-16 12:20:12.294  [INFO][HttpGet getPushAlarmController] : id:, password:, token:
+2022-02-16 18:28:02.814  [INFO][HttpGet getCustInfoController] 
+2022-02-16 18:28:02.816  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:null
+2022-02-16 18:28:03.272  [DataBase SaveToken] 11111111,null
+2022-02-16 18:28:03.611  [INFO][HttpGet getReserveInfoController] 
+2022-02-16 18:28:03.611  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:null
+2022-02-16 18:28:03.698  [INFO][HttpGet getWebDCInfoController] 
+2022-02-16 18:28:03.698  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:null
+2022-02-16 18:28:04.035  [INFO][HttpGet getGateListController] 
+2022-02-16 18:28:04.036  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-02-16 18:28:04.050  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-02-16 18:28:04.051  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:null
+2022-02-16 18:28:17.082  [INFO][HttpGet getCustInfoController] 
+2022-02-16 18:28:17.082  [INFO][HttpGet getCustInfoController] : id:, password:, token:null
+2022-02-16 18:29:46.882  [INFO][HttpGet getCustInfoController] 
+2022-02-16 18:29:46.882  [INFO][HttpGet getCustInfoController] : id:, password:, token:null
+2022-02-16 18:30:40.542  [INFO][HttpGet getCustInfoController] 
+2022-02-16 18:30:40.543  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:null
+2022-02-16 18:30:40.595  [ERROR][DataBase SaveToken] 11111111,null
+2022-02-16 18:30:40.596  [ERROR][DataBase SaveToken] Duplicate entry 'null' for key 'tb_devices_admin.PRIMARY'
+2022-02-16 18:30:40.816  [INFO][HttpGet getReserveInfoController] 
+2022-02-16 18:30:40.817  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:null
+2022-02-16 18:30:40.969  [INFO][HttpGet getWebDCInfoController] 
+2022-02-16 18:30:40.970  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:null
+2022-02-16 18:30:41.619  [INFO][HttpGet getGateListController] 
+2022-02-16 18:30:41.620  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-02-16 18:30:42.005  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-02-16 18:30:42.005  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:null
+2022-02-16 18:32:02.775  [INFO][HttpGet getGateListController] 
+2022-02-16 18:32:02.777  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist

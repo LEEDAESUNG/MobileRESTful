@@ -1,0 +1,27 @@
+2022-03-31 18:51:15.480  [INFO][HttpGet getPushAlarmController] 
+2022-03-31 18:51:15.484  [INFO][HttpGet getPushAlarmController] : sender:, recever:, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:
+2022-03-31 18:51:21.652  [INFO][HttpGet getPushAlarmController] 
+2022-03-31 18:51:21.653  [INFO][HttpGet getPushAlarmController] : sender:, recever:, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:
+2022-03-31 19:04:35.069  [INFO][HttpGet getCustInfoController] 
+2022-03-31 19:04:35.070  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-03-31 19:04:35.181  [ERROR][DataBase SaveToken] 11111111,dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-03-31 19:04:35.182  [ERROR][DataBase SaveToken] Field 'CONN_DATE' doesn't have a default value
+2022-03-31 19:04:35.309  [INFO][HttpGet getReserveInfoController] 
+2022-03-31 19:04:35.310  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-03-31 19:04:35.361  [INFO][HttpGet getWebDCInfoController] 
+2022-03-31 19:04:35.362  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-03-31 19:04:35.488  [INFO][HttpGet getGateListController] 
+2022-03-31 19:04:35.488  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-03-31 19:04:35.497  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-03-31 19:04:35.498  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-03-31 19:10:57.556  [INFO][HttpGet getPushAlarmController] 
+2022-03-31 19:10:57.558  [INFO][HttpGet getPushAlarmController] : sender:, recever:, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:
+2022-03-31 19:11:00.203  [INFO][HttpGet getPushAlarmController] 
+2022-03-31 19:11:00.204  [INFO][HttpGet getPushAlarmController] : sender:, recever:, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다, datetime:
+2022-03-31 22:34:08.330  [INFO][HttpGet getReserveInfoController] 
+2022-03-31 22:34:08.332  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a
+2022-03-31 22:35:09.162  [INFO][HttpGet setReserveCarnoController] 
+2022-03-31 22:35:09.163  [INFO][HttpGet setReserveCarnoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a, carno:111가2222
+2022-03-31 22:35:09.198  [INFO][setReserveCarno] 방문예약 등록 성공:11111111, 차량번호:111가2222
+2022-03-31 22:35:09.321  [INFO][HttpGet getReserveInfoController] 
+2022-03-31 22:35:09.321  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:dDwC62rzQiO7btWX9jq8Xn:APA91bFJMjCiuG6JnWJHeDEkYSIrtIuUETAS6xJBB7rJFCdGhV9R0ckmkxYKTfblzJVUb90019kG6P3likbAcw_az5iBlnA-oMZS_DNsBGK_e1Z4C8xGgQDQadBVtz2bQeV0IczJJT4a

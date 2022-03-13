@@ -1,0 +1,171 @@
+2022-02-18 12:57:17.811  [INFO][HttpGet getPushAlarmController] 
+2022-02-18 12:57:17.816  [INFO][HttpGet getPushAlarmController] : id:11111111, title:주차관제시스템, message:충격이감지됐습니다
+2022-02-18 12:57:17.897  C:\MobileRestAPI\MobileRestAPI
+2022-02-18 12:57:18.109  [PUSH ALARM] {"multicast_id":3195370320542064130,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645156638236209%c195b7dcc195b7dc"}]}
+2022-02-18 12:59:15.969  [INFO][HttpGet getPushAlarmController] 
+2022-02-18 12:59:15.970  [INFO][HttpGet getPushAlarmController] : id:11111111, title:주차관제시스템, message:충격이감지됐습니다
+2022-02-18 12:59:15.979  C:\MobileRestAPI\MobileRestAPI
+2022-02-18 12:59:16.184  [PUSH ALARM] {"multicast_id":9000379678006964560,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645156756309177%c195b7dcc195b7dc"}]}
+2022-02-18 13:20:54.946  [INFO][HttpGet getPushAlarmController] 
+2022-02-18 13:20:54.947  [INFO][HttpGet getPushAlarmController] : id:11111111, title:주차관제시스템, message:충격이감지되었습니다
+2022-02-18 13:20:54.985  C:\MobileRestAPI\MobileRestAPI
+2022-02-18 13:20:55.201  [PUSH ALARM] {"multicast_id":4266162129150432591,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645158055644945%c195b7dcc195b7dc"}]}
+2022-02-18 13:21:07.178  [INFO][HttpGet getCustInfoController] 
+2022-02-18 13:21:07.179  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:fzxHwC5qQ0WBh-fUz3AWPZ:APA91bFzmMhHmrIwLL7PUMasbuhYZnnaACPCru6F4s9eFsNwhG4jfULVYlF_RFkTGcXRQAyvv1VIGVmAo677lVQnY9WH5WWYBzd785NgzAN5Ekfuws_FriOqEQhdvYefSUy4BpGdZ8di)
+2022-02-18 13:21:07.217  [DataBase SaveToken] 11111111,fzxHwC5qQ0WBh-fUz3AWPZ:APA91bFzmMhHmrIwLL7PUMasbuhYZnnaACPCru6F4s9eFsNwhG4jfULVYlF_RFkTGcXRQAyvv1VIGVmAo677lVQnY9WH5WWYBzd785NgzAN5Ekfuws_FriOqEQhdvYefSUy4BpGdZ8di)
+2022-02-18 13:21:07.369  [INFO][HttpGet getGateListController] 
+2022-02-18 13:21:07.369  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-02-18 13:21:23.280  [INFO][HttpGet getPushAlarmController] 
+2022-02-18 13:21:23.280  [INFO][HttpGet getPushAlarmController] : id:11111111, title:주차관제시스템, message:충격이감지되었습니다
+2022-02-18 13:21:23.295  C:\MobileRestAPI\MobileRestAPI
+2022-02-18 13:21:23.506  [PUSH ALARM] {"multicast_id":3328017218379532539,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645158083946151%c195b7dcc195b7dc"}]}
+2022-02-18 13:21:23.507  C:\MobileRestAPI\MobileRestAPI
+2022-02-18 13:21:23.722  [PUSH ALARM] {"multicast_id":7122942502271316460,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-18 13:21:23.761  [INFO][HttpGet getPushAlarmController] 
+2022-02-18 13:21:23.761  [INFO][HttpGet getPushAlarmController] : id:11111111, title:주차관제시스템, message:충격이감지되었습니다
+2022-02-18 13:21:23.764  C:\MobileRestAPI\MobileRestAPI
+2022-02-18 13:21:23.977  [PUSH ALARM] {"multicast_id":3471787904193535768,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645158084409320%c195b7dcc195b7dc"}]}
+2022-02-18 13:21:23.977  C:\MobileRestAPI\MobileRestAPI
+2022-02-18 13:21:24.160  [PUSH ALARM] {"multicast_id":4811570711243366144,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-18 13:23:43.342  [INFO][HttpGet getPushAlarmController] 
+2022-02-18 13:23:43.342  [INFO][HttpGet getPushAlarmController] : id:11111111, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-18 13:24:01.549  C:\MobileRestAPI\MobileRestAPI
+2022-02-18 13:24:01.740  [PUSH ALARM] {"multicast_id":2926300473341340273,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645158242663481%c195b7dcc195b7dc"}]}
+2022-02-18 13:24:03.202  C:\MobileRestAPI\MobileRestAPI
+2022-02-18 13:24:03.395  [PUSH ALARM] {"multicast_id":2397273067177424548,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-18 13:29:14.210  [INFO][HttpGet getPushAlarmController] 
+2022-02-18 13:29:14.212  [INFO][HttpGet getPushAlarmController] : id:11111111, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-18 13:29:15.015  [PUSH ALARM] {"multicast_id":2119135728900805271,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645158555929867%c195b7dcc195b7dc"}]}
+2022-02-18 13:29:15.202  [PUSH ALARM] {"multicast_id":7564847108410402695,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-18 13:29:26.782  [INFO][HttpGet getPushAlarmController] 
+2022-02-18 13:29:26.783  [INFO][HttpGet getPushAlarmController] : id:11111111, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-18 13:29:40.679  [PUSH ALARM] {"multicast_id":7193054326940527247,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645158581594526%c195b7dcc195b7dc"}]}
+2022-02-18 13:29:50.454  [PUSH ALARM] {"multicast_id":8135182066182030477,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-18 13:29:54.180  [INFO][HttpGet getPushAlarmController] 
+2022-02-18 13:29:54.181  [INFO][HttpGet getPushAlarmController] : id:11111111, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-18 13:29:56.684  [PUSH ALARM] {"multicast_id":1906779502964709425,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645158597593776%c195b7dcc195b7dc"}]}
+2022-02-18 13:29:56.873  [PUSH ALARM] {"multicast_id":4748659685622397826,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-18 13:30:02.001  [INFO][HttpGet getPushAlarmController] 
+2022-02-18 13:30:02.002  [INFO][HttpGet getPushAlarmController] : id:11111111, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-18 13:30:02.228  [PUSH ALARM] {"multicast_id":5251635705968394703,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645158603137985%c195b7dcc195b7dc"}]}
+2022-02-18 13:30:02.412  [PUSH ALARM] {"multicast_id":8676127990045405812,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-18 13:31:54.090  [INFO][HttpGet getPushAlarmController] 
+2022-02-18 13:31:54.092  [INFO][HttpGet getPushAlarmController] : id:11111111, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-18 13:31:54.872  [PUSH ALARM] {"multicast_id":7874575689449097432,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645158715793550%c195b7dcc195b7dc"}]}
+2022-02-18 13:31:55.068  [PUSH ALARM] {"multicast_id":4868652169955467946,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-18 13:32:21.618  [INFO][HttpGet getPushAlarmController] 
+2022-02-18 13:32:21.618  [INFO][HttpGet getPushAlarmController] : id:11111111, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-18 13:32:21.819  [PUSH ALARM] {"multicast_id":2597209588735504594,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645158742733647%c195b7dcc195b7dc"}]}
+2022-02-18 13:32:22.001  [PUSH ALARM] {"multicast_id":5075526790640636069,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-18 13:32:37.655  [INFO][HttpGet getPushAlarmController] 
+2022-02-18 13:32:37.658  [INFO][HttpGet getPushAlarmController] : id:11111111, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-18 13:32:38.464  [PUSH ALARM] {"multicast_id":2836525703587169724,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645158759368372%c195b7dcc195b7dc"}]}
+2022-02-18 13:32:38.657  [PUSH ALARM] {"multicast_id":7629198232692887323,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-18 13:33:04.663  [INFO][HttpGet getPushAlarmController] 
+2022-02-18 13:33:04.664  [INFO][HttpGet getPushAlarmController] : id:11111111, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-18 13:33:04.883  [PUSH ALARM] {"multicast_id":3400539406552392019,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645158785809879%c195b7dcc195b7dc"}]}
+2022-02-18 13:33:05.076  [PUSH ALARM] {"multicast_id":2397492560127490890,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-18 13:33:36.258  [INFO][HttpGet getPushAlarmController] 
+2022-02-18 13:33:36.259  [INFO][HttpGet getPushAlarmController] : id:11111111, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-18 13:33:36.483  [PUSH ALARM] {"multicast_id":7849680197147933665,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645158817391725%c195b7dcc195b7dc"}]}
+2022-02-18 13:33:36.669  [PUSH ALARM] {"multicast_id":1391958589009208689,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-18 13:33:43.888  [INFO][HttpGet getPushAlarmController] 
+2022-02-18 13:33:43.889  [INFO][HttpGet getPushAlarmController] : id:11111111, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-18 13:33:44.093  [PUSH ALARM] {"multicast_id":9205649688928838690,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645158825022083%c195b7dcc195b7dc"}]}
+2022-02-18 13:33:44.281  [PUSH ALARM] {"multicast_id":8003411759764826657,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-18 13:33:53.445  [INFO][HttpGet getCustInfoController] 
+2022-02-18 13:33:53.446  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:fzxHwC5qQ0WBh-fUz3AWPZ:APA91bFzmMhHmrIwLL7PUMasbuhYZnnaACPCru6F4s9eFsNwhG4jfULVYlF_RFkTGcXRQAyvv1VIGVmAo677lVQnY9WH5WWYBzd785NgzAN5Ekfuws_FriOqEQhdvYefSUy4BpGdZ8di)
+2022-02-18 13:33:53.512  [ERROR][DataBase SaveToken] 11111111,fzxHwC5qQ0WBh-fUz3AWPZ:APA91bFzmMhHmrIwLL7PUMasbuhYZnnaACPCru6F4s9eFsNwhG4jfULVYlF_RFkTGcXRQAyvv1VIGVmAo677lVQnY9WH5WWYBzd785NgzAN5Ekfuws_FriOqEQhdvYefSUy4BpGdZ8di)
+2022-02-18 13:33:53.513  [ERROR][DataBase SaveToken] Duplicate entry 'fzxHwC5qQ0WBh-fUz3AWPZ:APA91bFzmMhHmrIwLL7PUMasbuhYZnnaACPCru6F4' for key 'tb_devices_admin.PRIMARY'
+2022-02-18 13:33:53.640  [INFO][HttpGet getGateListController] 
+2022-02-18 13:33:53.641  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-02-18 13:33:55.442  [INFO][HttpGet getPushAlarmController] 
+2022-02-18 13:33:55.443  [INFO][HttpGet getPushAlarmController] : id:11111111, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-18 13:33:55.644  [PUSH ALARM] {"multicast_id":25232938943010000,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645158836572786%c195b7dcc195b7dc"}]}
+2022-02-18 13:33:55.819  [PUSH ALARM] {"multicast_id":5462088828656277553,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-18 13:34:04.390  [INFO][HttpGet getPushAlarmController] 
+2022-02-18 13:34:04.391  [INFO][HttpGet getPushAlarmController] : id:11111111, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-18 13:34:04.612  [PUSH ALARM] {"multicast_id":7111788273386206584,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645158845519290%c195b7dcc195b7dc"}]}
+2022-02-18 13:34:04.801  [PUSH ALARM] {"multicast_id":5255965904827181278,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-18 13:34:09.474  [INFO][HttpGet getPushAlarmController] 
+2022-02-18 13:34:09.475  [INFO][HttpGet getPushAlarmController] : id:11111111, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-18 13:34:09.670  [PUSH ALARM] {"multicast_id":2563698484635738392,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645158850590184%c195b7dcc195b7dc"}]}
+2022-02-18 13:34:09.847  [PUSH ALARM] {"multicast_id":1369970519952654956,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-18 13:34:17.162  [INFO][HttpGet getPushAlarmController] 
+2022-02-18 13:34:17.163  [INFO][HttpGet getPushAlarmController] : id:11111111, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-18 13:34:17.364  [PUSH ALARM] {"multicast_id":6147529113698710591,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645158858281403%c195b7dcc195b7dc"}]}
+2022-02-18 13:34:17.543  [PUSH ALARM] {"multicast_id":5656284397723103780,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-18 13:34:26.797  [INFO][HttpGet getPushAlarmController] 
+2022-02-18 13:34:26.798  [INFO][HttpGet getPushAlarmController] : id:11111111, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-18 13:34:26.997  [PUSH ALARM] {"multicast_id":6245724332365523910,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645158867910630%c195b7dcc195b7dc"}]}
+2022-02-18 13:34:27.179  [PUSH ALARM] {"multicast_id":1288836779994083317,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-18 13:34:32.106  [INFO][HttpGet getPushAlarmController] 
+2022-02-18 13:34:32.106  [INFO][HttpGet getPushAlarmController] : id:11111111, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-18 13:34:32.315  [PUSH ALARM] {"multicast_id":657562864664138344,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645158873228885%c195b7dcc195b7dc"}]}
+2022-02-18 13:34:32.492  [PUSH ALARM] {"multicast_id":834282082489038786,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-18 13:34:38.526  [INFO][HttpGet getPushAlarmController] 
+2022-02-18 13:34:38.527  [INFO][HttpGet getPushAlarmController] : id:11111111, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-18 13:34:38.737  [PUSH ALARM] {"multicast_id":8502414332285875342,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645158879647117%c195b7dcc195b7dc"}]}
+2022-02-18 13:34:38.925  [PUSH ALARM] {"multicast_id":6309560158780681790,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-18 13:34:45.240  [INFO][HttpGet getPushAlarmController] 
+2022-02-18 13:34:45.240  [INFO][HttpGet getPushAlarmController] : id:11111111, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-18 13:34:45.433  [PUSH ALARM] {"multicast_id":4659706828193693383,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645158886362028%c195b7dcc195b7dc"}]}
+2022-02-18 13:34:45.640  [PUSH ALARM] {"multicast_id":5118539556416178469,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-18 13:34:55.131  [INFO][HttpGet getPushAlarmController] 
+2022-02-18 13:34:55.132  [INFO][HttpGet getPushAlarmController] : id:11111111, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-18 13:34:55.324  [PUSH ALARM] {"multicast_id":5404178523721901530,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645158896251300%c195b7dcc195b7dc"}]}
+2022-02-18 13:34:55.509  [PUSH ALARM] {"multicast_id":7051704582394826257,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-18 13:36:57.710  [INFO][HttpGet getCustInfoController] 
+2022-02-18 13:36:57.711  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:fzxHwC5qQ0WBh-fUz3AWPZ:APA91bFzmMhHmrIwLL7PUMasbuhYZnnaACPCru6F4s9eFsNwhG4jfULVYlF_RFkTGcXRQAyvv1VIGVmAo677lVQnY9WH5WWYBzd785NgzAN5Ekfuws_FriOqEQhdvYefSUy4BpGdZ8di)
+2022-02-18 13:36:57.733  [ERROR][DataBase SaveToken] 11111111,fzxHwC5qQ0WBh-fUz3AWPZ:APA91bFzmMhHmrIwLL7PUMasbuhYZnnaACPCru6F4s9eFsNwhG4jfULVYlF_RFkTGcXRQAyvv1VIGVmAo677lVQnY9WH5WWYBzd785NgzAN5Ekfuws_FriOqEQhdvYefSUy4BpGdZ8di)
+2022-02-18 13:36:57.733  [ERROR][DataBase SaveToken] Duplicate entry 'fzxHwC5qQ0WBh-fUz3AWPZ:APA91bFzmMhHmrIwLL7PUMasbuhYZnnaACPCru6F4' for key 'tb_devices_admin.PRIMARY'
+2022-02-18 13:36:57.848  [INFO][HttpGet getGateListController] 
+2022-02-18 13:36:57.848  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-02-18 13:36:58.992  [INFO][HttpGet getPushAlarmController] 
+2022-02-18 13:36:58.993  [INFO][HttpGet getPushAlarmController] : id:11111111, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-18 13:36:59.192  [PUSH ALARM] {"multicast_id":1907056655310520673,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645159020111021%c195b7dcc195b7dc"}]}
+2022-02-18 13:36:59.373  [PUSH ALARM] {"multicast_id":3269472440069187680,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-18 13:39:15.269  [INFO][HttpGet getCustInfoController] 
+2022-02-18 13:39:15.271  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:fzxHwC5qQ0WBh-fUz3AWPZ:APA91bFzmMhHmrIwLL7PUMasbuhYZnnaACPCru6F4s9eFsNwhG4jfULVYlF_RFkTGcXRQAyvv1VIGVmAo677lVQnY9WH5WWYBzd785NgzAN5Ekfuws_FriOqEQhdvYefSUy4BpGdZ8di)
+2022-02-18 13:39:15.298  [ERROR][DataBase SaveToken] 11111111,fzxHwC5qQ0WBh-fUz3AWPZ:APA91bFzmMhHmrIwLL7PUMasbuhYZnnaACPCru6F4s9eFsNwhG4jfULVYlF_RFkTGcXRQAyvv1VIGVmAo677lVQnY9WH5WWYBzd785NgzAN5Ekfuws_FriOqEQhdvYefSUy4BpGdZ8di)
+2022-02-18 13:39:15.298  [ERROR][DataBase SaveToken] Duplicate entry 'fzxHwC5qQ0WBh-fUz3AWPZ:APA91bFzmMhHmrIwLL7PUMasbuhYZnnaACPCru6F4' for key 'tb_devices_admin.PRIMARY'
+2022-02-18 13:39:15.435  [INFO][HttpGet getGateListController] 
+2022-02-18 13:39:15.435  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-02-18 13:39:18.788  [INFO][HttpGet getPushAlarmController] 
+2022-02-18 13:39:18.788  [INFO][HttpGet getPushAlarmController] : id:11111111, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-18 13:39:18.998  [PUSH ALARM] {"multicast_id":1763888522136838860,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645159159906178%c195b7dcc195b7dc"}]}
+2022-02-18 13:39:19.178  [PUSH ALARM] {"multicast_id":6353418015544421678,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-18 14:01:45.956  [INFO][HttpGet getPushAlarmController] 
+2022-02-18 14:01:45.958  [INFO][HttpGet getPushAlarmController] : id:11111111, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-18 14:01:46.188  [PUSH ALARM] {"multicast_id":3583823740112712180,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645160507323542%c195b7dcc195b7dc"}]}
+2022-02-18 14:01:46.361  [PUSH ALARM] {"multicast_id":4871329692151053326,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-18 14:01:56.463  [INFO][HttpGet getPushAlarmController] 
+2022-02-18 14:01:56.463  [INFO][HttpGet getPushAlarmController] : id:11111111, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-18 14:01:56.663  [PUSH ALARM] {"multicast_id":3982427542796800873,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645160517804158%c195b7dcc195b7dc"}]}
+2022-02-18 14:01:56.849  [PUSH ALARM] {"multicast_id":7840243573220828797,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-18 14:02:04.574  [INFO][HttpGet getPushAlarmController] 
+2022-02-18 14:02:04.575  [INFO][HttpGet getPushAlarmController] : id:11111111, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-18 14:02:04.789  [PUSH ALARM] {"multicast_id":7936846295628597295,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645160525916104%c195b7dcc195b7dc"}]}
+2022-02-18 14:02:04.969  [PUSH ALARM] {"multicast_id":3784740843111658961,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-18 14:02:14.368  [INFO][HttpGet getPushAlarmController] 
+2022-02-18 14:02:14.368  [INFO][HttpGet getPushAlarmController] : id:11111111, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-18 14:02:14.570  [PUSH ALARM] {"multicast_id":3071188114735400092,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645160535701831%c195b7dcc195b7dc"}]}
+2022-02-18 14:02:14.746  [PUSH ALARM] {"multicast_id":7658345888064811573,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-18 14:02:19.268  [INFO][HttpGet getPushAlarmController] 
+2022-02-18 14:02:19.269  [INFO][HttpGet getPushAlarmController] : id:11111111, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-18 14:02:19.471  [PUSH ALARM] {"multicast_id":7046405667373475860,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645160540601140%c195b7dcc195b7dc"}]}
+2022-02-18 14:02:19.656  [PUSH ALARM] {"multicast_id":7796501641353207241,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-18 16:50:52.759  [INFO][HttpGet getPushAlarmController] 
+2022-02-18 16:50:52.760  [INFO][HttpGet getPushAlarmController] : id:11111111, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-18 16:50:53.054  [PUSH ALARM] {"multicast_id":4784985777949836439,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645170654967202%c195b7dcc195b7dc"}]}
+2022-02-18 16:50:53.237  [PUSH ALARM] {"multicast_id":664016128273501302,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-18 17:58:20.453  [INFO][HttpGet getCustInfoController] 
+2022-02-18 17:58:20.454  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:null)
+2022-02-18 17:58:20.600  [DataBase SaveToken] 11111111,null)
+2022-02-18 17:58:20.858  [INFO][HttpGet getGateListController] 
+2022-02-18 17:58:20.859  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-02-18 17:58:27.634  [INFO][HttpGet getPushAlarmController] 
+2022-02-18 17:58:27.635  [INFO][HttpGet getPushAlarmController] : id:11111111, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-18 17:58:27.868  [PUSH ALARM] {"multicast_id":1327944057241873146,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645174710650576%c195b7dcc195b7dc"}]}
+2022-02-18 17:58:28.058  [PUSH ALARM] {"multicast_id":4228030531457931687,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-18 17:58:28.250  [PUSH ALARM] {"multicast_id":3323466447114636608,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}

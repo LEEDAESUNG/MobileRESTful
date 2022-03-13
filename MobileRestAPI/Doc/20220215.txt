@@ -1,0 +1,52 @@
+2022-02-15 17:29:48.512  [INFO][HttpGet getCustInfoController] 
+2022-02-15 17:29:48.515  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:null
+2022-02-15 17:29:49.098  [ERROR][DataBase SaveToken] 11111111,null
+2022-02-15 17:29:49.098  [ERROR][DataBase SaveToken] Duplicate entry 'null' for key 'tb_devices_admin.PRIMARY'
+2022-02-15 17:29:49.489  [INFO][HttpGet getGateListController] 
+2022-02-15 17:29:49.491  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-02-15 17:29:55.244  [INFO][HttpGet getReserveInfoController] 
+2022-02-15 17:29:55.244  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:null
+2022-02-15 17:32:02.634  [INFO][HttpGet getCustInfoController] 
+2022-02-15 17:32:02.635  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:null
+2022-02-15 17:32:02.647  [DataBase SaveToken] 11111111,null
+2022-02-15 17:32:02.906  [INFO][HttpGet getGateListController] 
+2022-02-15 17:32:02.908  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-02-15 17:48:25.481  [INFO][HttpGet getCustInfoController] 
+2022-02-15 17:48:25.483  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:null
+2022-02-15 17:48:25.569  [DataBase SaveToken] 11111111,null
+2022-02-15 17:48:25.888  [INFO][HttpGet getGateListController] 
+2022-02-15 17:48:25.889  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-02-15 21:21:01.648  [INFO][HttpGet getCustInfoController] 
+2022-02-15 21:21:01.649  [INFO][HttpGet getCustInfoController] : id:null, password:null, token:null
+2022-02-15 21:21:12.526  [INFO][HttpGet getCustInfoController] 
+2022-02-15 21:21:12.528  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:null
+2022-02-15 21:21:12.565  [ERROR][DataBase SaveToken] 11111111,null
+2022-02-15 21:21:12.565  [ERROR][DataBase SaveToken] Duplicate entry 'null' for key 'tb_devices_admin.PRIMARY'
+2022-02-15 21:21:12.690  [INFO][HttpGet getReserveInfoController] 
+2022-02-15 21:21:12.691  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:null
+2022-02-15 21:21:12.789  [INFO][HttpGet getWebDCInfoController] 
+2022-02-15 21:21:12.789  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:null
+2022-02-15 21:21:13.417  [INFO][HttpGet getGateListController] 
+2022-02-15 21:21:13.418  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-02-15 21:21:13.785  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-02-15 21:21:13.785  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:null
+2022-02-15 21:25:00.044  [INFO][HttpGet getGateListController] 
+2022-02-15 21:25:00.045  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-02-15 21:25:10.642  [INFO][HttpGet getGateListController] 
+2022-02-15 21:25:10.645  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-02-15 21:25:40.207  [INFO][HttpGet getGateListController] 
+2022-02-15 21:25:40.209  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-02-15 21:26:00.645  [INFO][HttpGet getGateListController] 
+2022-02-15 21:26:00.648  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-02-15 23:36:41.643  [INFO][HttpGet getCustInfoController] 
+2022-02-15 23:36:41.644  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:null
+2022-02-15 23:36:41.766  [ERROR][DataBase SaveToken] 11111111,null
+2022-02-15 23:36:41.766  [ERROR][DataBase SaveToken] Duplicate entry 'null' for key 'tb_devices_admin.PRIMARY'
+2022-02-15 23:36:42.012  [INFO][HttpGet getReserveInfoController] 
+2022-02-15 23:36:42.012  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:null
+2022-02-15 23:36:42.069  [INFO][HttpGet getWebDCInfoController] 
+2022-02-15 23:36:42.069  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:null
+2022-02-15 23:36:42.430  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-02-15 23:36:42.431  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:null
+2022-02-15 23:36:42.538  [INFO][HttpGet getGateListController] 
+2022-02-15 23:36:42.539  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
