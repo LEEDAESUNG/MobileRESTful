@@ -1,0 +1,46 @@
+2022-01-31 00:08:51.275  [INFO][HttpGet getInCarListCarnoController] 
+2022-01-31 00:08:51.277  [INFO][HttpGet getInCarListCarnoController] : id:11111111, password:1234, carno:, token:
+2022-01-31 00:12:07.321  [INFO][HttpGet getGateListController] 
+2022-01-31 00:12:07.322  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-01-31 00:12:49.959  [INFO][HttpGet getGateListController] 
+2022-01-31 00:12:49.960  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-01-31 23:24:11.080  [INFO][HttpGet getCustInfoController] 
+2022-01-31 23:24:11.083  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:c_IWvRNwTj2wtt3w3PNtHZ:APA91bEyaZoCG8aDikPvgYSkmbGg0auQ6oP7KjnbpI5tLWubzJwb2QwNxdQ2hqsdYQJR7r9QujX6rmvjjdP45-MnYFmqTJs8JSc5U6FVfgOoxzWJWlG-Qn5dTBVfn0b7Gg0O-4PJSECl
+2022-01-31 23:24:11.195  [ERROR][DataBase SaveToken] 11111111,c_IWvRNwTj2wtt3w3PNtHZ:APA91bEyaZoCG8aDikPvgYSkmbGg0auQ6oP7KjnbpI5tLWubzJwb2QwNxdQ2hqsdYQJR7r9QujX6rmvjjdP45-MnYFmqTJs8JSc5U6FVfgOoxzWJWlG-Qn5dTBVfn0b7Gg0O-4PJSECl
+2022-01-31 23:24:11.195  [ERROR][DataBase SaveToken] Duplicate entry 'c_IWvRNwTj2wtt3w3PNtHZ:APA91bEyaZoCG8aDikPvgYSkmbGg0auQ6oP7Kjnbp' for key 'tb_devices_admin.PRIMARY'
+2022-01-31 23:24:11.346  [INFO][HttpGet getReserveInfoController] 
+2022-01-31 23:24:11.347  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:c_IWvRNwTj2wtt3w3PNtHZ:APA91bEyaZoCG8aDikPvgYSkmbGg0auQ6oP7KjnbpI5tLWubzJwb2QwNxdQ2hqsdYQJR7r9QujX6rmvjjdP45-MnYFmqTJs8JSc5U6FVfgOoxzWJWlG-Qn5dTBVfn0b7Gg0O-4PJSECl
+2022-01-31 23:24:11.445  [INFO][HttpGet getWebDCInfoController] 
+2022-01-31 23:24:11.446  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:c_IWvRNwTj2wtt3w3PNtHZ:APA91bEyaZoCG8aDikPvgYSkmbGg0auQ6oP7KjnbpI5tLWubzJwb2QwNxdQ2hqsdYQJR7r9QujX6rmvjjdP45-MnYFmqTJs8JSc5U6FVfgOoxzWJWlG-Qn5dTBVfn0b7Gg0O-4PJSECl
+2022-01-31 23:24:11.587  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-01-31 23:24:11.587  [INFO][HttpGet getGateListController] 
+2022-01-31 23:24:11.587  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:c_IWvRNwTj2wtt3w3PNtHZ:APA91bEyaZoCG8aDikPvgYSkmbGg0auQ6oP7KjnbpI5tLWubzJwb2QwNxdQ2hqsdYQJR7r9QujX6rmvjjdP45-MnYFmqTJs8JSc5U6FVfgOoxzWJWlG-Qn5dTBVfn0b7Gg0O-4PJSECl
+2022-01-31 23:24:11.588  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-01-31 23:24:11.605  [DataBase GetStringFieldValue] Could not find specified column in results: PDC1_COUNT
+2022-01-31 23:24:11.621  [DataBase GetStringFieldValue] Could not find specified column in results: PDC1_FREECOUNT
+2022-01-31 23:24:11.636  [DataBase GetStringFieldValue] Could not find specified column in results: PDC2_COUNT
+2022-01-31 23:24:11.650  [DataBase GetStringFieldValue] Could not find specified column in results: PDC2_FREECOUNT
+2022-01-31 23:24:11.665  [DataBase GetStringFieldValue] Could not find specified column in results: PDC3_COUNT
+2022-01-31 23:24:11.678  [DataBase GetStringFieldValue] Could not find specified column in results: PDC3_FREECOUNT
+2022-01-31 23:24:11.693  [DataBase GetStringFieldValue] Could not find specified column in results: PDC4_COUNT
+2022-01-31 23:24:11.707  [DataBase GetStringFieldValue] Could not find specified column in results: PDC4_FREECOUNT
+2022-01-31 23:24:11.721  [DataBase GetStringFieldValue] Could not find specified column in results: PDC5_COUNT
+2022-01-31 23:24:11.735  [DataBase GetStringFieldValue] Could not find specified column in results: PDC5_FREECOUNT
+2022-01-31 23:24:51.119  [INFO][HttpGet getInCarListCarnoController] 
+2022-01-31 23:24:51.120  [INFO][HttpGet getInCarListCarnoController] : id:11111111, password:1234, carno:, token:
+2022-01-31 23:55:38.812  [INFO][HttpGet getCustInfoController] 
+2022-01-31 23:55:38.815  [INFO][HttpGet getCustInfoController] : id:, password:, token:c_IWvRNwTj2wtt3w3PNtHZ:APA91bEyaZoCG8aDikPvgYSkmbGg0auQ6oP7KjnbpI5tLWubzJwb2QwNxdQ2hqsdYQJR7r9QujX6rmvjjdP45-MnYFmqTJs8JSc5U6FVfgOoxzWJWlG-Qn5dTBVfn0b7Gg0O-4PJSECl
+2022-01-31 23:55:47.449  [INFO][HttpGet getCustInfoController] 
+2022-01-31 23:55:47.450  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:c_IWvRNwTj2wtt3w3PNtHZ:APA91bEyaZoCG8aDikPvgYSkmbGg0auQ6oP7KjnbpI5tLWubzJwb2QwNxdQ2hqsdYQJR7r9QujX6rmvjjdP45-MnYFmqTJs8JSc5U6FVfgOoxzWJWlG-Qn5dTBVfn0b7Gg0O-4PJSECl
+2022-01-31 23:55:47.479  [ERROR][DataBase SaveToken] 11111111,c_IWvRNwTj2wtt3w3PNtHZ:APA91bEyaZoCG8aDikPvgYSkmbGg0auQ6oP7KjnbpI5tLWubzJwb2QwNxdQ2hqsdYQJR7r9QujX6rmvjjdP45-MnYFmqTJs8JSc5U6FVfgOoxzWJWlG-Qn5dTBVfn0b7Gg0O-4PJSECl
+2022-01-31 23:55:47.480  [ERROR][DataBase SaveToken] Duplicate entry 'c_IWvRNwTj2wtt3w3PNtHZ:APA91bEyaZoCG8aDikPvgYSkmbGg0auQ6oP7Kjnbp' for key 'tb_devices_admin.PRIMARY'
+2022-01-31 23:55:47.606  [INFO][HttpGet getReserveInfoController] 
+2022-01-31 23:55:47.606  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:c_IWvRNwTj2wtt3w3PNtHZ:APA91bEyaZoCG8aDikPvgYSkmbGg0auQ6oP7KjnbpI5tLWubzJwb2QwNxdQ2hqsdYQJR7r9QujX6rmvjjdP45-MnYFmqTJs8JSc5U6FVfgOoxzWJWlG-Qn5dTBVfn0b7Gg0O-4PJSECl
+2022-01-31 23:55:47.833  [INFO][HttpGet getWebDCInfoController] 
+2022-01-31 23:55:47.833  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:c_IWvRNwTj2wtt3w3PNtHZ:APA91bEyaZoCG8aDikPvgYSkmbGg0auQ6oP7KjnbpI5tLWubzJwb2QwNxdQ2hqsdYQJR7r9QujX6rmvjjdP45-MnYFmqTJs8JSc5U6FVfgOoxzWJWlG-Qn5dTBVfn0b7Gg0O-4PJSECl
+2022-01-31 23:55:48.009  [INFO][HttpGet getGateListController] 
+2022-01-31 23:55:48.009  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-01-31 23:55:48.015  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-01-31 23:55:48.015  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:c_IWvRNwTj2wtt3w3PNtHZ:APA91bEyaZoCG8aDikPvgYSkmbGg0auQ6oP7KjnbpI5tLWubzJwb2QwNxdQ2hqsdYQJR7r9QujX6rmvjjdP45-MnYFmqTJs8JSc5U6FVfgOoxzWJWlG-Qn5dTBVfn0b7Gg0O-4PJSECl
+2022-01-31 23:55:51.945  [INFO][HttpGet getInCarListCarnoController] 
+2022-01-31 23:55:51.945  [INFO][HttpGet getInCarListCarnoController] : id:11111111, password:1234, carno:, token:

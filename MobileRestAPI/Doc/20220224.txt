@@ -1,0 +1,803 @@
+2022-02-24 22:45:05.840  [INFO][HttpGet getCustInfoController] 
+2022-02-24 22:45:05.845  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:e_vap73iRPiOujxaes5IP4:APA91bEZZx2cw3wLaoAOhC1YpeZT-uKrdOgOuNfHbxDkn0warUpSBH33BUuGI1yX0z60XHzjbwPCpu3l3YvGFIrSdSNgPPYipeeLv_O54K7CLyVnZftCuw_MCJdfW2VMINZzWw89GYHC
+2022-02-24 22:45:05.942  [DataBase SaveToken] 11111111,e_vap73iRPiOujxaes5IP4:APA91bEZZx2cw3wLaoAOhC1YpeZT-uKrdOgOuNfHbxDkn0warUpSBH33BUuGI1yX0z60XHzjbwPCpu3l3YvGFIrSdSNgPPYipeeLv_O54K7CLyVnZftCuw_MCJdfW2VMINZzWw89GYHC
+2022-02-24 22:45:06.011  [INFO][HttpGet getReserveInfoController] 
+2022-02-24 22:45:06.011  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:e_vap73iRPiOujxaes5IP4:APA91bEZZx2cw3wLaoAOhC1YpeZT-uKrdOgOuNfHbxDkn0warUpSBH33BUuGI1yX0z60XHzjbwPCpu3l3YvGFIrSdSNgPPYipeeLv_O54K7CLyVnZftCuw_MCJdfW2VMINZzWw89GYHC
+2022-02-24 22:45:06.062  [INFO][HttpGet getWebDCInfoController] 
+2022-02-24 22:45:06.063  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:e_vap73iRPiOujxaes5IP4:APA91bEZZx2cw3wLaoAOhC1YpeZT-uKrdOgOuNfHbxDkn0warUpSBH33BUuGI1yX0z60XHzjbwPCpu3l3YvGFIrSdSNgPPYipeeLv_O54K7CLyVnZftCuw_MCJdfW2VMINZzWw89GYHC
+2022-02-24 22:45:06.155  [INFO][HttpGet getGateListController] 
+2022-02-24 22:45:06.155  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-02-24 22:45:06.168  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-02-24 22:45:06.169  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:e_vap73iRPiOujxaes5IP4:APA91bEZZx2cw3wLaoAOhC1YpeZT-uKrdOgOuNfHbxDkn0warUpSBH33BUuGI1yX0z60XHzjbwPCpu3l3YvGFIrSdSNgPPYipeeLv_O54K7CLyVnZftCuw_MCJdfW2VMINZzWw89GYHC
+2022-02-24 23:08:30.767  [INFO][HttpGet getPushAlarmController] 
+2022-02-24 23:08:30.773  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-24 23:08:31.060  [PUSH ALARM] {"multicast_id":8718733177759434693,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:08:31.263  [PUSH ALARM] {"multicast_id":348087677230654665,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:08:31.466  [PUSH ALARM] {"multicast_id":4428093364880514877,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:08:31.708  [PUSH ALARM] {"multicast_id":6923101656326075727,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645711718491859%c195b7dcc195b7dc"}]}
+2022-02-24 23:08:31.915  [PUSH ALARM] {"multicast_id":1283203166016921111,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645711718715356%c4872d34c4872d34"}]}
+2022-02-24 23:08:32.086  [PUSH ALARM] {"multicast_id":1847559391773756713,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:08:32.268  [PUSH ALARM] {"multicast_id":2567870179653267626,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:08:32.448  [PUSH ALARM] {"multicast_id":5275483711181345487,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:08:32.647  [PUSH ALARM] {"multicast_id":548256154531425147,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645711719444299%c195b7dcc195b7dc"}]}
+2022-02-24 23:08:32.852  [PUSH ALARM] {"multicast_id":5571120329191251920,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:08:33.050  [PUSH ALARM] {"multicast_id":5796437877679897074,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:08:33.247  [PUSH ALARM] {"multicast_id":5479350281997130891,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:08:33.433  [PUSH ALARM] {"multicast_id":3386523713671262450,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:08:33.617  [PUSH ALARM] {"multicast_id":4783573145908915209,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:08:33.811  [PUSH ALARM] {"multicast_id":3819290270092404600,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:08:33.996  [PUSH ALARM] {"multicast_id":2098720620266246297,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:08:34.180  [PUSH ALARM] {"multicast_id":7031198172901554852,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:08:34.372  [PUSH ALARM] {"multicast_id":5948989484358071607,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:08:34.545  [PUSH ALARM] {"multicast_id":4335231316076384101,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:08:57.924  [INFO][HttpGet getPushAlarmController] 
+2022-02-24 23:08:57.925  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-24 23:08:58.119  [PUSH ALARM] {"multicast_id":2231831008214191720,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:08:58.294  [PUSH ALARM] {"multicast_id":1840255254933315383,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:08:58.477  [PUSH ALARM] {"multicast_id":2483380037122853497,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:08:58.678  [PUSH ALARM] {"multicast_id":8787383329909627885,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645711745472176%c195b7dcc195b7dc"}]}
+2022-02-24 23:08:58.886  [PUSH ALARM] {"multicast_id":9093311680914789076,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645711745674227%c4872d34c4872d34"}]}
+2022-02-24 23:08:59.082  [PUSH ALARM] {"multicast_id":4488356958884875702,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:08:59.270  [PUSH ALARM] {"multicast_id":1529977205537440889,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:08:59.444  [PUSH ALARM] {"multicast_id":5813930465540516148,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:08:59.652  [PUSH ALARM] {"multicast_id":5608585165275387017,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645711746431656%c195b7dcc195b7dc"}]}
+2022-02-24 23:08:59.844  [PUSH ALARM] {"multicast_id":1083774356688628302,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:00.034  [PUSH ALARM] {"multicast_id":2650684572280688862,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:00.223  [PUSH ALARM] {"multicast_id":1148180419893671368,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:00.416  [PUSH ALARM] {"multicast_id":3886526654564442303,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:00.609  [PUSH ALARM] {"multicast_id":7787164188266023776,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:00.803  [PUSH ALARM] {"multicast_id":4850641688229870127,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:09:00.997  [PUSH ALARM] {"multicast_id":1479385363483986569,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:01.186  [PUSH ALARM] {"multicast_id":1340622527457975554,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:01.374  [PUSH ALARM] {"multicast_id":8793089310782301663,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:09:01.549  [PUSH ALARM] {"multicast_id":4808982615308777543,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:08.079  [INFO][HttpGet getPushAlarmController] 
+2022-02-24 23:09:08.080  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-24 23:09:08.358  [PUSH ALARM] {"multicast_id":4719017070661999084,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:08.546  [PUSH ALARM] {"multicast_id":7204642446030791069,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:08.722  [PUSH ALARM] {"multicast_id":912563883400434518,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:09:08.929  [PUSH ALARM] {"multicast_id":5457402976195200352,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645711755711658%c195b7dcc195b7dc"}]}
+2022-02-24 23:09:09.138  [PUSH ALARM] {"multicast_id":9103918464237051456,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645711755922769%c4872d34c4872d34"}]}
+2022-02-24 23:09:09.334  [PUSH ALARM] {"multicast_id":2036264573692085170,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:09.508  [PUSH ALARM] {"multicast_id":5240044451630284553,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:09:09.698  [PUSH ALARM] {"multicast_id":597591412893409498,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:09.899  [PUSH ALARM] {"multicast_id":5250416051537481112,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645711756699652%c195b7dcc195b7dc"}]}
+2022-02-24 23:09:10.084  [PUSH ALARM] {"multicast_id":6223506919613772020,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:10.276  [PUSH ALARM] {"multicast_id":4246344329673810569,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:10.461  [PUSH ALARM] {"multicast_id":3534101872892830316,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:10.659  [PUSH ALARM] {"multicast_id":4727837209757783397,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:10.832  [PUSH ALARM] {"multicast_id":1864017814320702090,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:11.024  [PUSH ALARM] {"multicast_id":6283348841759721528,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:09:11.205  [PUSH ALARM] {"multicast_id":5325353688208735647,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:11.383  [PUSH ALARM] {"multicast_id":7165003538195345198,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:11.552  [PUSH ALARM] {"multicast_id":8287330970597161687,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:09:11.737  [PUSH ALARM] {"multicast_id":1776375621167382555,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:15.286  [INFO][HttpGet getPushAlarmController] 
+2022-02-24 23:09:15.287  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-24 23:09:15.989  [PUSH ALARM] {"multicast_id":1207623356603483645,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:16.166  [PUSH ALARM] {"multicast_id":7772111309963968193,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:16.340  [PUSH ALARM] {"multicast_id":8000835508430469268,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:09:16.551  [PUSH ALARM] {"multicast_id":909343791822636947,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645711763340508%c195b7dcc195b7dc"}]}
+2022-02-24 23:09:16.759  [PUSH ALARM] {"multicast_id":600391621367532333,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645711763559283%c4872d34c4872d34"}]}
+2022-02-24 23:09:16.954  [PUSH ALARM] {"multicast_id":6812057338267858606,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:17.133  [PUSH ALARM] {"multicast_id":5584397924058456187,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:09:17.333  [PUSH ALARM] {"multicast_id":8837115762602145132,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:17.535  [PUSH ALARM] {"multicast_id":3340702833299724060,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645711764319260%c195b7dcc195b7dc"}]}
+2022-02-24 23:09:17.716  [PUSH ALARM] {"multicast_id":2107069912457999098,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:17.896  [PUSH ALARM] {"multicast_id":3067759241762382816,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:18.089  [PUSH ALARM] {"multicast_id":6063276628076228783,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:18.261  [PUSH ALARM] {"multicast_id":4988587607874696359,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:18.444  [PUSH ALARM] {"multicast_id":1908190153954917631,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:18.615  [PUSH ALARM] {"multicast_id":860086247536390414,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:09:18.794  [PUSH ALARM] {"multicast_id":8576139163542208317,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:18.974  [PUSH ALARM] {"multicast_id":3647864710405103365,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:19.153  [PUSH ALARM] {"multicast_id":2475133480571966705,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:09:19.323  [PUSH ALARM] {"multicast_id":8012786701753492846,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:23.933  [INFO][HttpGet getPushAlarmController] 
+2022-02-24 23:09:23.933  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-24 23:09:24.114  [PUSH ALARM] {"multicast_id":3110758012646281272,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:24.290  [PUSH ALARM] {"multicast_id":5029363166974002829,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:24.469  [PUSH ALARM] {"multicast_id":7557098049406323981,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:09:24.658  [PUSH ALARM] {"multicast_id":2482325326080689551,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645711771451886%c195b7dcc195b7dc"}]}
+2022-02-24 23:09:24.868  [PUSH ALARM] {"multicast_id":3386794245718534366,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645711771660283%c4872d34c4872d34"}]}
+2022-02-24 23:09:25.054  [PUSH ALARM] {"multicast_id":8012921986602456815,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:25.249  [PUSH ALARM] {"multicast_id":7327408404758146585,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:09:25.422  [PUSH ALARM] {"multicast_id":4572246302817850277,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:25.609  [PUSH ALARM] {"multicast_id":4512963157783090814,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645711772417591%c195b7dcc195b7dc"}]}
+2022-02-24 23:09:25.797  [PUSH ALARM] {"multicast_id":7111648868216737612,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:25.990  [PUSH ALARM] {"multicast_id":1978107612640039335,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:26.168  [PUSH ALARM] {"multicast_id":4331309677859879206,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:26.342  [PUSH ALARM] {"multicast_id":3398693947947116715,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:26.541  [PUSH ALARM] {"multicast_id":2520516385620076537,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:26.718  [PUSH ALARM] {"multicast_id":4235254644352758451,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:09:26.897  [PUSH ALARM] {"multicast_id":4889235834303120477,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:27.083  [PUSH ALARM] {"multicast_id":8633898125011521027,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:27.278  [PUSH ALARM] {"multicast_id":4045575237277695789,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:09:27.472  [PUSH ALARM] {"multicast_id":3704772325558435933,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:52.474  [INFO][HttpGet getPushAlarmController] 
+2022-02-24 23:09:52.474  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-24 23:09:52.659  [PUSH ALARM] {"multicast_id":5949314388676873943,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:52.841  [PUSH ALARM] {"multicast_id":2996006376967648987,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:53.024  [PUSH ALARM] {"multicast_id":1877124377935081265,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:09:53.211  [PUSH ALARM] {"multicast_id":2935367993208724845,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645711800013216%c195b7dcc195b7dc"}]}
+2022-02-24 23:09:53.392  [PUSH ALARM] {"multicast_id":6242961325883397385,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645711800194726%c4872d34c4872d34"}]}
+2022-02-24 23:09:53.571  [PUSH ALARM] {"multicast_id":8787400807792127840,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:53.746  [PUSH ALARM] {"multicast_id":2575482393674611667,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:09:53.920  [PUSH ALARM] {"multicast_id":8052101028799873165,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:54.123  [PUSH ALARM] {"multicast_id":240568809079650694,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645711800913876%c195b7dcc195b7dc"}]}
+2022-02-24 23:09:54.304  [PUSH ALARM] {"multicast_id":8050451376717241611,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:54.486  [PUSH ALARM] {"multicast_id":2483542256930442707,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:54.670  [PUSH ALARM] {"multicast_id":8892264325325864688,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:54.847  [PUSH ALARM] {"multicast_id":349280356823017517,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:55.027  [PUSH ALARM] {"multicast_id":397377527489224613,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:55.203  [PUSH ALARM] {"multicast_id":5285781682911919736,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:09:55.396  [PUSH ALARM] {"multicast_id":320553067185927620,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:55.573  [PUSH ALARM] {"multicast_id":8341606588147291264,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:09:55.760  [PUSH ALARM] {"multicast_id":2513969037897145024,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:09:55.937  [PUSH ALARM] {"multicast_id":7076816727649324367,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:20:20.928  [INFO][HttpGet getGateListController] 
+2022-02-24 23:20:20.929  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-02-24 23:21:26.818  [INFO][HttpGet getGateListController] 
+2022-02-24 23:21:26.819  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-02-24 23:23:34.776  [INFO][HttpGet getPushAlarmController] 
+2022-02-24 23:23:34.776  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-24 23:23:34.989  [PUSH ALARM] {"multicast_id":2578781021468283356,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:23:35.177  [PUSH ALARM] {"multicast_id":1920931794162092143,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:23:35.352  [PUSH ALARM] {"multicast_id":208839164520765874,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:23:35.558  [PUSH ALARM] {"multicast_id":2577868775931635662,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645712622351014%c195b7dcc195b7dc"}]}
+2022-02-24 23:23:35.764  [PUSH ALARM] {"multicast_id":6840097502909200518,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645712622551365%c4872d34c4872d34"}]}
+2022-02-24 23:23:35.943  [PUSH ALARM] {"multicast_id":1543035003377023812,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:23:36.115  [PUSH ALARM] {"multicast_id":951495731120020101,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:23:36.310  [PUSH ALARM] {"multicast_id":4568296881276928040,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:23:36.484  [PUSH ALARM] {"multicast_id":8602482531617970675,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:23:36.662  [PUSH ALARM] {"multicast_id":5116775904749687080,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:23:36.841  [PUSH ALARM] {"multicast_id":7958427402801520073,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:23:37.016  [PUSH ALARM] {"multicast_id":6974684389704221013,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:23:37.190  [PUSH ALARM] {"multicast_id":8380220698831761911,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:23:37.386  [PUSH ALARM] {"multicast_id":2079469543585789499,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:23:37.565  [PUSH ALARM] {"multicast_id":1746774153990165687,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:23:37.744  [PUSH ALARM] {"multicast_id":8513050326911133839,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:23:37.940  [PUSH ALARM] {"multicast_id":3680100184984946144,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:23:38.114  [PUSH ALARM] {"multicast_id":3292673718543399323,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:23:38.299  [PUSH ALARM] {"multicast_id":6600398717754788928,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:24:03.640  [INFO][HttpGet getCustInfoController] 
+2022-02-24 23:24:03.642  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:cM-y3ks8TtuWN0_6JDcbaI:APA91bGxn_NjaEaIR-NBO5Fn-TI_2PkD9NiuYQpudcfIxAnmHqsWZ0-4GUM9D3pf3psE5yfJd3p6tpqkf0SJDPXnAvvOaLom4FatKy_n9M0f-QygvG5fyHek0nx084EATMyjIsOsSL1o
+2022-02-24 23:24:03.670  [DataBase SaveToken] 11111111,cM-y3ks8TtuWN0_6JDcbaI:APA91bGxn_NjaEaIR-NBO5Fn-TI_2PkD9NiuYQpudcfIxAnmHqsWZ0-4GUM9D3pf3psE5yfJd3p6tpqkf0SJDPXnAvvOaLom4FatKy_n9M0f-QygvG5fyHek0nx084EATMyjIsOsSL1o
+2022-02-24 23:24:03.751  [INFO][HttpGet getReserveInfoController] 
+2022-02-24 23:24:03.751  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:cM-y3ks8TtuWN0_6JDcbaI:APA91bGxn_NjaEaIR-NBO5Fn-TI_2PkD9NiuYQpudcfIxAnmHqsWZ0-4GUM9D3pf3psE5yfJd3p6tpqkf0SJDPXnAvvOaLom4FatKy_n9M0f-QygvG5fyHek0nx084EATMyjIsOsSL1o
+2022-02-24 23:24:03.817  [INFO][HttpGet getWebDCInfoController] 
+2022-02-24 23:24:03.817  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:cM-y3ks8TtuWN0_6JDcbaI:APA91bGxn_NjaEaIR-NBO5Fn-TI_2PkD9NiuYQpudcfIxAnmHqsWZ0-4GUM9D3pf3psE5yfJd3p6tpqkf0SJDPXnAvvOaLom4FatKy_n9M0f-QygvG5fyHek0nx084EATMyjIsOsSL1o
+2022-02-24 23:24:03.927  [INFO][HttpGet getGateListController] 
+2022-02-24 23:24:03.928  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-02-24 23:24:03.930  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-02-24 23:24:03.931  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:cM-y3ks8TtuWN0_6JDcbaI:APA91bGxn_NjaEaIR-NBO5Fn-TI_2PkD9NiuYQpudcfIxAnmHqsWZ0-4GUM9D3pf3psE5yfJd3p6tpqkf0SJDPXnAvvOaLom4FatKy_n9M0f-QygvG5fyHek0nx084EATMyjIsOsSL1o
+2022-02-24 23:24:06.722  [INFO][HttpGet getPushAlarmController] 
+2022-02-24 23:24:06.722  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-24 23:24:06.905  [PUSH ALARM] {"multicast_id":6603180899468296278,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:24:07.108  [PUSH ALARM] {"multicast_id":800542816307038365,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645712653890863%c195b7dcc195b7dc"}]}
+2022-02-24 23:24:07.298  [PUSH ALARM] {"multicast_id":7621969385549513263,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:24:07.473  [PUSH ALARM] {"multicast_id":3990866983838654258,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:24:08.165  [PUSH ALARM] {"multicast_id":2945413008431611867,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645712654808407%c195b7dcc195b7dc"}]}
+2022-02-24 23:24:08.349  [PUSH ALARM] {"multicast_id":1484913299998240963,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645712655152664%c4872d34c4872d34"}]}
+2022-02-24 23:24:08.536  [PUSH ALARM] {"multicast_id":8532141093081799178,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:24:08.716  [PUSH ALARM] {"multicast_id":9132362916683971321,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:24:08.899  [PUSH ALARM] {"multicast_id":5395000853460974327,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:24:09.083  [PUSH ALARM] {"multicast_id":5008334179927136760,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:24:09.266  [PUSH ALARM] {"multicast_id":6387354439021583811,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:24:09.447  [PUSH ALARM] {"multicast_id":4998881499802769426,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:24:09.649  [PUSH ALARM] {"multicast_id":3620446613499488312,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:24:09.830  [PUSH ALARM] {"multicast_id":7217524804419858571,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:24:10.010  [PUSH ALARM] {"multicast_id":7781445964306229088,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:24:10.184  [PUSH ALARM] {"multicast_id":8943658079591251004,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:24:10.361  [PUSH ALARM] {"multicast_id":4214545672175856157,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:24:10.576  [PUSH ALARM] {"multicast_id":8139298273969483914,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:24:10.762  [PUSH ALARM] {"multicast_id":3809402897516001648,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:24:10.940  [PUSH ALARM] {"multicast_id":4357742078187488883,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:24:11.311  [INFO][HttpGet getPushAlarmController] 
+2022-02-24 23:24:11.312  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-24 23:24:11.491  [PUSH ALARM] {"multicast_id":8311149187908478079,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:24:11.687  [PUSH ALARM] {"multicast_id":8984390822825365369,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645712658493770%c195b7dcc195b7dc"}]}
+2022-02-24 23:24:11.861  [PUSH ALARM] {"multicast_id":7946818885352802067,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:24:12.036  [PUSH ALARM] {"multicast_id":7915439007347174468,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:24:12.228  [PUSH ALARM] {"multicast_id":4719170685281741604,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645712659026140%c195b7dcc195b7dc"}]}
+2022-02-24 23:24:12.409  [PUSH ALARM] {"multicast_id":4702720420372881920,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645712659211942%c4872d34c4872d34"}]}
+2022-02-24 23:24:12.589  [PUSH ALARM] {"multicast_id":3466272120024754042,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:24:12.759  [PUSH ALARM] {"multicast_id":3266479560835345497,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:24:12.936  [PUSH ALARM] {"multicast_id":4364778934079902363,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:24:13.179  [PUSH ALARM] {"multicast_id":1280006053583136795,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:24:13.407  [PUSH ALARM] {"multicast_id":2169533015734201667,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:24:13.603  [PUSH ALARM] {"multicast_id":7215499838893246714,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:24:13.786  [PUSH ALARM] {"multicast_id":6653968024914927249,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:24:13.978  [PUSH ALARM] {"multicast_id":71819676452979230,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:24:14.151  [PUSH ALARM] {"multicast_id":2608087456373214736,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:24:14.325  [PUSH ALARM] {"multicast_id":2320651437457471827,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:24:14.504  [PUSH ALARM] {"multicast_id":9080890966042657138,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:24:14.683  [PUSH ALARM] {"multicast_id":2397451386372057960,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:24:14.852  [PUSH ALARM] {"multicast_id":3341662190343623979,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:24:15.037  [PUSH ALARM] {"multicast_id":1870597984221672484,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:24:48.825  [INFO][HttpGet getPushAlarmController] 
+2022-02-24 23:24:48.827  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-24 23:24:49.013  [PUSH ALARM] {"multicast_id":8036228119066058522,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:24:49.225  [PUSH ALARM] {"multicast_id":4230696450499850373,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645712696004075%c195b7dcc195b7dc"}]}
+2022-02-24 23:24:49.416  [PUSH ALARM] {"multicast_id":4158564526428809837,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:24:49.589  [PUSH ALARM] {"multicast_id":5209110092601973603,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:24:49.775  [PUSH ALARM] {"multicast_id":8488667682050944406,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645712696573221%c195b7dcc195b7dc"}]}
+2022-02-24 23:24:49.959  [PUSH ALARM] {"multicast_id":2435304760488958648,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645712696761990%c4872d34c4872d34"}]}
+2022-02-24 23:24:50.135  [PUSH ALARM] {"multicast_id":619972331921098253,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:24:50.311  [PUSH ALARM] {"multicast_id":4229762577024451551,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:24:50.495  [PUSH ALARM] {"multicast_id":680636133640144054,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:24:50.670  [PUSH ALARM] {"multicast_id":693089210100594145,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:24:50.855  [PUSH ALARM] {"multicast_id":8252000441874660767,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:24:51.033  [PUSH ALARM] {"multicast_id":8638379755199466750,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:24:51.212  [PUSH ALARM] {"multicast_id":3402455173498013863,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:24:51.390  [PUSH ALARM] {"multicast_id":1720684536807725949,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:24:51.567  [PUSH ALARM] {"multicast_id":5454654572495289879,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:24:51.747  [PUSH ALARM] {"multicast_id":7136811104666075281,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:24:51.925  [PUSH ALARM] {"multicast_id":9168186576082616581,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:24:52.120  [PUSH ALARM] {"multicast_id":1462659808210330125,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:24:52.302  [PUSH ALARM] {"multicast_id":197917620849623414,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:24:52.485  [PUSH ALARM] {"multicast_id":8110787032725539464,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:25:13.015  [INFO][HttpGet getPushAlarmController] 
+2022-02-24 23:25:13.016  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-24 23:25:13.206  [PUSH ALARM] {"multicast_id":2712804276971142012,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:25:13.402  [PUSH ALARM] {"multicast_id":6112408111708041306,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645712720190797%c195b7dcc195b7dc"}]}
+2022-02-24 23:25:13.585  [PUSH ALARM] {"multicast_id":7707434618901231943,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:25:13.756  [PUSH ALARM] {"multicast_id":1672445855730844015,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:25:13.953  [PUSH ALARM] {"multicast_id":5964517796731710109,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645712720744937%c195b7dcc195b7dc"}]}
+2022-02-24 23:25:14.153  [PUSH ALARM] {"multicast_id":5537903730702498479,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645712720943571%c4872d34c4872d34"}]}
+2022-02-24 23:25:14.325  [PUSH ALARM] {"multicast_id":824281011825008274,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:25:14.494  [PUSH ALARM] {"multicast_id":4479718771099295243,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:25:14.681  [PUSH ALARM] {"multicast_id":5389563881639139956,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:25:14.868  [PUSH ALARM] {"multicast_id":5833909520692999059,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:25:15.048  [PUSH ALARM] {"multicast_id":8911378021836762280,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:25:15.225  [PUSH ALARM] {"multicast_id":2198528692926407058,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:25:15.409  [PUSH ALARM] {"multicast_id":4613363681879241225,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:25:15.583  [PUSH ALARM] {"multicast_id":724230010787892181,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:25:15.765  [PUSH ALARM] {"multicast_id":3308018221427789998,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:25:15.934  [PUSH ALARM] {"multicast_id":6571531885889420086,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:25:16.113  [PUSH ALARM] {"multicast_id":7688603057263858006,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:25:16.285  [PUSH ALARM] {"multicast_id":4633503272101672716,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:25:16.460  [PUSH ALARM] {"multicast_id":3126907198452995204,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:25:16.643  [PUSH ALARM] {"multicast_id":4700431427229850273,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:25:26.584  [INFO][HttpGet getPushAlarmController] 
+2022-02-24 23:25:26.585  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-24 23:25:26.761  [PUSH ALARM] {"multicast_id":1033914201118782672,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:25:26.958  [PUSH ALARM] {"multicast_id":3098751221452490910,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645712733757377%c195b7dcc195b7dc"}]}
+2022-02-24 23:25:27.135  [PUSH ALARM] {"multicast_id":6566208536692805620,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:25:27.319  [PUSH ALARM] {"multicast_id":9195394140290534145,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:25:27.522  [PUSH ALARM] {"multicast_id":8657519682472286149,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645712734308065%c195b7dcc195b7dc"}]}
+2022-02-24 23:25:27.728  [PUSH ALARM] {"multicast_id":7476850221541879157,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645712734511027%c4872d34c4872d34"}]}
+2022-02-24 23:25:27.906  [PUSH ALARM] {"multicast_id":5221363338194866001,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:25:28.085  [PUSH ALARM] {"multicast_id":6232358485036014484,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:25:28.261  [PUSH ALARM] {"multicast_id":460655349997411692,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:25:28.488  [PUSH ALARM] {"multicast_id":3039242669608939897,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:25:28.670  [PUSH ALARM] {"multicast_id":4611783573558891715,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:25:28.842  [PUSH ALARM] {"multicast_id":6165558639634796591,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:25:29.038  [PUSH ALARM] {"multicast_id":3435332216799974104,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:25:29.212  [PUSH ALARM] {"multicast_id":8222818547192547500,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:25:29.391  [PUSH ALARM] {"multicast_id":6374640517846767621,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:25:29.560  [PUSH ALARM] {"multicast_id":5108760430503412545,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:25:29.741  [PUSH ALARM] {"multicast_id":2131698973362916062,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:25:29.914  [PUSH ALARM] {"multicast_id":5993828462979279635,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:25:30.090  [PUSH ALARM] {"multicast_id":7438061880405777779,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:25:30.263  [PUSH ALARM] {"multicast_id":4417072393010002481,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:27:37.606  [INFO][HttpGet getCustInfoController] 
+2022-02-24 23:27:37.607  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:cU-p9WH-RQS0CwCk0KM9iS:APA91bExaElsKj1odqKmIlAbdvl34k88RQ4ds3vkgmLkNdV3teaBjlROpk61xzW0BoXPsb-6DKbe2jphk608Ur5sqpcMOMPPvDgpdcJGSuyTbAvm3adAM_M-pphFYBGPFYRvgx4EWQ3B
+2022-02-24 23:27:37.623  [DataBase SaveToken] 11111111,cU-p9WH-RQS0CwCk0KM9iS:APA91bExaElsKj1odqKmIlAbdvl34k88RQ4ds3vkgmLkNdV3teaBjlROpk61xzW0BoXPsb-6DKbe2jphk608Ur5sqpcMOMPPvDgpdcJGSuyTbAvm3adAM_M-pphFYBGPFYRvgx4EWQ3B
+2022-02-24 23:27:37.729  [INFO][HttpGet getReserveInfoController] 
+2022-02-24 23:27:37.729  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:cU-p9WH-RQS0CwCk0KM9iS:APA91bExaElsKj1odqKmIlAbdvl34k88RQ4ds3vkgmLkNdV3teaBjlROpk61xzW0BoXPsb-6DKbe2jphk608Ur5sqpcMOMPPvDgpdcJGSuyTbAvm3adAM_M-pphFYBGPFYRvgx4EWQ3B
+2022-02-24 23:27:37.800  [INFO][HttpGet getWebDCInfoController] 
+2022-02-24 23:27:37.800  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:cU-p9WH-RQS0CwCk0KM9iS:APA91bExaElsKj1odqKmIlAbdvl34k88RQ4ds3vkgmLkNdV3teaBjlROpk61xzW0BoXPsb-6DKbe2jphk608Ur5sqpcMOMPPvDgpdcJGSuyTbAvm3adAM_M-pphFYBGPFYRvgx4EWQ3B
+2022-02-24 23:27:37.902  [INFO][HttpGet getGateListController] 
+2022-02-24 23:27:37.903  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-02-24 23:27:37.910  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-02-24 23:27:37.911  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:cU-p9WH-RQS0CwCk0KM9iS:APA91bExaElsKj1odqKmIlAbdvl34k88RQ4ds3vkgmLkNdV3teaBjlROpk61xzW0BoXPsb-6DKbe2jphk608Ur5sqpcMOMPPvDgpdcJGSuyTbAvm3adAM_M-pphFYBGPFYRvgx4EWQ3B
+2022-02-24 23:27:55.930  [INFO][HttpGet getPushAlarmController] 
+2022-02-24 23:27:55.930  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-24 23:27:56.128  [PUSH ALARM] {"multicast_id":6756120182315975766,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:27:56.299  [PUSH ALARM] {"multicast_id":4007665581867682014,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:27:56.491  [PUSH ALARM] {"multicast_id":1313281046355598263,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645712883288477%c195b7dcc195b7dc"}]}
+2022-02-24 23:27:56.667  [PUSH ALARM] {"multicast_id":2291245441162301813,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:27:56.865  [PUSH ALARM] {"multicast_id":6203007151101839800,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:27:57.056  [PUSH ALARM] {"multicast_id":114493490210513342,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645712883857241%c195b7dcc195b7dc"}]}
+2022-02-24 23:27:57.260  [PUSH ALARM] {"multicast_id":1727883184545260814,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645712884042097%c4872d34c4872d34"}]}
+2022-02-24 23:27:57.430  [PUSH ALARM] {"multicast_id":8741503776671519069,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:27:57.603  [PUSH ALARM] {"multicast_id":2966319397158716266,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:27:57.797  [PUSH ALARM] {"multicast_id":8209805521182920250,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:27:57.974  [PUSH ALARM] {"multicast_id":9113904394119098309,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:27:58.152  [PUSH ALARM] {"multicast_id":256938854414475835,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:27:58.329  [PUSH ALARM] {"multicast_id":6820847698432988078,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:27:58.509  [PUSH ALARM] {"multicast_id":6035003062017724732,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:27:58.687  [PUSH ALARM] {"multicast_id":6749760313375719805,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:27:58.863  [PUSH ALARM] {"multicast_id":8948191583539612639,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:27:59.043  [PUSH ALARM] {"multicast_id":6287435055032209656,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:27:59.217  [PUSH ALARM] {"multicast_id":601449995828759039,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:27:59.396  [PUSH ALARM] {"multicast_id":1078576092044086513,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:27:59.572  [PUSH ALARM] {"multicast_id":859964653509840775,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:27:59.760  [PUSH ALARM] {"multicast_id":2816665191652182499,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:28:02.480  [INFO][HttpGet getPushAlarmController] 
+2022-02-24 23:28:02.481  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-24 23:28:02.671  [PUSH ALARM] {"multicast_id":7621688594224862099,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:28:02.852  [PUSH ALARM] {"multicast_id":6987875613077577751,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:28:03.043  [PUSH ALARM] {"multicast_id":4914839330438354496,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645712889831539%c195b7dcc195b7dc"}]}
+2022-02-24 23:28:03.228  [PUSH ALARM] {"multicast_id":5474674392699679396,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:28:03.406  [PUSH ALARM] {"multicast_id":2446086161659988625,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:28:03.592  [PUSH ALARM] {"multicast_id":5772328974423747568,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645712890398556%c195b7dcc195b7dc"}]}
+2022-02-24 23:28:03.776  [PUSH ALARM] {"multicast_id":3587400517813806428,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645712890575548%c4872d34c4872d34"}]}
+2022-02-24 23:28:03.954  [PUSH ALARM] {"multicast_id":5231237174651787146,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:28:04.127  [PUSH ALARM] {"multicast_id":7345421981760915386,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:28:04.308  [PUSH ALARM] {"multicast_id":7231443296960531192,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:28:04.476  [PUSH ALARM] {"multicast_id":4170327071246637126,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:28:04.654  [PUSH ALARM] {"multicast_id":3030049692443627501,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:28:04.836  [PUSH ALARM] {"multicast_id":6442390081296996484,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:28:05.015  [PUSH ALARM] {"multicast_id":1390007904771390949,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:28:05.188  [PUSH ALARM] {"multicast_id":5916339832337419401,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:28:05.372  [PUSH ALARM] {"multicast_id":6145756906221249632,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:28:05.543  [PUSH ALARM] {"multicast_id":8503679437253108155,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:28:05.713  [PUSH ALARM] {"multicast_id":4887362271555608057,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:28:05.894  [PUSH ALARM] {"multicast_id":4759719894797303017,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:28:06.078  [PUSH ALARM] {"multicast_id":8220497733503597290,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:28:06.253  [PUSH ALARM] {"multicast_id":8481177180029375282,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:28:34.540  [INFO][HttpGet getPushAlarmController] 
+2022-02-24 23:28:34.541  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-24 23:28:34.730  [PUSH ALARM] {"multicast_id":1958023269172630399,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:28:34.905  [PUSH ALARM] {"multicast_id":3733522306876915006,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:28:35.082  [PUSH ALARM] {"multicast_id":1221260895494164520,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645712921888417%c195b7dcc195b7dc"}]}
+2022-02-24 23:28:35.260  [PUSH ALARM] {"multicast_id":2497687424066716405,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:28:35.442  [PUSH ALARM] {"multicast_id":3704977832615598312,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:28:35.635  [PUSH ALARM] {"multicast_id":4071662391275938806,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645712922431734%c195b7dcc195b7dc"}]}
+2022-02-24 23:28:35.819  [PUSH ALARM] {"multicast_id":3136746435084511499,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645712922624009%c4872d34c4872d34"}]}
+2022-02-24 23:28:36.001  [PUSH ALARM] {"multicast_id":6113688449511215788,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:28:36.172  [PUSH ALARM] {"multicast_id":5011452594751397849,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:28:36.370  [PUSH ALARM] {"multicast_id":1256650375608084677,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:28:36.552  [PUSH ALARM] {"multicast_id":1563204656049289149,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:28:36.729  [PUSH ALARM] {"multicast_id":2065466660187889620,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:28:36.900  [PUSH ALARM] {"multicast_id":6989955949151922158,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:28:37.076  [PUSH ALARM] {"multicast_id":5768680492879244940,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:28:37.269  [PUSH ALARM] {"multicast_id":8722814007666190404,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:28:37.448  [PUSH ALARM] {"multicast_id":6696113457544903373,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:28:37.625  [PUSH ALARM] {"multicast_id":6146396912500942444,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:28:37.801  [PUSH ALARM] {"multicast_id":2650860656964302497,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:28:37.975  [PUSH ALARM] {"multicast_id":6354789013765706934,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:28:38.152  [PUSH ALARM] {"multicast_id":4114303918128605001,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:28:38.325  [PUSH ALARM] {"multicast_id":8613534985015819678,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:28:39.013  [INFO][HttpGet getPushAlarmController] 
+2022-02-24 23:28:39.014  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-24 23:28:39.192  [PUSH ALARM] {"multicast_id":3737183910498077213,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:28:39.369  [PUSH ALARM] {"multicast_id":8774578999235123462,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:28:39.572  [PUSH ALARM] {"multicast_id":8346005593921781629,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645712926357505%c195b7dcc195b7dc"}]}
+2022-02-24 23:28:39.754  [PUSH ALARM] {"multicast_id":4642650053803326201,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:28:39.920  [PUSH ALARM] {"multicast_id":5743715870276404387,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:28:40.109  [PUSH ALARM] {"multicast_id":8458719726394480327,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645712926906586%c195b7dcc195b7dc"}]}
+2022-02-24 23:28:40.314  [PUSH ALARM] {"multicast_id":455434217514942662,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645712927102879%c4872d34c4872d34"}]}
+2022-02-24 23:28:40.493  [PUSH ALARM] {"multicast_id":1406989070743198842,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:28:40.667  [PUSH ALARM] {"multicast_id":5816767971198041107,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:28:40.840  [PUSH ALARM] {"multicast_id":1823830338635376782,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:28:41.014  [PUSH ALARM] {"multicast_id":4441300688254262604,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:28:41.189  [PUSH ALARM] {"multicast_id":8288691713265690340,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:28:41.365  [PUSH ALARM] {"multicast_id":6883927173728478903,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:28:41.541  [PUSH ALARM] {"multicast_id":6091745812261531549,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:28:41.718  [PUSH ALARM] {"multicast_id":8906537236295067592,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:28:41.891  [PUSH ALARM] {"multicast_id":821085984923486993,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:28:42.062  [PUSH ALARM] {"multicast_id":4565024157837458620,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:28:42.245  [PUSH ALARM] {"multicast_id":5311260103583301828,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:28:42.420  [PUSH ALARM] {"multicast_id":7541429242207531614,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:28:42.595  [PUSH ALARM] {"multicast_id":491420745873042974,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:28:42.767  [PUSH ALARM] {"multicast_id":6590121166984517791,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:34:25.086  [INFO][HttpGet getCustInfoController] 
+2022-02-24 23:34:25.087  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:eZtZL07OSAOkfO402fEK5H:APA91bH3TmhJTrpDMtvO0DcDElMubWYFLjYUEUbO2rq5irc1trfthQw1diAOe8Vom5DkdTbZ9mv4G8oyTBG_rtRnWQGQjwVeGpsGPDVdbJJRRHAXdDcXheOxgjoVQPBzki6ySjgXTV6t
+2022-02-24 23:34:25.145  [DataBase SaveToken] 11111111,eZtZL07OSAOkfO402fEK5H:APA91bH3TmhJTrpDMtvO0DcDElMubWYFLjYUEUbO2rq5irc1trfthQw1diAOe8Vom5DkdTbZ9mv4G8oyTBG_rtRnWQGQjwVeGpsGPDVdbJJRRHAXdDcXheOxgjoVQPBzki6ySjgXTV6t
+2022-02-24 23:34:25.223  [INFO][HttpGet getReserveInfoController] 
+2022-02-24 23:34:25.224  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:eZtZL07OSAOkfO402fEK5H:APA91bH3TmhJTrpDMtvO0DcDElMubWYFLjYUEUbO2rq5irc1trfthQw1diAOe8Vom5DkdTbZ9mv4G8oyTBG_rtRnWQGQjwVeGpsGPDVdbJJRRHAXdDcXheOxgjoVQPBzki6ySjgXTV6t
+2022-02-24 23:34:25.328  [INFO][HttpGet getWebDCInfoController] 
+2022-02-24 23:34:25.329  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:eZtZL07OSAOkfO402fEK5H:APA91bH3TmhJTrpDMtvO0DcDElMubWYFLjYUEUbO2rq5irc1trfthQw1diAOe8Vom5DkdTbZ9mv4G8oyTBG_rtRnWQGQjwVeGpsGPDVdbJJRRHAXdDcXheOxgjoVQPBzki6ySjgXTV6t
+2022-02-24 23:34:25.485  [INFO][HttpGet getGateListController] 
+2022-02-24 23:34:25.486  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-02-24 23:34:25.506  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-02-24 23:34:25.507  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:eZtZL07OSAOkfO402fEK5H:APA91bH3TmhJTrpDMtvO0DcDElMubWYFLjYUEUbO2rq5irc1trfthQw1diAOe8Vom5DkdTbZ9mv4G8oyTBG_rtRnWQGQjwVeGpsGPDVdbJJRRHAXdDcXheOxgjoVQPBzki6ySjgXTV6t
+2022-02-24 23:34:58.650  [INFO][HttpGet getPushAlarmController] 
+2022-02-24 23:34:58.651  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-24 23:34:58.851  [PUSH ALARM] {"multicast_id":3982130109776103201,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:34:59.029  [PUSH ALARM] {"multicast_id":983261019631086028,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:34:59.262  [PUSH ALARM] {"multicast_id":1248343039582831219,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:34:59.446  [PUSH ALARM] {"multicast_id":1182721851378858290,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:34:59.621  [PUSH ALARM] {"multicast_id":8565488718890681396,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:34:59.812  [PUSH ALARM] {"multicast_id":1270185124814004199,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645713306612065%c195b7dcc195b7dc"}]}
+2022-02-24 23:34:59.993  [PUSH ALARM] {"multicast_id":6854041165465565153,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645713306797578%c4872d34c4872d34"}]}
+2022-02-24 23:35:00.172  [PUSH ALARM] {"multicast_id":2402424014643594925,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:00.346  [PUSH ALARM] {"multicast_id":6324778487426590251,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:35:00.517  [PUSH ALARM] {"multicast_id":1404494212768909017,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:00.704  [PUSH ALARM] {"multicast_id":7494346859483312877,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645713307498471%c195b7dcc195b7dc"}]}
+2022-02-24 23:35:00.888  [PUSH ALARM] {"multicast_id":3494266183236549730,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:01.067  [PUSH ALARM] {"multicast_id":6460941952365891494,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:01.241  [PUSH ALARM] {"multicast_id":2944070976450778883,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:01.421  [PUSH ALARM] {"multicast_id":4669144118342246693,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:01.614  [PUSH ALARM] {"multicast_id":3659581195741745706,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:01.791  [PUSH ALARM] {"multicast_id":1128972453580118223,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:01.967  [PUSH ALARM] {"multicast_id":8490214827381609590,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:35:02.154  [PUSH ALARM] {"multicast_id":4904707065547436263,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:02.329  [PUSH ALARM] {"multicast_id":4686338317866677639,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:02.498  [PUSH ALARM] {"multicast_id":6525064604422358741,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:35:02.681  [PUSH ALARM] {"multicast_id":85727235937055104,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:09.807  [INFO][HttpGet getPushAlarmController] 
+2022-02-24 23:35:09.807  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-24 23:35:09.990  [PUSH ALARM] {"multicast_id":5156422163794283627,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:10.167  [PUSH ALARM] {"multicast_id":2921167950928022601,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:10.339  [PUSH ALARM] {"multicast_id":944137377103599095,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:10.509  [PUSH ALARM] {"multicast_id":260704089598348550,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:10.678  [PUSH ALARM] {"multicast_id":396405217769910101,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:35:10.862  [PUSH ALARM] {"multicast_id":1167486513980894347,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645713317663478%c195b7dcc195b7dc"}]}
+2022-02-24 23:35:11.045  [PUSH ALARM] {"multicast_id":6259709987021850484,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645713317847035%c4872d34c4872d34"}]}
+2022-02-24 23:35:11.223  [PUSH ALARM] {"multicast_id":2483091635596553109,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:11.407  [PUSH ALARM] {"multicast_id":1046264761340921163,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:35:11.583  [PUSH ALARM] {"multicast_id":764648791460861180,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:11.819  [PUSH ALARM] {"multicast_id":6291541499440567012,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645713318598910%c195b7dcc195b7dc"}]}
+2022-02-24 23:35:11.997  [PUSH ALARM] {"multicast_id":4461017471922777343,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:12.174  [PUSH ALARM] {"multicast_id":4941289214076778848,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:12.349  [PUSH ALARM] {"multicast_id":7177413005165622348,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:12.527  [PUSH ALARM] {"multicast_id":6290577858644019530,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:12.715  [PUSH ALARM] {"multicast_id":3064045293683081120,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:12.896  [PUSH ALARM] {"multicast_id":6452781745148577652,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:13.136  [PUSH ALARM] {"multicast_id":2682518427816601694,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:35:13.317  [PUSH ALARM] {"multicast_id":158777503556573822,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:13.499  [PUSH ALARM] {"multicast_id":819904021902148407,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:13.668  [PUSH ALARM] {"multicast_id":3831022788854033943,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:35:13.851  [PUSH ALARM] {"multicast_id":6510877741791318799,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:27.076  [INFO][HttpGet getPushAlarmController] 
+2022-02-24 23:35:27.077  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-24 23:35:27.249  [PUSH ALARM] {"multicast_id":8991812490441189324,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:27.421  [PUSH ALARM] {"multicast_id":8403000188553655674,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:27.589  [PUSH ALARM] {"multicast_id":8702483779403404241,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:27.771  [PUSH ALARM] {"multicast_id":225057679454799089,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:27.951  [PUSH ALARM] {"multicast_id":8093980518062892305,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:35:28.160  [PUSH ALARM] {"multicast_id":1878178980975309048,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645713334949967%c195b7dcc195b7dc"}]}
+2022-02-24 23:35:28.344  [PUSH ALARM] {"multicast_id":5043971531006915069,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645713335147398%c4872d34c4872d34"}]}
+2022-02-24 23:35:28.523  [PUSH ALARM] {"multicast_id":7741827213868492333,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:28.687  [PUSH ALARM] {"multicast_id":7849339958518496803,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:35:28.861  [PUSH ALARM] {"multicast_id":4660001559166586533,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:29.046  [PUSH ALARM] {"multicast_id":1465551363497870784,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645713335845323%c195b7dcc195b7dc"}]}
+2022-02-24 23:35:29.219  [PUSH ALARM] {"multicast_id":8409966837496068027,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:29.398  [PUSH ALARM] {"multicast_id":2862679930122058765,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:29.575  [PUSH ALARM] {"multicast_id":1804587649359010967,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:29.747  [PUSH ALARM] {"multicast_id":8350735039429470404,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:29.940  [PUSH ALARM] {"multicast_id":3280771381415707341,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:30.112  [PUSH ALARM] {"multicast_id":1855459672544297271,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:30.289  [PUSH ALARM] {"multicast_id":8087692039708757614,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:35:30.463  [PUSH ALARM] {"multicast_id":7804110071005520328,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:30.638  [PUSH ALARM] {"multicast_id":4410782428555561579,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:30.817  [PUSH ALARM] {"multicast_id":3037700167819405913,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:35:30.991  [PUSH ALARM] {"multicast_id":2452897804060696885,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:33.098  [INFO][HttpGet getPushAlarmController] 
+2022-02-24 23:35:33.099  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-24 23:35:33.281  [PUSH ALARM] {"multicast_id":3169387765358655573,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:33.450  [PUSH ALARM] {"multicast_id":4579915845253513416,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:33.619  [PUSH ALARM] {"multicast_id":8157896269340131695,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:33.796  [PUSH ALARM] {"multicast_id":5479584082829816292,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:33.964  [PUSH ALARM] {"multicast_id":369734292099425387,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:35:34.164  [PUSH ALARM] {"multicast_id":6868275161556498809,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645713340949656%c195b7dcc195b7dc"}]}
+2022-02-24 23:35:34.372  [PUSH ALARM] {"multicast_id":3374847893063017420,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645713341157648%c4872d34c4872d34"}]}
+2022-02-24 23:35:34.555  [PUSH ALARM] {"multicast_id":6472006271621503770,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:34.727  [PUSH ALARM] {"multicast_id":6974601686483733940,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:35:34.912  [PUSH ALARM] {"multicast_id":413788998002271167,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:35.104  [PUSH ALARM] {"multicast_id":8067693745073204509,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645713341897672%c195b7dcc195b7dc"}]}
+2022-02-24 23:35:35.279  [PUSH ALARM] {"multicast_id":7974270610419363556,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:35.454  [PUSH ALARM] {"multicast_id":3576309034810783221,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:35.636  [PUSH ALARM] {"multicast_id":1914309841284703710,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:35.809  [PUSH ALARM] {"multicast_id":7040158183025956536,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:35.998  [PUSH ALARM] {"multicast_id":143677940295535802,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:36.173  [PUSH ALARM] {"multicast_id":1536431947417120597,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:36.356  [PUSH ALARM] {"multicast_id":8298463926109469814,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:35:36.531  [PUSH ALARM] {"multicast_id":3681227202788799902,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:36.711  [PUSH ALARM] {"multicast_id":6183151542172509997,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:36.906  [PUSH ALARM] {"multicast_id":6310103030098167648,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:35:37.080  [PUSH ALARM] {"multicast_id":6042910244427807160,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:49.276  [INFO][HttpGet getCustInfoController] 
+2022-02-24 23:35:49.276  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:eZtZL07OSAOkfO402fEK5H:APA91bH3TmhJTrpDMtvO0DcDElMubWYFLjYUEUbO2rq5irc1trfthQw1diAOe8Vom5DkdTbZ9mv4G8oyTBG_rtRnWQGQjwVeGpsGPDVdbJJRRHAXdDcXheOxgjoVQPBzki6ySjgXTV6t
+2022-02-24 23:35:49.301  [ERROR][DataBase SaveToken] 11111111,eZtZL07OSAOkfO402fEK5H:APA91bH3TmhJTrpDMtvO0DcDElMubWYFLjYUEUbO2rq5irc1trfthQw1diAOe8Vom5DkdTbZ9mv4G8oyTBG_rtRnWQGQjwVeGpsGPDVdbJJRRHAXdDcXheOxgjoVQPBzki6ySjgXTV6t
+2022-02-24 23:35:49.302  [ERROR][DataBase SaveToken] Duplicate entry 'eZtZL07OSAOkfO402fEK5H:APA91bH3TmhJTrpDMtvO0DcDElMubWYFLjYUEUbO2' for key 'tb_devices_admin.PRIMARY'
+2022-02-24 23:35:49.392  [INFO][HttpGet getReserveInfoController] 
+2022-02-24 23:35:49.393  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:eZtZL07OSAOkfO402fEK5H:APA91bH3TmhJTrpDMtvO0DcDElMubWYFLjYUEUbO2rq5irc1trfthQw1diAOe8Vom5DkdTbZ9mv4G8oyTBG_rtRnWQGQjwVeGpsGPDVdbJJRRHAXdDcXheOxgjoVQPBzki6ySjgXTV6t
+2022-02-24 23:35:49.474  [INFO][HttpGet getWebDCInfoController] 
+2022-02-24 23:35:49.474  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:eZtZL07OSAOkfO402fEK5H:APA91bH3TmhJTrpDMtvO0DcDElMubWYFLjYUEUbO2rq5irc1trfthQw1diAOe8Vom5DkdTbZ9mv4G8oyTBG_rtRnWQGQjwVeGpsGPDVdbJJRRHAXdDcXheOxgjoVQPBzki6ySjgXTV6t
+2022-02-24 23:35:49.599  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-02-24 23:35:49.599  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:eZtZL07OSAOkfO402fEK5H:APA91bH3TmhJTrpDMtvO0DcDElMubWYFLjYUEUbO2rq5irc1trfthQw1diAOe8Vom5DkdTbZ9mv4G8oyTBG_rtRnWQGQjwVeGpsGPDVdbJJRRHAXdDcXheOxgjoVQPBzki6ySjgXTV6t
+2022-02-24 23:35:49.604  [INFO][HttpGet getGateListController] 
+2022-02-24 23:35:49.605  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-02-24 23:35:58.273  [INFO][HttpGet getPushAlarmController] 
+2022-02-24 23:35:58.274  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-24 23:35:58.465  [PUSH ALARM] {"multicast_id":4663503508059969238,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:58.660  [PUSH ALARM] {"multicast_id":7741305332355122983,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:58.844  [PUSH ALARM] {"multicast_id":3482781358696898722,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:59.027  [PUSH ALARM] {"multicast_id":3429975594336973650,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:59.222  [PUSH ALARM] {"multicast_id":7685721090706088775,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:35:59.413  [PUSH ALARM] {"multicast_id":2374013582907592145,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645713366211817%c195b7dcc195b7dc"}]}
+2022-02-24 23:35:59.619  [PUSH ALARM] {"multicast_id":459167975961704487,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645713366419341%c4872d34c4872d34"}]}
+2022-02-24 23:35:59.793  [PUSH ALARM] {"multicast_id":7789276974963750479,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:35:59.969  [PUSH ALARM] {"multicast_id":1435366841263954453,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:36:00.149  [PUSH ALARM] {"multicast_id":1763820555708480447,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:36:00.349  [PUSH ALARM] {"multicast_id":8712103907230328413,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645713367135355%c195b7dcc195b7dc"}]}
+2022-02-24 23:36:00.524  [PUSH ALARM] {"multicast_id":2799379662057765538,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:36:00.700  [PUSH ALARM] {"multicast_id":9115333821058959212,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:36:00.903  [PUSH ALARM] {"multicast_id":7040752172872986031,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:36:01.080  [PUSH ALARM] {"multicast_id":8592360976102767928,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:36:01.256  [PUSH ALARM] {"multicast_id":1628630774012731695,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:36:01.434  [PUSH ALARM] {"multicast_id":1759367880336223560,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:36:01.612  [PUSH ALARM] {"multicast_id":1326028612819049545,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:36:01.786  [PUSH ALARM] {"multicast_id":7999181892989486270,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:36:01.965  [PUSH ALARM] {"multicast_id":2950047952287491468,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:36:02.140  [PUSH ALARM] {"multicast_id":7274161392897195780,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:36:02.317  [PUSH ALARM] {"multicast_id":8736378615897959725,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:36:05.015  [INFO][HttpGet getPushAlarmController] 
+2022-02-24 23:36:05.016  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-24 23:36:05.189  [PUSH ALARM] {"multicast_id":5131111403245628574,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:36:05.392  [PUSH ALARM] {"multicast_id":3623521364938291356,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:36:05.570  [PUSH ALARM] {"multicast_id":1407266879147281477,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:36:05.749  [PUSH ALARM] {"multicast_id":3061919844721639400,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:36:05.933  [PUSH ALARM] {"multicast_id":4838630805930360589,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:36:06.135  [PUSH ALARM] {"multicast_id":168519763838140344,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645713372921700%c195b7dcc195b7dc"}]}
+2022-02-24 23:36:06.318  [PUSH ALARM] {"multicast_id":3943176547655445502,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645713373121471%c4872d34c4872d34"}]}
+2022-02-24 23:36:06.492  [PUSH ALARM] {"multicast_id":4925536937275627421,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:36:06.669  [PUSH ALARM] {"multicast_id":6964224177792037038,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:36:06.852  [PUSH ALARM] {"multicast_id":2630560457068800631,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:36:07.047  [PUSH ALARM] {"multicast_id":4673254739035232003,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645713373839858%c195b7dcc195b7dc"}]}
+2022-02-24 23:36:07.217  [PUSH ALARM] {"multicast_id":24918706151381141,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:36:07.383  [PUSH ALARM] {"multicast_id":2613961389530381672,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:36:07.563  [PUSH ALARM] {"multicast_id":3847208281896263245,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:36:07.795  [PUSH ALARM] {"multicast_id":8153950296234099422,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:36:07.966  [PUSH ALARM] {"multicast_id":4297007524709910153,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:36:08.148  [PUSH ALARM] {"multicast_id":8412773188335545410,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:36:08.318  [PUSH ALARM] {"multicast_id":201090748200237140,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:36:08.493  [PUSH ALARM] {"multicast_id":5523770714623006306,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:36:08.712  [PUSH ALARM] {"multicast_id":5013232463361129727,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:36:08.885  [PUSH ALARM] {"multicast_id":1323080820863021488,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:36:09.056  [PUSH ALARM] {"multicast_id":7468782074541998385,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:39:24.703  [INFO][HttpGet getCustInfoController] 
+2022-02-24 23:39:24.704  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:eejtEeTHRcuXsdBp_bg92p:APA91bEspeK1oIQa1BMkhkL6kLPsLDa8shtKZdJnpJ9w-G-I16-UbpJwrFSXp32iOeF2KAShY-ocWlZ9ZaTZUVORfXh05l0rzdNH_YoRUhE1Tp525kBlFKo-hfwdVCFJQD1hxRPFAsUZ
+2022-02-24 23:39:24.725  [DataBase SaveToken] 11111111,eejtEeTHRcuXsdBp_bg92p:APA91bEspeK1oIQa1BMkhkL6kLPsLDa8shtKZdJnpJ9w-G-I16-UbpJwrFSXp32iOeF2KAShY-ocWlZ9ZaTZUVORfXh05l0rzdNH_YoRUhE1Tp525kBlFKo-hfwdVCFJQD1hxRPFAsUZ
+2022-02-24 23:39:24.822  [INFO][HttpGet getReserveInfoController] 
+2022-02-24 23:39:24.823  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:eejtEeTHRcuXsdBp_bg92p:APA91bEspeK1oIQa1BMkhkL6kLPsLDa8shtKZdJnpJ9w-G-I16-UbpJwrFSXp32iOeF2KAShY-ocWlZ9ZaTZUVORfXh05l0rzdNH_YoRUhE1Tp525kBlFKo-hfwdVCFJQD1hxRPFAsUZ
+2022-02-24 23:39:24.939  [INFO][HttpGet getWebDCInfoController] 
+2022-02-24 23:39:24.941  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:eejtEeTHRcuXsdBp_bg92p:APA91bEspeK1oIQa1BMkhkL6kLPsLDa8shtKZdJnpJ9w-G-I16-UbpJwrFSXp32iOeF2KAShY-ocWlZ9ZaTZUVORfXh05l0rzdNH_YoRUhE1Tp525kBlFKo-hfwdVCFJQD1hxRPFAsUZ
+2022-02-24 23:39:25.055  [INFO][HttpGet getGateListController] 
+2022-02-24 23:39:25.056  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-02-24 23:39:25.056  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-02-24 23:39:25.056  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:eejtEeTHRcuXsdBp_bg92p:APA91bEspeK1oIQa1BMkhkL6kLPsLDa8shtKZdJnpJ9w-G-I16-UbpJwrFSXp32iOeF2KAShY-ocWlZ9ZaTZUVORfXh05l0rzdNH_YoRUhE1Tp525kBlFKo-hfwdVCFJQD1hxRPFAsUZ
+2022-02-24 23:39:47.634  [INFO][HttpGet getPushAlarmController] 
+2022-02-24 23:39:47.635  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-24 23:39:47.835  [PUSH ALARM] {"multicast_id":7857259285126732355,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:39:48.029  [PUSH ALARM] {"multicast_id":5644053666241757764,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:39:48.208  [PUSH ALARM] {"multicast_id":5471518225084047003,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:39:48.395  [PUSH ALARM] {"multicast_id":9118019131375725467,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:39:48.588  [PUSH ALARM] {"multicast_id":5513784842902250809,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:39:48.771  [PUSH ALARM] {"multicast_id":1489772997191137331,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645713595576820%c195b7dcc195b7dc"}]}
+2022-02-24 23:39:48.953  [PUSH ALARM] {"multicast_id":7885453030233975569,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645713595752350%c4872d34c4872d34"}]}
+2022-02-24 23:39:49.157  [PUSH ALARM] {"multicast_id":3569507684993149290,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645713595942110%c195b7dcc195b7dc"}]}
+2022-02-24 23:39:49.332  [PUSH ALARM] {"multicast_id":5026277407236761945,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:39:49.502  [PUSH ALARM] {"multicast_id":4767656905455707701,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:39:49.677  [PUSH ALARM] {"multicast_id":5075163688824161193,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:39:49.857  [PUSH ALARM] {"multicast_id":7100620481806307021,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:39:50.033  [PUSH ALARM] {"multicast_id":9110264316594500396,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:39:50.213  [PUSH ALARM] {"multicast_id":4428149528236528541,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:39:50.383  [PUSH ALARM] {"multicast_id":4451541318486988959,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:39:50.558  [PUSH ALARM] {"multicast_id":6836205309287487021,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:39:50.729  [PUSH ALARM] {"multicast_id":872450546845300785,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:39:50.899  [PUSH ALARM] {"multicast_id":3252516796635744108,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:39:51.068  [PUSH ALARM] {"multicast_id":9160470986658371602,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:39:51.242  [PUSH ALARM] {"multicast_id":8297548957937935950,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:39:51.440  [PUSH ALARM] {"multicast_id":9203179833626341160,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:39:51.608  [PUSH ALARM] {"multicast_id":3427615781213286112,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:39:51.777  [PUSH ALARM] {"multicast_id":4025798531805468002,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:39:54.863  [INFO][HttpGet getPushAlarmController] 
+2022-02-24 23:39:54.864  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-24 23:39:55.040  [PUSH ALARM] {"multicast_id":634745656191111632,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:39:55.223  [PUSH ALARM] {"multicast_id":4087524781492161523,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:39:55.398  [PUSH ALARM] {"multicast_id":3155038195693233843,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:39:55.618  [PUSH ALARM] {"multicast_id":1145635021001054875,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:39:55.799  [PUSH ALARM] {"multicast_id":7454341414870876311,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:39:55.992  [PUSH ALARM] {"multicast_id":1692617472220744994,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645713602786221%c195b7dcc195b7dc"}]}
+2022-02-24 23:39:56.199  [PUSH ALARM] {"multicast_id":8460699950049687654,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645713602984616%c4872d34c4872d34"}]}
+2022-02-24 23:39:56.399  [PUSH ALARM] {"multicast_id":3399402826084216306,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645713603189921%c195b7dcc195b7dc"}]}
+2022-02-24 23:39:56.594  [PUSH ALARM] {"multicast_id":7312388008712868448,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:39:56.773  [PUSH ALARM] {"multicast_id":1939888790488401339,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:39:56.960  [PUSH ALARM] {"multicast_id":4321217624222338345,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:39:57.148  [PUSH ALARM] {"multicast_id":5759361714135868607,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:39:57.325  [PUSH ALARM] {"multicast_id":2728947862772697321,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:39:57.507  [PUSH ALARM] {"multicast_id":6491559525081067003,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:39:57.749  [PUSH ALARM] {"multicast_id":2679133562408483644,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:39:57.939  [PUSH ALARM] {"multicast_id":7204415543265409316,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:39:58.147  [PUSH ALARM] {"multicast_id":1289868675947748620,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:39:58.323  [PUSH ALARM] {"multicast_id":6264196265934446259,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:39:58.490  [PUSH ALARM] {"multicast_id":351687939418441901,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:39:58.665  [PUSH ALARM] {"multicast_id":5507778446436064517,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:39:58.843  [PUSH ALARM] {"multicast_id":5917594238899427533,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:39:59.023  [PUSH ALARM] {"multicast_id":3901270781503036724,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:39:59.203  [PUSH ALARM] {"multicast_id":3706379651118051518,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:02.291  [INFO][HttpGet getPushAlarmController] 
+2022-02-24 23:40:02.293  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-24 23:40:02.472  [PUSH ALARM] {"multicast_id":7370962945092012285,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:02.657  [PUSH ALARM] {"multicast_id":7571524731681693232,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:02.840  [PUSH ALARM] {"multicast_id":1423656311579489351,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:03.017  [PUSH ALARM] {"multicast_id":8567547515704648410,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:03.197  [PUSH ALARM] {"multicast_id":9146765740296221606,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:40:03.371  [PUSH ALARM] {"multicast_id":4609435545502058884,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645713610178256%c195b7dcc195b7dc"}]}
+2022-02-24 23:40:03.552  [PUSH ALARM] {"multicast_id":3880919569358662280,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645713610354967%c4872d34c4872d34"}]}
+2022-02-24 23:40:03.747  [PUSH ALARM] {"multicast_id":4880559039833355243,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645713610534912%c195b7dcc195b7dc"}]}
+2022-02-24 23:40:03.920  [PUSH ALARM] {"multicast_id":3624495785080263313,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:04.088  [PUSH ALARM] {"multicast_id":1399112143007654529,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:40:04.275  [PUSH ALARM] {"multicast_id":5307859632118136893,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:04.453  [PUSH ALARM] {"multicast_id":1106946306213556276,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:04.628  [PUSH ALARM] {"multicast_id":5808838323741671190,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:04.802  [PUSH ALARM] {"multicast_id":1656151988866846517,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:04.974  [PUSH ALARM] {"multicast_id":3510952441835028854,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:05.150  [PUSH ALARM] {"multicast_id":6668914374517421247,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:05.337  [PUSH ALARM] {"multicast_id":5671986771873446841,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:05.521  [PUSH ALARM] {"multicast_id":842214219079510983,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:05.694  [PUSH ALARM] {"multicast_id":4059535508785152930,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:40:05.865  [PUSH ALARM] {"multicast_id":3789156360818307285,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:06.043  [PUSH ALARM] {"multicast_id":1280873114773768400,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:06.213  [PUSH ALARM] {"multicast_id":6628562985630352891,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:40:06.403  [PUSH ALARM] {"multicast_id":2788530509307404931,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:12.238  [INFO][HttpGet getPushAlarmController] 
+2022-02-24 23:40:12.239  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-24 23:40:12.421  [PUSH ALARM] {"multicast_id":2454830612134300916,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:12.598  [PUSH ALARM] {"multicast_id":1643685360652417876,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:12.785  [PUSH ALARM] {"multicast_id":6519865656445516287,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:12.961  [PUSH ALARM] {"multicast_id":624375947534388057,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:13.141  [PUSH ALARM] {"multicast_id":2557433290125589173,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:40:13.351  [PUSH ALARM] {"multicast_id":260137400746157978,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645713620135350%c195b7dcc195b7dc"}]}
+2022-02-24 23:40:13.529  [PUSH ALARM] {"multicast_id":6086599510306890541,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645713620333838%c4872d34c4872d34"}]}
+2022-02-24 23:40:13.736  [PUSH ALARM] {"multicast_id":8906791620262992150,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645713620524543%c195b7dcc195b7dc"}]}
+2022-02-24 23:40:13.908  [PUSH ALARM] {"multicast_id":4350972565291284951,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:14.085  [PUSH ALARM] {"multicast_id":8767653044403424195,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:40:14.267  [PUSH ALARM] {"multicast_id":7342831677335680419,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:14.445  [PUSH ALARM] {"multicast_id":3107067688841289048,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:14.619  [PUSH ALARM] {"multicast_id":36727877266869263,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:14.818  [PUSH ALARM] {"multicast_id":1090446888570357355,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:14.998  [PUSH ALARM] {"multicast_id":3704029707602324920,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:15.173  [PUSH ALARM] {"multicast_id":4643988447638320775,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:15.353  [PUSH ALARM] {"multicast_id":902008215772160914,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:15.530  [PUSH ALARM] {"multicast_id":1713353090926546022,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:15.699  [PUSH ALARM] {"multicast_id":2954312928704049903,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:40:15.877  [PUSH ALARM] {"multicast_id":5083665661998180211,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:16.060  [PUSH ALARM] {"multicast_id":8128089706460290191,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:16.238  [PUSH ALARM] {"multicast_id":6291867838123729852,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:40:16.422  [PUSH ALARM] {"multicast_id":1199654828298148788,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:18.043  [INFO][HttpGet getPushAlarmController] 
+2022-02-24 23:40:18.043  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-24 23:40:18.220  [PUSH ALARM] {"multicast_id":6368547850787238189,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:18.403  [PUSH ALARM] {"multicast_id":656042388345131379,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:18.586  [PUSH ALARM] {"multicast_id":6381902885951776359,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:18.765  [PUSH ALARM] {"multicast_id":1155683276718972668,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:18.949  [PUSH ALARM] {"multicast_id":3875427222385623726,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:40:19.161  [PUSH ALARM] {"multicast_id":3680002048179609509,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645713625950631%c195b7dcc195b7dc"}]}
+2022-02-24 23:40:19.360  [PUSH ALARM] {"multicast_id":1416191095846650877,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645713626155192%c4872d34c4872d34"}]}
+2022-02-24 23:40:19.565  [PUSH ALARM] {"multicast_id":2694199978941824114,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645713626369542%c195b7dcc195b7dc"}]}
+2022-02-24 23:40:19.741  [PUSH ALARM] {"multicast_id":3845134695173832595,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:19.915  [PUSH ALARM] {"multicast_id":2698403136760376603,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:40:20.108  [PUSH ALARM] {"multicast_id":8782514071010613461,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:20.287  [PUSH ALARM] {"multicast_id":6795075218543799783,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:20.461  [PUSH ALARM] {"multicast_id":2371923091491581172,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:20.646  [PUSH ALARM] {"multicast_id":140915551279775091,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:20.826  [PUSH ALARM] {"multicast_id":1460483566495196509,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:21.001  [PUSH ALARM] {"multicast_id":8831684445502823232,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:21.185  [PUSH ALARM] {"multicast_id":1388132448358874735,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:21.357  [PUSH ALARM] {"multicast_id":8367210391026197725,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:21.526  [PUSH ALARM] {"multicast_id":6232244483547542071,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:40:21.698  [PUSH ALARM] {"multicast_id":1513064450161074519,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:21.875  [PUSH ALARM] {"multicast_id":8622797578565767395,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:22.049  [PUSH ALARM] {"multicast_id":5791012182676299141,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:40:22.230  [PUSH ALARM] {"multicast_id":3069304002541895632,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:36.244  [INFO][HttpGet getPushAlarmController] 
+2022-02-24 23:40:36.245  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-24 23:40:36.421  [PUSH ALARM] {"multicast_id":365767250345591563,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:36.597  [PUSH ALARM] {"multicast_id":2321988567998285813,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:36.782  [PUSH ALARM] {"multicast_id":2665809185482161167,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:36.956  [PUSH ALARM] {"multicast_id":6570954485905089306,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:37.126  [PUSH ALARM] {"multicast_id":7444624840883603401,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:40:37.314  [PUSH ALARM] {"multicast_id":4775264381295705555,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645713644112463%c195b7dcc195b7dc"}]}
+2022-02-24 23:40:37.516  [PUSH ALARM] {"multicast_id":4869345867941530274,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645713644300710%c4872d34c4872d34"}]}
+2022-02-24 23:40:37.720  [PUSH ALARM] {"multicast_id":9136014879090525266,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645713644510584%c195b7dcc195b7dc"}]}
+2022-02-24 23:40:37.901  [PUSH ALARM] {"multicast_id":8986241357908089647,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:38.080  [PUSH ALARM] {"multicast_id":5154527561329412110,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:40:38.256  [PUSH ALARM] {"multicast_id":3085048463935508009,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:38.427  [PUSH ALARM] {"multicast_id":4155850433526265378,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:38.600  [PUSH ALARM] {"multicast_id":1016368273485381667,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:38.780  [PUSH ALARM] {"multicast_id":6652901138458322484,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:38.959  [PUSH ALARM] {"multicast_id":4392055310646704170,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:39.146  [PUSH ALARM] {"multicast_id":2897041895059881327,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:39.319  [PUSH ALARM] {"multicast_id":5502667745768642324,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:39.489  [PUSH ALARM] {"multicast_id":7193686119811276016,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:39.673  [PUSH ALARM] {"multicast_id":5086696692187907761,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:40:39.856  [PUSH ALARM] {"multicast_id":7189122263097539136,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:40.033  [PUSH ALARM] {"multicast_id":2965563026684913071,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:40:40.203  [PUSH ALARM] {"multicast_id":5930563864463819183,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:40:40.375  [PUSH ALARM] {"multicast_id":8491553984967129451,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:54:04.345  [INFO][HttpGet getCustInfoController] 
+2022-02-24 23:54:04.346  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:eKfbhPgTTeaXusB5HFsNg8:APA91bEbAKl8Y6cn1LdR0CAJsLV3os63dUW0bQXtXmHzMrFBxaNJV1jBlFROZPhTtaNdKvX5OckwEf8YFewWLjbB3snQjB8HNZPdAeyro8mfe7vseVjU5QJhu3GP_9RgIxonxQ7Dzovs
+2022-02-24 23:54:04.408  [DataBase SaveToken] 11111111,eKfbhPgTTeaXusB5HFsNg8:APA91bEbAKl8Y6cn1LdR0CAJsLV3os63dUW0bQXtXmHzMrFBxaNJV1jBlFROZPhTtaNdKvX5OckwEf8YFewWLjbB3snQjB8HNZPdAeyro8mfe7vseVjU5QJhu3GP_9RgIxonxQ7Dzovs
+2022-02-24 23:54:04.478  [INFO][HttpGet getReserveInfoController] 
+2022-02-24 23:54:04.479  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:eKfbhPgTTeaXusB5HFsNg8:APA91bEbAKl8Y6cn1LdR0CAJsLV3os63dUW0bQXtXmHzMrFBxaNJV1jBlFROZPhTtaNdKvX5OckwEf8YFewWLjbB3snQjB8HNZPdAeyro8mfe7vseVjU5QJhu3GP_9RgIxonxQ7Dzovs
+2022-02-24 23:54:04.537  [INFO][HttpGet getWebDCInfoController] 
+2022-02-24 23:54:04.538  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:eKfbhPgTTeaXusB5HFsNg8:APA91bEbAKl8Y6cn1LdR0CAJsLV3os63dUW0bQXtXmHzMrFBxaNJV1jBlFROZPhTtaNdKvX5OckwEf8YFewWLjbB3snQjB8HNZPdAeyro8mfe7vseVjU5QJhu3GP_9RgIxonxQ7Dzovs
+2022-02-24 23:54:04.652  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-02-24 23:54:04.653  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:eKfbhPgTTeaXusB5HFsNg8:APA91bEbAKl8Y6cn1LdR0CAJsLV3os63dUW0bQXtXmHzMrFBxaNJV1jBlFROZPhTtaNdKvX5OckwEf8YFewWLjbB3snQjB8HNZPdAeyro8mfe7vseVjU5QJhu3GP_9RgIxonxQ7Dzovs
+2022-02-24 23:54:04.653  [INFO][HttpGet getGateListController] 
+2022-02-24 23:54:04.654  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-02-24 23:55:21.991  [INFO][HttpGet getPushAlarmController] 
+2022-02-24 23:55:21.993  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-24 23:55:22.187  [PUSH ALARM] {"multicast_id":1636459997261017298,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:22.361  [PUSH ALARM] {"multicast_id":2310597567354833600,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:22.549  [PUSH ALARM] {"multicast_id":7560035238533820412,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:22.757  [PUSH ALARM] {"multicast_id":1342453024065843371,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:22.935  [PUSH ALARM] {"multicast_id":3557100455298092946,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:55:23.133  [PUSH ALARM] {"multicast_id":3647423110366025765,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645714529923272%c195b7dcc195b7dc"}]}
+2022-02-24 23:55:23.313  [PUSH ALARM] {"multicast_id":3049981544291091597,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645714530118520%c4872d34c4872d34"}]}
+2022-02-24 23:55:23.492  [PUSH ALARM] {"multicast_id":5756479183758616547,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:23.665  [PUSH ALARM] {"multicast_id":5877622408357370552,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:23.835  [PUSH ALARM] {"multicast_id":4313984339515951520,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:55:24.017  [PUSH ALARM] {"multicast_id":6573992910140912661,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:24.242  [PUSH ALARM] {"multicast_id":4448643108086634595,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645714531012945%c195b7dcc195b7dc"}]}
+2022-02-24 23:55:24.428  [PUSH ALARM] {"multicast_id":1099708306254208314,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:24.605  [PUSH ALARM] {"multicast_id":9157377528882232456,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:24.778  [PUSH ALARM] {"multicast_id":888517451767034491,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:24.958  [PUSH ALARM] {"multicast_id":611965938701525325,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:25.142  [PUSH ALARM] {"multicast_id":235954436940525569,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:25.319  [PUSH ALARM] {"multicast_id":9211112341429739509,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:25.514  [PUSH ALARM] {"multicast_id":882753894325599438,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:25.694  [PUSH ALARM] {"multicast_id":1312214984243339029,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:55:25.882  [PUSH ALARM] {"multicast_id":8205848325865399,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:26.058  [PUSH ALARM] {"multicast_id":6584277467504695250,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:26.230  [PUSH ALARM] {"multicast_id":5976970405079845104,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:55:26.403  [PUSH ALARM] {"multicast_id":5026241250087369043,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:42.522  [INFO][HttpGet getPushAlarmController] 
+2022-02-24 23:55:42.524  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-24 23:55:42.729  [PUSH ALARM] {"multicast_id":4482790763051822245,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:42.897  [PUSH ALARM] {"multicast_id":3855453452259427920,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:43.071  [PUSH ALARM] {"multicast_id":5907153449887013867,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:43.243  [PUSH ALARM] {"multicast_id":5135940479912957810,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:43.420  [PUSH ALARM] {"multicast_id":7342572844862719767,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:55:43.621  [PUSH ALARM] {"multicast_id":7425493459165634338,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645714550410344%c195b7dcc195b7dc"}]}
+2022-02-24 23:55:43.800  [PUSH ALARM] {"multicast_id":7121749869544339194,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645714550608932%c4872d34c4872d34"}]}
+2022-02-24 23:55:43.976  [PUSH ALARM] {"multicast_id":1625445531847341148,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:44.165  [PUSH ALARM] {"multicast_id":5048009105168530932,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:44.342  [PUSH ALARM] {"multicast_id":3911658524037904226,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:55:44.520  [PUSH ALARM] {"multicast_id":6375764837059491853,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:44.715  [PUSH ALARM] {"multicast_id":7320465746992400993,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645714551510800%c195b7dcc195b7dc"}]}
+2022-02-24 23:55:44.890  [PUSH ALARM] {"multicast_id":3411407369839709645,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:45.060  [PUSH ALARM] {"multicast_id":4103561216773506331,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:45.233  [PUSH ALARM] {"multicast_id":4369952216024934097,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:45.402  [PUSH ALARM] {"multicast_id":5152626654149273948,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:45.584  [PUSH ALARM] {"multicast_id":356160524424284425,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:45.755  [PUSH ALARM] {"multicast_id":4161762377739307562,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:45.938  [PUSH ALARM] {"multicast_id":1247726649149288627,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:46.109  [PUSH ALARM] {"multicast_id":58484287175589235,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:55:46.290  [PUSH ALARM] {"multicast_id":7296188169137543187,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:46.462  [PUSH ALARM] {"multicast_id":6126342068822703392,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:46.635  [PUSH ALARM] {"multicast_id":6240900106323608556,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:55:46.817  [PUSH ALARM] {"multicast_id":6778876168763592096,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:48.222  [INFO][HttpGet getPushAlarmController] 
+2022-02-24 23:55:48.222  [INFO][HttpGet getPushAlarmController] : id:11111111, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다
+2022-02-24 23:55:48.396  [PUSH ALARM] {"multicast_id":1277770510750974695,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:48.592  [PUSH ALARM] {"multicast_id":7207875248853033706,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:48.765  [PUSH ALARM] {"multicast_id":8349744941220937560,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:48.941  [PUSH ALARM] {"multicast_id":1352149772717485296,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:49.120  [PUSH ALARM] {"multicast_id":6286402073531865514,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:55:49.316  [PUSH ALARM] {"multicast_id":7373786888669850042,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645714556105800%c195b7dcc195b7dc"}]}
+2022-02-24 23:55:49.498  [PUSH ALARM] {"multicast_id":3746949485533218314,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645714556298779%c4872d34c4872d34"}]}
+2022-02-24 23:55:49.671  [PUSH ALARM] {"multicast_id":6841799264650667931,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:49.843  [PUSH ALARM] {"multicast_id":3827478532195259110,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:50.028  [PUSH ALARM] {"multicast_id":581683029798976611,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:55:50.204  [PUSH ALARM] {"multicast_id":7064165904327621972,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:50.442  [PUSH ALARM] {"multicast_id":1200561524259321914,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1645714557193148%c195b7dcc195b7dc"}]}
+2022-02-24 23:55:50.622  [PUSH ALARM] {"multicast_id":7007393407825832991,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:50.810  [PUSH ALARM] {"multicast_id":8832553729501597429,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:50.993  [PUSH ALARM] {"multicast_id":572136964282733182,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:51.179  [PUSH ALARM] {"multicast_id":3461755965599559116,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:51.360  [PUSH ALARM] {"multicast_id":3858178527635349662,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:51.530  [PUSH ALARM] {"multicast_id":488226152125417927,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:51.758  [PUSH ALARM] {"multicast_id":511284779142110542,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:51.937  [PUSH ALARM] {"multicast_id":4170956103744088539,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:55:52.108  [PUSH ALARM] {"multicast_id":5221729127222350421,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:52.291  [PUSH ALARM] {"multicast_id":3184386247672783361,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-02-24 23:55:52.465  [PUSH ALARM] {"multicast_id":4820528737521438715,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]}
+2022-02-24 23:55:52.642  [PUSH ALARM] {"multicast_id":8947937185900560390,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}

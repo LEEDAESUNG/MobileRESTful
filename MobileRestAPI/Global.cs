@@ -14,6 +14,12 @@ using SimpleTCP;
 using System.Net.Sockets;
 using System.Text;
 using System.Runtime.InteropServices;
+using FirebaseAdmin;
+using Google.Apis.Auth.OAuth2;
+using FirebaseAdmin.Messaging;
+using System.Net;
+using Newtonsoft.Json;
+using System.IO;
 
 namespace MobileRestAPI
 {
@@ -46,6 +52,13 @@ namespace MobileRestAPI
         public static string RootPath = System.IO.Directory.GetCurrentDirectory();
         public static string APIServerIP = "127.0.0.1";
         public static int APIServerPORT = 39157;
+
+
+
+
+        static public string _rootPath;
+        static public string _authFilePath;
+        static public string result;
 
         public static readonly object errlogLock = new object();
         public static readonly object filelogLock = new object();
@@ -400,7 +413,7 @@ namespace MobileRestAPI
 
 
                     var client = new SimpleTcpClient().Connect(APIServerIP, APIServerPORT);
-                    Message message = client.WriteLineAndGetReply(_cmd + "_" + _gateno, TimeSpan.FromSeconds(5000));
+                    SimpleTCP.Message message = client.WriteLineAndGetReply(_cmd + "_" + _gateno, TimeSpan.FromSeconds(5000));
 
                     util.FileLogger("[Recv Host gateOpen Result] " + message.MessageString);
                     if (message.MessageString == "ACK")
@@ -1967,23 +1980,23 @@ namespace MobileRestAPI
                         jElem2.Add("pcode", pcode);
                         jElem2.Add("pname", pname);
                         jElem2.Add("pgubun", pgubun);
-                        jElem2.Add("pdc1", pdc1);
+                        jElem2.Add("pdc1time", pdc1);
                         jElem2.Add("pdc1desc", pdc1desc);
                         jElem2.Add("pdc1count", pdc1count);
                         jElem2.Add("pdc1free", pdc1free);
-                        jElem2.Add("pdc2", pdc2);
+                        jElem2.Add("pdc2time", pdc2);
                         jElem2.Add("pdc2desc", pdc2desc);
                         jElem2.Add("pdc2count", pdc2count);
                         jElem2.Add("pdc2free", pdc2free);
-                        jElem2.Add("pdc3", pdc3);
+                        jElem2.Add("pdc3time", pdc3);
                         jElem2.Add("pdc3desc", pdc3desc);
                         jElem2.Add("pdc3count", pdc3count);
                         jElem2.Add("pdc3free", pdc3free);
-                        jElem2.Add("pdc4", pdc4);
+                        jElem2.Add("pdc4time", pdc4);
                         jElem2.Add("pdc4desc", pdc4desc);
                         jElem2.Add("pdc4count", pdc4count);
                         jElem2.Add("pdc4free", pdc4free);
-                        jElem2.Add("pdc5", pdc5);
+                        jElem2.Add("pdc5time", pdc5);
                         jElem2.Add("pdc5desc", pdc5desc);
                         jElem2.Add("pdc5count", pdc5count);
                         jElem2.Add("pdc5free", pdc5free);
@@ -2192,13 +2205,14 @@ namespace MobileRestAPI
         /// <param name="_password"></param>
         /// <param name="_token"></param>
         /// <param name="respJson"></param>
-        static public void getInCarListCarno(string _id, string _password, string _token, string _carno, ref JObject respJson)
+        static public void getInCarListWebdcList(string _id, string _password, string _token, string _carno, string _pname, ref JObject respJson)
         {
             string nowTime = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
             var JHead = new JObject();
             var JBody = new JArray();
             var jElem = new JObject();
             bool isMember = false;
+            var prevPName = "";
             string res = "FAILED";
 
             string encPassword = JwtEncoder.JwtEncode(_password, "www.jawootek.com");
@@ -2227,19 +2241,42 @@ namespace MobileRestAPI
                     connection.Close();
                     connection.Open();
 
-                    sql = "SELECT * FROM tb_now where CAR_NO like @carno ORDER BY SEQ DESC";
+                    //sql = "SELECT * FROM tb_now Left Join tb_web_dc ON tb_now.CAR_NO = tb_web_dc.DC_CARNO AND tb_now.pass_date < tb_web_dc.DT_DC" +
+                    //    " where CAR_NO like @carno AND CAR_NO <> '인식실패' AND (tb_web_dc.PNAME = @pname OR tb_web_dc.PNAME is NULL) ORDER BY tb_now.car_no, pass_date";
+                    sql = "SELECT * FROM tb_now where CAR_NO like @carno AND CAR_NO <> '인식실패' ORDER BY SEQ DESC";
+
                     var mySqlCommand2 = new MySqlCommand(sql, connection);
                     mySqlCommand2.Parameters.AddWithValue("@carno", "%" + _carno + "%");
-
                     var mySqlDataReader2 = mySqlCommand2.ExecuteReader();
                     while (mySqlDataReader2.Read())
                     {
-                        string seq = (mySqlDataReader2.IsDBNull(mySqlDataReader2.GetOrdinal("SEQ"))) ? "" : mySqlDataReader2.GetString(mySqlDataReader2.GetOrdinal("SEQ"));
-                        string carno = (mySqlDataReader2.IsDBNull(mySqlDataReader2.GetOrdinal("CAR_NO"))) ? "" : mySqlDataReader2.GetString(mySqlDataReader2.GetOrdinal("CAR_NO"));
-                        string passdate = (mySqlDataReader2.IsDBNull(mySqlDataReader2.GetOrdinal("PASS_DATE"))) ? "" : mySqlDataReader2.GetString(mySqlDataReader2.GetOrdinal("PASS_DATE"));
-                        string passresult = (mySqlDataReader2.IsDBNull(mySqlDataReader2.GetOrdinal("PASS_RESULT"))) ? "" : mySqlDataReader2.GetString(mySqlDataReader2.GetOrdinal("PASS_RESULT"));
-                        string passimage = (mySqlDataReader2.IsDBNull(mySqlDataReader2.GetOrdinal("PASS_IMAGE"))) ? "" : mySqlDataReader2.GetString(mySqlDataReader2.GetOrdinal("PASS_IMAGE"));
-                        string passyn = (mySqlDataReader2.IsDBNull(mySqlDataReader2.GetOrdinal("PASS_YN"))) ? "" : mySqlDataReader2.GetString(mySqlDataReader2.GetOrdinal("PASS_YN"));
+                        string seq = GetStringFieldValue(mySqlDataReader2, "SEQ");
+                        string carno = GetStringFieldValue(mySqlDataReader2, "CAR_NO");
+                        string passdate = GetStringFieldValue(mySqlDataReader2, "PASS_DATE");
+                        string passresult = GetStringFieldValue(mySqlDataReader2, "PASS_RESULT");
+                        string passimage = GetStringFieldValue(mySqlDataReader2, "PASS_IMAGE");
+                        string passyn = GetStringFieldValue(mySqlDataReader2, "PASS_YN");
+
+
+                        string webdcReg = "N";
+
+                        sql = "SELECT * FROM tb_web_dc where DC_CARNO = @carno AND PNAME = @pname AND DT_DC > @passdate LIMIT 1";
+                        var connection3 = new MySqlConnection(connectionString);
+                        connection3.Open();
+                        var mySqlCommand3 = new MySqlCommand(sql, connection3);
+                        mySqlCommand3.Parameters.AddWithValue("@carno", carno);
+                        mySqlCommand3.Parameters.AddWithValue("@pname", _pname);
+                        mySqlCommand3.Parameters.AddWithValue("@passdate", passdate);
+                        var mySqlDataReader3 = mySqlCommand3.ExecuteReader();
+                        if (mySqlDataReader3.Read())
+                        {
+                            webdcReg = "Y"; //해당매장에서 웹할인 등록차량
+                        }
+                        else
+                        {
+                            webdcReg = "N"; //해당매장에서 웹할인 미등록차량
+                        }
+                        connection3.Close();
 
 
                         var jElem2 = new JObject();
@@ -2249,8 +2286,7 @@ namespace MobileRestAPI
                         jElem2.Add("passresult", passresult);
                         jElem2.Add("passimage", passimage);
                         jElem2.Add("passyn", passyn);
-
-
+                        jElem2.Add("webdcReg", webdcReg);
                         JBody.Add(jElem2);
                     }
                     mySqlDataReader2.Close();
@@ -2262,8 +2298,8 @@ namespace MobileRestAPI
             }
             catch (SocketException se)
             {
-                util.FileLogger("[ERROR][getInCarListCarno SocketException] " + se.ErrorCode);
-                util.FileLogger("[ERROR][getInCarListCarno SocketException] " + se.Message);
+                util.FileLogger("[ERROR][getInCarListWebdcList SocketException] " + se.ErrorCode);
+                util.FileLogger("[ERROR][getInCarListWebdcList SocketException] " + se.Message);
                 if (se.ErrorCode == 10061)
                 {
                     jElem.Add("seq", "error");
@@ -2281,7 +2317,7 @@ namespace MobileRestAPI
             }
             catch (Exception ex)
             {
-                util.FileLogger("[ERROR][getInCarListCarno Exception] " + ex.Message);
+                util.FileLogger("[ERROR][getInCarListWebdcList Exception] " + ex.Message);
 
                 jElem.Add("seq", "error");
                 jElem.Add("carno", "error");
@@ -2425,14 +2461,18 @@ namespace MobileRestAPI
             }
         }
 
-        static public void setWebdcCarno(string _id, string _password, string _token, string _seq, string _dctime, ref JObject respJson)
+
+        static public void setWebdcProc(string _id, string _password, string _token, string _seq, string _carno, string _dctime, string _dcdesc, string _pcode, string _pname, string _pgubun, ref JObject respJson)
         {
+            int _result = -1;
+            string _resultPoint = "";
             string nowTime = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
             var JHead = new JObject();
             var JBody = new JArray();
             var jElem = new JObject();
             bool isMember = false;
             string res = "FAILED";
+            int i = 0;
 
             string encPassword = JwtEncoder.JwtEncode(_password, "www.jawootek.com");
             var connectionString = connStr;
@@ -2460,39 +2500,191 @@ namespace MobileRestAPI
                     connection.Close();
                     connection.Open();
 
-                    sql = "SELECT * FROM tb_guestreg WHERE START_DATE >= @startdate";
-                    var mySqlCommand2 = new MySqlCommand(sql, connection);
-                    //mySqlCommand2.Parameters.AddWithValue("@startdate", _startdate + " 00:00:00");
-                    var mySqlDataReader2 = mySqlCommand2.ExecuteReader();
-                    while (mySqlDataReader2.Read())
+
+
+                    sql = "SELECT * FROM tb_partner WHERE ID=@id ";
+                    mySqlCommand = new MySqlCommand(sql, connection);
+                    mySqlCommand.Parameters.AddWithValue("@id", _id);
+                    mySqlDataReader = mySqlCommand.ExecuteReader();
+
+                    int [] dcTime = {0,0,0,0,0};                //할인시간
+                    int[] dcCount = { 0, 0, 0, 0, 0 };          //유료포인트
+                    int[] dcFreeCount = { 0, 0, 0, 0, 0 };      //무료포인트
+                    string[] dcDesc = { "", "", "", "", "" };   //포인트설명
+                    int dcIndex = -1;                           //할인시간 dc필드 인덱스
+
+                    if (mySqlDataReader.Read())
                     {
-                        string seq = mySqlDataReader2.GetString(mySqlDataReader2.GetOrdinal("SEQ"));
-                        string carno = mySqlDataReader2.GetString(mySqlDataReader2.GetOrdinal("CAR_NO"));
-                        string dong = mySqlDataReader2.GetString(mySqlDataReader2.GetOrdinal("DRIVER_DEPT"));
-                        string ho = mySqlDataReader2.GetString(mySqlDataReader2.GetOrdinal("DRIVER_CLASS"));
-                        string name = mySqlDataReader2.GetString(mySqlDataReader2.GetOrdinal("DRIVER_NAME"));
-                        string sdate = mySqlDataReader2.GetString(mySqlDataReader2.GetOrdinal("START_DATE"));
-                        string edate = mySqlDataReader2.GetString(mySqlDataReader2.GetOrdinal("END_DATE"));
-                        string rdate = mySqlDataReader2.GetString(mySqlDataReader2.GetOrdinal("REG_DATE"));
-                        string pass_yn = mySqlDataReader2.GetString(mySqlDataReader2.GetOrdinal("PASS_YN"));
-                        string regID = mySqlDataReader2.GetString(mySqlDataReader2.GetOrdinal("GUESTREG_ID"));
+                        dcTime[0] = GetIntFieldValue(mySqlDataReader, "PDC1"); //dc1 할인시간 필드
+                        dcTime[1] = GetIntFieldValue(mySqlDataReader, "PDC2"); //dc2 할인시간 필드
+                        dcTime[2] = GetIntFieldValue(mySqlDataReader, "PDC3"); //dc3 할인시간 필드
+                        dcTime[3] = GetIntFieldValue(mySqlDataReader, "PDC4"); //dc4 할인시간 필드
+                        dcTime[4] = GetIntFieldValue(mySqlDataReader, "PDC5"); //dc5 할인시간 필드
 
-                        var jElem2 = new JObject();
-                        jElem2.Add("seq", seq);
-                        jElem2.Add("carno", carno);
-                        jElem2.Add("dong", dong);
-                        jElem2.Add("ho", ho);
-                        jElem2.Add("name", name);
-                        jElem2.Add("start_date", sdate);
-                        jElem2.Add("end_date", edate);
-                        jElem2.Add("reg_date", rdate);
-                        jElem2.Add("pass_yn", pass_yn);
-                        jElem2.Add("regID", regID);
+                        dcCount[0] = GetIntFieldValue(mySqlDataReader, "PDC1_COUNT"); //dc1 유료포인트 수
+                        dcCount[1] = GetIntFieldValue(mySqlDataReader, "PDC2_COUNT");
+                        dcCount[2] = GetIntFieldValue(mySqlDataReader, "PDC3_COUNT");
+                        dcCount[3] = GetIntFieldValue(mySqlDataReader, "PDC4_COUNT");
+                        dcCount[4] = GetIntFieldValue(mySqlDataReader, "PDC5_COUNT");
 
-                        JBody.Add(jElem2);
+                        dcFreeCount[0] = GetIntFieldValue(mySqlDataReader, "PDC1_FREECOUNT"); //dc1 무료포인트 수
+                        dcFreeCount[1] = GetIntFieldValue(mySqlDataReader, "PDC1_FREECOUNT");
+                        dcFreeCount[2] = GetIntFieldValue(mySqlDataReader, "PDC1_FREECOUNT");
+                        dcFreeCount[3] = GetIntFieldValue(mySqlDataReader, "PDC1_FREECOUNT");
+                        dcFreeCount[4] = GetIntFieldValue(mySqlDataReader, "PDC1_FREECOUNT");
+
+                        dcDesc[0] = GetStringFieldValue(mySqlDataReader, "PDC1_DESC"); //dc1 설명
+                        dcDesc[1] = GetStringFieldValue(mySqlDataReader, "PDC2_DESC");
+                        dcDesc[2] = GetStringFieldValue(mySqlDataReader, "PDC3_DESC");
+                        dcDesc[3] = GetStringFieldValue(mySqlDataReader, "PDC4_DESC");
+                        dcDesc[4] = GetStringFieldValue(mySqlDataReader, "PDC5_DESC");
+
+                        for(i=0; i<5; i++)
+                        {
+                            if (_dctime == dcTime[i].ToString()) //할인시간과 같은 테이블 필드찾기
+                            {
+                                dcIndex = i;
+
+                                if (dcFreeCount[dcIndex] > 0) _resultPoint = "무료포인트사용";
+                                else if (dcCount[dcIndex] > 0) _resultPoint = "유료포인트사용";
+                                else _resultPoint = "포인트부족";
+
+                                break;
+                            }
+                        }
                     }
-                    mySqlDataReader2.Close();
 
+
+                    if (dcIndex >= 0)
+                    {
+                        if (_resultPoint == "무료포인트사용" || _resultPoint == "유료포인트사용")
+                        {
+                            connection.Close();
+                            connection.Open();
+
+                            //웹할인 등록
+                            sql = "INSERT INTO tb_web_dc (PCODE, PNAME,PGUBUN,DC_CARNO,DC_NAME,DC_CODE,DT_DC,USE_YN) VALUES (@pcode,@pname,@pgubun,@carno,@desc,@dcvalue,@regTime,'N')";
+                            var mySqlCommand2 = new MySqlCommand(sql, connection);
+                            //mySqlCommand2.Parameters.AddWithValue("@pcode", _pcode);
+                            mySqlCommand2.Parameters.AddWithValue("@pcode", _seq); //로그인ID의 고유번호
+                            mySqlCommand2.Parameters.AddWithValue("@pname", _pname);
+                            mySqlCommand2.Parameters.AddWithValue("@pgubun", _pgubun);
+                            mySqlCommand2.Parameters.AddWithValue("@carno", _carno);
+                            mySqlCommand2.Parameters.AddWithValue("@desc", _dcdesc);
+                            mySqlCommand2.Parameters.AddWithValue("@dcvalue", _dctime);
+                            mySqlCommand2.Parameters.AddWithValue("@regTime", nowTime);
+
+                            if (mySqlCommand2.ExecuteNonQuery() == 1)
+                            {
+                                _result = 1;//성공
+
+                                if (_resultPoint == "무료포인트사용")
+                                {
+                                    if (dcIndex == 0) sql = "UPDATE tb_partner SET PDC1_FREECOUNT=@point WHERE ID = @id ";
+                                    else if (dcIndex == 1) sql = "UPDATE tb_partner SET PDC2_FREECOUNT=@point WHERE WHERE ID = @id ";
+                                    else if (dcIndex == 2) sql = "UPDATE tb_partner SET PDC3_FREECOUNT=@point WHERE WHERE ID = @id ";
+                                    else if (dcIndex == 3) sql = "UPDATE tb_partner SET PDC4_FREECOUNT=@point WHERE WHERE ID = @id ";
+                                    else if (dcIndex == 4) sql = "UPDATE tb_partner SET PDC5_FREECOUNT=@point WHERE WHERE ID = @id ";
+                                }
+                                else if (_resultPoint == "유료포인트사용")
+                                {
+                                    if (dcIndex == 0) sql = "UPDATE tb_partner SET PDC1_COUNT=@point WHERE ID = @id ";
+                                    else if (dcIndex == 1) sql = "UPDATE tb_partner SET PDC2_COUNT=@point WHERE ID = @id ";
+                                    else if (dcIndex == 2) sql = "UPDATE tb_partner SET PDC3_COUNT=@point WHERE ID = @id ";
+                                    else if (dcIndex == 3) sql = "UPDATE tb_partner SET PDC4_COUNT=@point WHERE ID = @id ";
+                                    else if (dcIndex == 4) sql = "UPDATE tb_partner SET PDC5_COUNT=@point WHERE ID = @id ";
+                                }
+
+                                //var connection3 = new MySqlConnection(connectionString);
+                                var mySqlCommand3 = new MySqlCommand(sql, connection);
+                                if (_resultPoint == "무료포인트사용")
+                                {
+                                    mySqlCommand3.Parameters.AddWithValue("@point", --dcFreeCount[dcIndex]);
+                                    mySqlCommand3.Parameters.AddWithValue("@id", _id);
+                                }
+                                else if (_resultPoint == "유료포인트사용")
+                                {
+                                    mySqlCommand3.Parameters.AddWithValue("@point", --dcCount[dcIndex]);
+                                    mySqlCommand3.Parameters.AddWithValue("@id", _id);
+                                }
+                                //웹할인 포인트 차감
+                                mySqlCommand3.ExecuteNonQuery();
+
+
+                                jElem.Add("seq", _seq);
+                                jElem.Add("pcode", _pcode);
+                                jElem.Add("pname", _pname);
+                                jElem.Add("pgubun", _pgubun);
+                                jElem.Add("carno", _carno);
+                                //jElem.Add("dc1desc", dcDesc[0]);
+                                //jElem.Add("dc1time", dcTime[0]);
+                                //jElem.Add("dc1count", dcCount[0]);
+                                //jElem.Add("dc1free", dcFreeCount[0]);
+                                //jElem.Add("dc2desc", dcDesc[1]);
+                                //jElem.Add("dc2time", dcTime[1]);
+                                //jElem.Add("dc2count", dcCount[1]);
+                                //jElem.Add("dc2free", dcFreeCount[1]);
+                                //jElem.Add("dc3desc", dcDesc[2]);
+                                //jElem.Add("dc3time", dcTime[2]);
+                                //jElem.Add("dc3count", dcCount[2]);
+                                //jElem.Add("dc3free", dcFreeCount[2]);
+                                //jElem.Add("dc4desc", dcDesc[3]);
+                                //jElem.Add("dc4time", dcTime[3]);
+                                //jElem.Add("dc4count", dcCount[3]);
+                                //jElem.Add("dc4free", dcFreeCount[3]);
+                                //jElem.Add("dc5desc", dcDesc[4]);
+                                //jElem.Add("dc5time", dcTime[4]);
+                                //jElem.Add("dc5count", dcCount[4]);
+                                //jElem.Add("dc5free", dcFreeCount[4]);
+                                jElem.Add("result", "SUCCESS"); //FAIL or SUCCESS
+                                JBody.Add(jElem);
+                            }
+                            else
+                            {
+                                _result = 0;//실패
+                                            //respTime = nowTime;
+
+                                jElem.Add("seq", _seq);
+                                jElem.Add("pcode", _pcode);
+                                jElem.Add("pname", _pname);
+                                jElem.Add("pgubun", _pgubun);
+                                jElem.Add("carno", _carno);
+                                //jElem.Add("desc", _dcdesc);
+                                //jElem.Add("dctime", _dctime);
+                                jElem.Add("result", "웹할인 등록실패(Insert Query Failed)"); //FAIL or SUCCESS
+                                JBody.Add(jElem);
+                                util.FileLogger("[ERROR][setWebdcProc DataBase Insert Fail] " + "setWebdcProc:" + _pname + "," + _dcdesc + "," + _carno + ":웹할인 등록 실패(Insert Query Failed)");
+                            }
+                        }
+                        else if (_resultPoint == "포인트부족")
+                        {
+                            _result = 0;//실패
+
+                            jElem.Add("seq", _seq);
+                            jElem.Add("pcode", _pcode);
+                            jElem.Add("pname", _pname);
+                            jElem.Add("pgubun", _pgubun);
+                            jElem.Add("carno", _carno);
+                            //jElem.Add("desc", _dcdesc);
+                            //jElem.Add("dctime", _dctime);
+                            jElem.Add("result", "웹할인 등록실패(포인트부족)"); //FAIL or SUCCESS
+                            JBody.Add(jElem);
+                            util.FileLogger("[ERROR][setWebdcProc DataBase Insert Fail] " + "setWebdcProc:" + _pname + "," + _dcdesc + "," + _carno + ":웹할인 등록 실패(포인트부족)");
+                        }
+                    }
+                    else
+                    {
+                        _result = 0;//실패
+
+                        jElem.Add("seq", _seq);
+                        jElem.Add("pcode", _pcode);
+                        jElem.Add("pname", _pname);
+                        jElem.Add("pgubun", _pgubun);
+                        jElem.Add("carno", _carno);
+                        jElem.Add("result", "웹할인 등록실패(코드에러)"); //FAIL or SUCCESS
+                        JBody.Add(jElem);
+                        util.FileLogger("[ERROR][setWebdcProc DataBase Insert Fail] " + "setWebdcProc:" + _pname + "," + _dcdesc + "," + _carno + ":웹할인 등록 실패(할인시간에러)");
+                    }
                 }
                 JHead.Add("isMember", isMember);
                 JHead.Add("values", JBody);
@@ -2501,20 +2693,121 @@ namespace MobileRestAPI
             }
             catch (SocketException se)
             {
-                util.FileLogger("[ERROR][reserveCarList SocketException] " + se.ErrorCode);
-                util.FileLogger("[ERROR][reserveCarList SocketException] " + se.Message);
+                util.FileLogger("[ERROR][setWebdcProc SocketException] " + se.ErrorCode);
+                util.FileLogger("[ERROR][setWebdcProc SocketException] " + se.Message);
                 if (se.ErrorCode == 10061)
                 {
                     jElem.Add("seq", "error");
+                    jElem.Add("pcode", "error");
+                    jElem.Add("pname", "error");
+                    jElem.Add("pgubun", "error");
                     jElem.Add("carno", "error");
-                    jElem.Add("dong", "error");
-                    jElem.Add("ho", "error");
-                    jElem.Add("name", "error");
-                    jElem.Add("start_date", "error");
-                    jElem.Add("end_date", "error");
-                    jElem.Add("reg_date", "error");
-                    jElem.Add("pass_yn", "error");
-                    jElem.Add("regID", "error");
+                    //jElem.Add("desc", "error");
+                    //jElem.Add("dctime", "error");
+                    jElem.Add("result", se.Message); //FAIL or SUCCESS
+                    JBody.Add(jElem);
+                    JHead.Add("isMember", isMember);
+                    JHead.Add("values", JBody);
+                    respJson = JHead;
+                    util.FileLogger("[ERROR][setWebdcProc Fail] " + "setWebdcProc:" + _pname + "," + _dcdesc + "," + _carno + ":" + se.Message);
+                }
+            }
+            catch (Exception ex)
+            {
+                util.FileLogger("[ERROR][setWebdcProc Exception] " + ex.Message);
+
+                jElem.Add("seq", "error");
+                jElem.Add("pcode", "error");
+                jElem.Add("pname", "error");
+                jElem.Add("pgubun", "error");
+                jElem.Add("carno", "error");
+                //jElem.Add("desc", "error");
+                //jElem.Add("dctime", "error");
+                jElem.Add("result", ex.Message); //FAIL or SUCCESS
+
+                JBody.Add(jElem);
+                JHead.Add("isMember", isMember);
+                JHead.Add("values", JBody);
+                respJson = JHead;
+                util.FileLogger("[ERROR][setWebdcProc Fail] " + "setWebdcProc:" + _pname + "," + _dcdesc + "," + _carno + ":" + ex.Message);
+            }
+            finally
+            {
+                if (connection.State.ToString() == "Open")
+                    connection.Close();
+            }
+        }
+
+        /// <summary>
+        /// Host 에서 수신
+        /// </summary>
+        /// <param name="_id"></param>
+        /// <param name="_password"></param>
+        /// <param name="_token"></param>
+        /// <param name="respJson"></param>
+        static public void pushAlarm(string _id, string _gubun, string _gateno, string _gatename, string _title, string _message, ref JObject respJson)
+        {
+            string nowTime = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+            var JHead = new JObject();
+            var JBody = new JArray();
+            var jElem = new JObject();
+            bool isMember = false;
+            string res = "FAILED";
+
+            string decID = JwtEncoder.JwtDecode(_id, "www.jawootek.com");
+            var connectionString = connStr;
+            var connection = new MySqlConnection(connectionString);
+            try
+            {
+                connection.Open();
+
+                var sql = "SELECT * FROM tb_id WHERE ID = @id ";
+
+                var mySqlCommand = new MySqlCommand(sql, connection);
+                mySqlCommand.Parameters.AddWithValue("@id", _id);
+
+                var mySqlDataReader = mySqlCommand.ExecuteReader();
+
+                JHead.Add("resultCode", ReturnCode.Success);
+                JHead.Add("resultMessage", "SUCCESS");
+                JHead.Add("responseTime", nowTime);
+
+                if (mySqlDataReader.Read())
+                {
+                    isMember = true;
+
+                    connection.Close();
+                    connection.Open();
+
+                    sql = "SELECT * FROM tb_devices_admin ";
+                    var mySqlCommand2 = new MySqlCommand(sql, connection);
+
+                    var mySqlDataReader2 = mySqlCommand2.ExecuteReader();
+                    while (mySqlDataReader2.Read())
+                    {
+                        string id = GetStringFieldValue(mySqlDataReader2, "ID");
+                        string token = GetStringFieldValue(mySqlDataReader2, "token");
+
+                        SendToFirebaseMessagingServerAsync(token, _gubun, _gateno, _gatename, _title, _message);
+
+                        var jElem2 = new JObject();
+                        jElem2.Add("id", id);
+                        JBody.Add(jElem2);
+                    }
+                    mySqlDataReader2.Close();
+                }
+                JHead.Add("isMember", isMember);
+                JHead.Add("values", JBody);
+                respJson = JHead;
+                mySqlDataReader.Close();
+            }
+            catch (SocketException se)
+            {
+                util.FileLogger("[ERROR][pushAlarm SocketException] " + se.ErrorCode);
+                util.FileLogger("[ERROR][pushAlarm SocketException] " + se.Message);
+                if (se.ErrorCode == 10061)
+                {
+                    jElem.Add("id", "error");
                     JBody.Add(jElem);
                     JHead.Add("isMember", isMember);
                     JHead.Add("values", JBody);
@@ -2523,18 +2816,9 @@ namespace MobileRestAPI
             }
             catch (Exception ex)
             {
-                util.FileLogger("[ERROR][reserveCarList Exception] " + ex.Message);
+                util.FileLogger("[ERROR][pushAlarm Exception] " + ex.Message);
 
-                jElem.Add("seq", "error");
-                jElem.Add("carno", "error");
-                jElem.Add("dong", "error");
-                jElem.Add("ho", "error");
-                jElem.Add("name", "error");
-                jElem.Add("start_date", "error");
-                jElem.Add("end_date", "error");
-                jElem.Add("reg_date", "error");
-                jElem.Add("pass_yn", "error");
-                jElem.Add("regID", "error");
+                jElem.Add("id", "error");
 
                 JBody.Add(jElem);
                 JHead.Add("isMember", isMember);
@@ -2547,7 +2831,158 @@ namespace MobileRestAPI
                     connection.Close();
             }
         }
-        
+
+        static public async Task SendToFirebaseMessagingServerAsync(String _token, String _gubun, string _gateno, string _gatename, String _title, String _message)
+        {
+            //await OnGetAsync(_token, _message);
+            SendNotification(_token, _gubun, _gateno, _gatename, _title, _message);
+        }
+        static public string SendNotification(string deviceId, String _gubun, string _gateno, string _gatename, String _title, string _message)
+        {
+            string SERVER_API_KEY = "AAAAWpOlMiM:APA91bGK8ZGVd78d5015lLY8QVfTFnMsEeF6HuVgNsgUl9IU7X4wpZLdKFEs6SEOWdHNBBChCo53ZF6kAfhI5FN78qzry9W0YdUFUr_Lc42LlYk_6Qsy38CtxY62rHF63onpfzQtsQ9q";
+            var result = "";
+            var image = Directory.GetCurrentDirectory() + "\\images\\Parking_Red.ico";
+            //string image1 = Directory.GetCurrentDirectory() + "\\images\\login.png";
+
+            var notificationInputDto = new
+            {
+                to = deviceId,
+                notification = new
+                {
+                    body = _message,
+                    title = _title,
+                    icon = "",
+                    type = ""
+                },
+                data = new
+                {
+                    gubun = _gubun,
+                    gateno = _gateno,
+                    gatename = _gatename,
+                    key1 = "value1",
+                    key2 = "value2",
+                },
+                android = new //안드로이드
+                {
+                    notification = new
+                    {
+                        //image = "https://firebasestorage.googleapis.com/v0/b/parkingmanager-11242.appspot.com/o/profile%2Fgate.png?alt=media&token=5cdebe38-ca3e-4909-97db-b84794d67a7f"
+                        imageUrl = "https://img6.yna.co.kr/photo/yna/YH/2010/02/01/PYH2010020102450000400_P4.jpg"
+                    },
+                    priority = "max"
+                },
+                apns = new //IOS
+                {
+                    headers = new
+                    {
+                        //apns-priority = 5
+                        priority = 5
+                    },
+                    payload = new
+                    {
+                        aps = new
+                        {
+                            multable_content = 1
+                        }
+                    },
+                    fcm_options = new
+                    {
+                        image = "https://firebasestorage.googleapis.com/v0/b/parkingmanager-11242.appspot.com/o/profile%2Fgate.png?alt=media&token=5cdebe38-ca3e-4909-97db-b84794d67a7f"
+                    }
+                },
+                webpush = new //WEB
+                {
+                  headers = new {
+                    Urgency = "high",
+                      image = "https://firebasestorage.googleapis.com/v0/b/parkingmanager-11242.appspot.com/o/profile%2Fgate.png?alt=media&token=5cdebe38-ca3e-4909-97db-b84794d67a7f"
+                  }
+                }
+            };
+            try
+            {
+                
+                var webAddr = "https://fcm.googleapis.com/fcm/send";
+                var httpWebRequest = (HttpWebRequest)WebRequest.Create(webAddr);
+                httpWebRequest.ContentType = "application/json";
+                httpWebRequest.Headers.Add("Authorization:key=" + SERVER_API_KEY);
+                httpWebRequest.Method = "POST";
+                using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
+                {
+                    streamWriter.Write(JsonConvert.SerializeObject(notificationInputDto));
+                    streamWriter.Flush();
+                }
+                var httpResponse = (HttpWebResponse)httpWebRequest.GetResponse();
+                using (var streamReader = new StreamReader(httpResponse.GetResponseStream()))
+                {
+                    result = streamReader.ReadToEnd();
+                }
+            }
+            catch (Exception ex)
+            {
+                //throw;
+                result = ex.Message;
+            }
+
+            Global.util.FileLogger("[PUSH ALARM] " + result);
+            return result;
+        }
+
+        static public async Task OnGetAsync(String _token, String _data)
+        {
+            //_authFilePath = _rootPath + ".\\Auth_parking.json";
+            //_authFilePath = _rootPath + ".\\google-services.json";
+            _authFilePath = "\\MobileRestAPI\\MobileRestAPI\\" + "google-services.json";
+            FirebaseApp app = null;
+            try
+            {
+                try
+                {
+                    app = FirebaseApp.Create(new AppOptions()
+                    {
+                        Credential = GoogleCredential.FromFile(_authFilePath)
+                    }, "myApp");
+                }
+                catch (Exception ex)
+                {
+                    app = FirebaseApp.GetInstance("myApp");
+                }
+
+
+                var fcm = FirebaseAdmin.Messaging.FirebaseMessaging.GetMessaging(app);
+
+                FirebaseAdmin.Messaging.Message message = new FirebaseAdmin.Messaging.Message()
+                {
+                    Notification = new Notification
+                    {
+                        Title = "My push notification title",
+                        Body = "Content for this push notification"
+                    },
+                    Data = new Dictionary<string, string>()
+                    {
+                        { "AdditionalData1", "data 1" },
+                        { "AdditionalData2", "data 2" },
+                        { "AdditionalData3", "data 3" },
+                    },
+
+                    Topic = "fcm_test"
+                };
+
+                try
+                {
+                    result = await fcm.SendAsync(message);
+                    Console.WriteLine("sent fcm message");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("sent fcm message error : " + ex.Message);
+                }
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine("fcm message error : " + e.Message);
+            }
+        }
+
         static public void GetMessage(int code, ref string http, ref string msg, ref string detailmsg)
         {
             switch (code)

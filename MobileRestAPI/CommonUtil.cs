@@ -9,6 +9,10 @@ namespace MobileRestAPI
 {
     class CommonUtil
     {
+        //static public string _rootPath;
+        //static public string _authFilePath;
+        //static public string result;
+
         private readonly object fileLock = new object();
         string sIniPath = ".\\MobileRestAPI.ini";
         string sDocPath = ".\\Doc\\";
