@@ -2745,7 +2745,7 @@ namespace MobileRestAPI
         /// <param name="_password"></param>
         /// <param name="_token"></param>
         /// <param name="respJson"></param>
-        static public void pushAlarm(string _id, string _gubun, string _gateno, string _gatename, string _title, string _message, ref JObject respJson)
+        static public void pushAlarm(string _seq, string _sender, string _recver, string _gubun, string _gateno, string _gatename, string _title, string _message, string _datetime, string _rtsp, ref JObject respJson)
         {
             string nowTime = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
             var JHead = new JObject();
@@ -2754,17 +2754,17 @@ namespace MobileRestAPI
             bool isMember = false;
             string res = "FAILED";
 
-            string decID = JwtEncoder.JwtDecode(_id, "www.jawootek.com");
+            //string decID = JwtEncoder.JwtDecode(_recver, "www.jawootek.com");
             var connectionString = connStr;
             var connection = new MySqlConnection(connectionString);
             try
             {
                 connection.Open();
 
-                var sql = "SELECT * FROM tb_id WHERE ID = @id ";
+                var sql = "SELECT * FROM tb_id WHERE ID = @recver ";
 
                 var mySqlCommand = new MySqlCommand(sql, connection);
-                mySqlCommand.Parameters.AddWithValue("@id", _id);
+                mySqlCommand.Parameters.AddWithValue("@recver", _recver);
 
                 var mySqlDataReader = mySqlCommand.ExecuteReader();
 
@@ -2786,12 +2786,12 @@ namespace MobileRestAPI
                     while (mySqlDataReader2.Read())
                     {
                         string id = GetStringFieldValue(mySqlDataReader2, "ID");
-                        string token = GetStringFieldValue(mySqlDataReader2, "token");
+                        string deviceId = GetStringFieldValue(mySqlDataReader2, "token");
 
-                        SendToFirebaseMessagingServerAsync(token, _gubun, _gateno, _gatename, _title, _message);
+                        SendToFirebaseMessagingServerAsync(_seq, _sender, deviceId, _gubun, _gateno, _gatename, _title, _message, _datetime, _rtsp);
 
                         var jElem2 = new JObject();
-                        jElem2.Add("id", id);
+                        jElem2.Add("id", id); //수신ID
                         JBody.Add(jElem2);
                     }
                     mySqlDataReader2.Close();
@@ -2832,12 +2832,12 @@ namespace MobileRestAPI
             }
         }
 
-        static public async Task SendToFirebaseMessagingServerAsync(String _token, String _gubun, string _gateno, string _gatename, String _title, String _message)
+        static public async Task SendToFirebaseMessagingServerAsync(String _seq, String _sender, String deviceId, string _gubun, string _gateno, string _gatename, string _title, string _message, string _datetime, string _rtsp)
         {
             //await OnGetAsync(_token, _message);
-            SendNotification(_token, _gubun, _gateno, _gatename, _title, _message);
+            SendNotification(_seq, _sender, deviceId, _gubun, _gateno, _gatename, _title, _message, _datetime, _rtsp);
         }
-        static public string SendNotification(string deviceId, String _gubun, string _gateno, string _gatename, String _title, string _message)
+        static public string SendNotification(String _seq, String _sender, string deviceId, String _gubun, string _gateno, string _gatename, String _title, string _message, string _datetime, string _rtsp)
         {
             string SERVER_API_KEY = "AAAAWpOlMiM:APA91bGK8ZGVd78d5015lLY8QVfTFnMsEeF6HuVgNsgUl9IU7X4wpZLdKFEs6SEOWdHNBBChCo53ZF6kAfhI5FN78qzry9W0YdUFUr_Lc42LlYk_6Qsy38CtxY62rHF63onpfzQtsQ9q";
             var result = "";
@@ -2856,9 +2856,12 @@ namespace MobileRestAPI
                 },
                 data = new
                 {
+                    seq = _seq,
                     gubun = _gubun,
                     gateno = _gateno,
                     gatename = _gatename,
+                    date = _datetime,
+                    rtsp = _rtsp,
                     key1 = "value1",
                     key2 = "value2",
                 },

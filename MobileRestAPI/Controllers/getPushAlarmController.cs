@@ -21,15 +21,19 @@ namespace MobileRestAPI.Controllers
             JsonReturn JReturn = new JsonReturn();
             JObject respJson = new JObject();
             var request = HttpContext.Request;
-
-            string id = "" + request.Query["Id"];
+            //seq,sender,recver,gubun,gateno,gatename,title,message,occurDateTime,rtsp
+            string seq = "" + request.Query["Seq"];
+            string sender = "" + request.Query["Sender"];
+            string recver = "" + request.Query["Recver"];
             string gubun = "" + request.Query["Gubun"];
             string gateno = "" + request.Query["Gateno"];
             string gatename = "" + request.Query["Gatename"];
             string title = "" + request.Query["Title"];
             string message = "" + request.Query["Message"];
-            Global.util.FileLogger("[INFO][HttpGet getPushAlarmController] : id:" + id + ", gubun:" + gubun + ", gateno:" + gateno + ", gatename:" + gatename + ", title:" + title + ", message:" + message);
-            Global.pushAlarm(id, gubun, gateno, gatename, title, message, ref respJson); //token:FCM token
+            string datetime = "" + request.Query["occurDateTime"];
+            string rtsp = "" + request.Query["Rtsp"];
+            Global.util.FileLogger("[INFO][HttpGet getPushAlarmController] : sender:" + sender + ", gubun:" + gubun + ", gateno:" + gateno + ", gatename:" + gatename + ", title:" + title + ", message:" + message);
+            Global.pushAlarm(seq, sender, recver, gubun, gateno, gatename, title, message, datetime, rtsp, ref respJson); //token:FCM token
             return Json(respJson);
 
             //return Json(new { code = JReturn.httpcode, message = JReturn.msg, detail_message = JReturn.detail_msg });

@@ -69,3 +69,4 @@ C:\MobileRestAPI\MobileRestAPI\obj\Debug\netcoreapp3.1\MobileRestAPI.csproj.Copy
 C:\MobileRestAPI\MobileRestAPI\obj\Debug\netcoreapp3.1\MobileRestAPI.dll
 C:\MobileRestAPI\MobileRestAPI\obj\Debug\netcoreapp3.1\MobileRestAPI.pdb
 C:\MobileRestAPI\MobileRestAPI\obj\Debug\netcoreapp3.1\MobileRestAPI.genruntimeconfig.cache
+C:\MobileRestAPI\MobileRestAPI\obj\Debug\netcoreapp3.1\MobileRestAPI.csprojAssemblyReference.cache

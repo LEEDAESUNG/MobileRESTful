@@ -1,0 +1,30 @@
+2022-04-09 21:02:18.870  [INFO][HttpGet getCustInfoController] 
+2022-04-09 21:02:18.873  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:d5T6Ka3KRCqqiqwMMc5K8e:APA91bHP0Ycp93foERnOGTly99ygdffZ_fFVRnWK-ucGe9PjJI4xsR8vd3kN56VtJFc8-mbMrhrgEXMwMY0btsZ-C3SlZXJMMQOnuZU9u4oRBpvx0fnW-V1C27EXJNteWj74pIHd5hOX
+2022-04-09 21:02:19.331  [ERROR][DataBase SaveToken] 11111111,d5T6Ka3KRCqqiqwMMc5K8e:APA91bHP0Ycp93foERnOGTly99ygdffZ_fFVRnWK-ucGe9PjJI4xsR8vd3kN56VtJFc8-mbMrhrgEXMwMY0btsZ-C3SlZXJMMQOnuZU9u4oRBpvx0fnW-V1C27EXJNteWj74pIHd5hOX
+2022-04-09 21:02:19.331  [ERROR][DataBase SaveToken] Field 'CONN_DATE' doesn't have a default value
+2022-04-09 21:02:19.601  [INFO][HttpGet getReserveInfoController] 
+2022-04-09 21:02:19.602  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:d5T6Ka3KRCqqiqwMMc5K8e:APA91bHP0Ycp93foERnOGTly99ygdffZ_fFVRnWK-ucGe9PjJI4xsR8vd3kN56VtJFc8-mbMrhrgEXMwMY0btsZ-C3SlZXJMMQOnuZU9u4oRBpvx0fnW-V1C27EXJNteWj74pIHd5hOX
+2022-04-09 21:02:19.672  [INFO][HttpGet getWebDCInfoController] 
+2022-04-09 21:02:19.673  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:d5T6Ka3KRCqqiqwMMc5K8e:APA91bHP0Ycp93foERnOGTly99ygdffZ_fFVRnWK-ucGe9PjJI4xsR8vd3kN56VtJFc8-mbMrhrgEXMwMY0btsZ-C3SlZXJMMQOnuZU9u4oRBpvx0fnW-V1C27EXJNteWj74pIHd5hOX
+2022-04-09 21:02:19.799  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-09 21:02:19.799  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:d5T6Ka3KRCqqiqwMMc5K8e:APA91bHP0Ycp93foERnOGTly99ygdffZ_fFVRnWK-ucGe9PjJI4xsR8vd3kN56VtJFc8-mbMrhrgEXMwMY0btsZ-C3SlZXJMMQOnuZU9u4oRBpvx0fnW-V1C27EXJNteWj74pIHd5hOX
+2022-04-09 21:02:19.809  [INFO][HttpGet getGateListController] 
+2022-04-09 21:02:19.810  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-04-09 21:05:10.344  [INFO][HttpGet getReserveInfoController] 
+2022-04-09 21:05:10.344  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:d5T6Ka3KRCqqiqwMMc5K8e:APA91bHP0Ycp93foERnOGTly99ygdffZ_fFVRnWK-ucGe9PjJI4xsR8vd3kN56VtJFc8-mbMrhrgEXMwMY0btsZ-C3SlZXJMMQOnuZU9u4oRBpvx0fnW-V1C27EXJNteWj74pIHd5hOX
+2022-04-09 21:05:14.358  [INFO][HttpGet getReservationCarListController] 
+2022-04-09 21:05:14.359  [INFO][HttpGet getReservationCarListController] : id:11111111, password:1234, token:
+2022-04-09 21:05:25.362  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-09 21:05:25.362  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:d5T6Ka3KRCqqiqwMMc5K8e:APA91bHP0Ycp93foERnOGTly99ygdffZ_fFVRnWK-ucGe9PjJI4xsR8vd3kN56VtJFc8-mbMrhrgEXMwMY0btsZ-C3SlZXJMMQOnuZU9u4oRBpvx0fnW-V1C27EXJNteWj74pIHd5hOX
+2022-04-09 21:05:26.413  [INFO][HttpGet getInCarListWebdcListController] 
+2022-04-09 21:05:26.414  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:, token:
+2022-04-09 21:05:30.338  [INFO][HttpGet setWebdcProcController] 
+2022-04-09 21:05:30.341  [INFO][HttpGet setWebdcProcController] : id:11111111, password:1234, token:d5T6Ka3KRCqqiqwMMc5K8e:APA91bHP0Ycp93foERnOGTly99ygdffZ_fFVRnWK-ucGe9PjJI4xsR8vd3kN56VtJFc8-mbMrhrgEXMwMY0btsZ-C3SlZXJMMQOnuZU9u4oRBpvx0fnW-V1C27EXJNteWj74pIHd5hOX, seq:3, carno:222가2222, dctime:30, dcdesc:30분할인, pcode:, pname:총괄관리자, pgubun:T
+2022-04-09 21:05:30.436  [INFO][HttpGet getInCarListWebdcListController] 
+2022-04-09 21:05:30.436  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:, token:
+2022-04-09 21:05:30.445  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-09 21:05:30.446  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:d5T6Ka3KRCqqiqwMMc5K8e:APA91bHP0Ycp93foERnOGTly99ygdffZ_fFVRnWK-ucGe9PjJI4xsR8vd3kN56VtJFc8-mbMrhrgEXMwMY0btsZ-C3SlZXJMMQOnuZU9u4oRBpvx0fnW-V1C27EXJNteWj74pIHd5hOX
+2022-04-09 21:05:38.181  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-09 21:05:38.182  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:d5T6Ka3KRCqqiqwMMc5K8e:APA91bHP0Ycp93foERnOGTly99ygdffZ_fFVRnWK-ucGe9PjJI4xsR8vd3kN56VtJFc8-mbMrhrgEXMwMY0btsZ-C3SlZXJMMQOnuZU9u4oRBpvx0fnW-V1C27EXJNteWj74pIHd5hOX
+2022-04-09 21:06:55.211  [INFO][HttpGet getGateListController] 
+2022-04-09 21:06:55.213  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
