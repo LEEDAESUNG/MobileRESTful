@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "389024133667",
+    "project_id": "parkingmanager-11242",
+    "storage_bucket": "parkingmanager-11242.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389024133667:android:8a8a5fd9bbec270cd87796",
+        "android_client_info": {
+          "package_name": "com.jawootek.parkingmanager.parkingmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "389024133667-dcqg2jsu5d8epitb3qctrs9b9a16ppa1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDJr_n_5Oage7PgG0WF5PG-8FGZQ00A9U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "389024133667-dcqg2jsu5d8epitb3qctrs9b9a16ppa1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

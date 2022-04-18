@@ -109,3 +109,80 @@
 2022-04-10 13:22:45.037  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
 2022-04-10 13:22:59.149  [INFO][HttpPost PostCarnoImageInfo] 
 2022-04-10 13:22:59.150  [INFO][HttpPost PostCarnoImageInfo] : id:11111111, password:1234, hostName:jawootek.iptime.org_6001\, fileName:CAP4406876096884115260.jpg
+2022-04-10 22:19:32.778  [INFO][HttpGet getCustInfoController] 
+2022-04-10 22:19:32.781  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:d5T6Ka3KRCqqiqwMMc5K8e:APA91bHP0Ycp93foERnOGTly99ygdffZ_fFVRnWK-ucGe9PjJI4xsR8vd3kN56VtJFc8-mbMrhrgEXMwMY0btsZ-C3SlZXJMMQOnuZU9u4oRBpvx0fnW-V1C27EXJNteWj74pIHd5hOX
+2022-04-10 22:19:33.221  [ERROR][DataBase SaveToken] 11111111,d5T6Ka3KRCqqiqwMMc5K8e:APA91bHP0Ycp93foERnOGTly99ygdffZ_fFVRnWK-ucGe9PjJI4xsR8vd3kN56VtJFc8-mbMrhrgEXMwMY0btsZ-C3SlZXJMMQOnuZU9u4oRBpvx0fnW-V1C27EXJNteWj74pIHd5hOX
+2022-04-10 22:19:33.221  [ERROR][DataBase SaveToken] Field 'CONN_DATE' doesn't have a default value
+2022-04-10 22:19:43.969  [INFO][HttpGet getReserveInfoController] 
+2022-04-10 22:19:43.970  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:d5T6Ka3KRCqqiqwMMc5K8e:APA91bHP0Ycp93foERnOGTly99ygdffZ_fFVRnWK-ucGe9PjJI4xsR8vd3kN56VtJFc8-mbMrhrgEXMwMY0btsZ-C3SlZXJMMQOnuZU9u4oRBpvx0fnW-V1C27EXJNteWj74pIHd5hOX
+2022-04-10 22:19:44.120  [INFO][HttpGet getWebDCInfoController] 
+2022-04-10 22:19:44.121  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:d5T6Ka3KRCqqiqwMMc5K8e:APA91bHP0Ycp93foERnOGTly99ygdffZ_fFVRnWK-ucGe9PjJI4xsR8vd3kN56VtJFc8-mbMrhrgEXMwMY0btsZ-C3SlZXJMMQOnuZU9u4oRBpvx0fnW-V1C27EXJNteWj74pIHd5hOX
+2022-04-10 22:19:44.315  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-10 22:19:44.316  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:d5T6Ka3KRCqqiqwMMc5K8e:APA91bHP0Ycp93foERnOGTly99ygdffZ_fFVRnWK-ucGe9PjJI4xsR8vd3kN56VtJFc8-mbMrhrgEXMwMY0btsZ-C3SlZXJMMQOnuZU9u4oRBpvx0fnW-V1C27EXJNteWj74pIHd5hOX
+2022-04-10 22:19:44.365  [INFO][HttpGet getGateListController] 
+2022-04-10 22:19:44.366  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-04-10 22:19:51.989  [INFO][HttpGet getPushAlarmController] 
+2022-04-10 22:19:51.990  [INFO][HttpGet getPushAlarmController] : sender:SYSTEM, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다
+2022-04-10 22:19:52.429  [PUSH ALARM] {"multicast_id":6143622206625217382,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1649596799020745%c195b7dcc195b7dc"}]}
+2022-04-10 22:19:52.626  [PUSH ALARM] {"multicast_id":2645438108795098969,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-04-10 22:19:52.844  [PUSH ALARM] {"multicast_id":3843439484192878091,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1649596799479372%c195b7dcc195b7dc"}]}
+2022-04-10 22:25:27.606  [INFO][HttpGet getPushAlarmController] 
+2022-04-10 22:25:27.607  [INFO][HttpGet getPushAlarmController] : sender:SYSTEM, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다
+2022-04-10 22:25:27.828  [PUSH ALARM] {"multicast_id":6053105313919020600,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1649597134461053%c195b7dcc195b7dc"}]}
+2022-04-10 22:25:28.019  [PUSH ALARM] {"multicast_id":2953308633335501302,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-04-10 22:25:28.231  [PUSH ALARM] {"multicast_id":6394724575475966972,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1649597134858128%c195b7dcc195b7dc"}]}
+2022-04-10 22:26:29.283  [INFO][HttpGet getPushAlarmController] 
+2022-04-10 22:26:29.285  [INFO][HttpGet getPushAlarmController] : sender:SYSTEM, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다
+2022-04-10 22:26:29.508  [PUSH ALARM] {"multicast_id":5001258289155285618,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1649597196139689%c195b7dcc195b7dc"}]}
+2022-04-10 22:26:29.698  [PUSH ALARM] {"multicast_id":4208412758925929102,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-04-10 22:26:29.904  [PUSH ALARM] {"multicast_id":6024146157221612534,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1649597196542194%c195b7dcc195b7dc"}]}
+2022-04-10 22:27:00.737  [INFO][HttpGet getPushAlarmController] 
+2022-04-10 22:27:00.740  [INFO][HttpGet getPushAlarmController] : sender:SYSTEM, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다
+2022-04-10 22:27:00.969  [PUSH ALARM] {"multicast_id":1381194139836855466,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1649597227597433%c195b7dcc195b7dc"}]}
+2022-04-10 22:27:01.156  [PUSH ALARM] {"multicast_id":5113942557076890061,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-04-10 22:27:01.355  [PUSH ALARM] {"multicast_id":9108154110149724418,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1649597227992410%c195b7dcc195b7dc"}]}
+2022-04-10 22:31:12.962  [INFO][HttpGet getPushAlarmController] 
+2022-04-10 22:31:12.965  [INFO][HttpGet getPushAlarmController] : sender:SYSTEM, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다
+2022-04-10 22:31:13.822  [PUSH ALARM] {"multicast_id":2423878491656335755,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1649597480454090%c195b7dcc195b7dc"}]}
+2022-04-10 22:31:14.003  [PUSH ALARM] {"multicast_id":8798682608856022460,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-04-10 22:31:14.203  [PUSH ALARM] {"multicast_id":5442542584465113195,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1649597480843083%c195b7dcc195b7dc"}]}
+2022-04-10 22:35:03.268  [INFO][HttpGet getPushAlarmController] 
+2022-04-10 22:35:03.269  [INFO][HttpGet getPushAlarmController] : sender:SYSTEM, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다
+2022-04-10 22:35:53.837  [PUSH ALARM] {"multicast_id":7666254411400779420,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1649597760443123%c195b7dcc195b7dc"}]}
+2022-04-10 22:35:54.022  [PUSH ALARM] {"multicast_id":618184017887617872,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-04-10 22:35:54.237  [PUSH ALARM] {"multicast_id":5394433802996317135,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1649597760870374%c195b7dcc195b7dc"}]}
+2022-04-10 22:45:38.334  [INFO][HttpGet getPushAlarmController] 
+2022-04-10 22:45:38.335  [INFO][HttpGet getPushAlarmController] : sender:SYSTEM, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다
+2022-04-10 22:45:39.557  [PUSH ALARM] {"multicast_id":283027901984011411,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1649598346007000%c195b7dcc195b7dc"}]}
+2022-04-10 22:45:41.296  [PUSH ALARM] {"multicast_id":8645965886744798708,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-04-10 22:45:42.637  [PUSH ALARM] {"multicast_id":5186706723170462143,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1649598349174803%c195b7dcc195b7dc"}]}
+2022-04-10 22:47:49.870  [INFO][HttpGet getPushAlarmController] 
+2022-04-10 22:47:49.872  [INFO][HttpGet getPushAlarmController] : sender:SYSTEM, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다
+2022-04-10 22:47:50.664  [PUSH ALARM] {"multicast_id":6226146339865371837,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1649598477305772%c195b7dcc195b7dc"}]}
+2022-04-10 22:47:51.009  [PUSH ALARM] {"multicast_id":6168812370033729673,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-04-10 22:47:51.209  [PUSH ALARM] {"multicast_id":5425824395391805880,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1649598477848489%c195b7dcc195b7dc"}]}
+2022-04-10 22:49:35.673  [INFO][HttpGet getPushAlarmController] 
+2022-04-10 22:49:35.675  [INFO][HttpGet getPushAlarmController] : sender:SYSTEM, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다
+2022-04-10 22:49:36.527  [PUSH ALARM] {"multicast_id":659924781108275952,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1649598583150413%c195b7dcc195b7dc"}]}
+2022-04-10 22:49:36.730  [PUSH ALARM] {"multicast_id":427463424577720884,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-04-10 22:49:36.980  [PUSH ALARM] {"multicast_id":920185606948428504,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1649598583595714%c195b7dcc195b7dc"}]}
+2022-04-10 22:56:19.103  [INFO][HttpGet getPushAlarmController] 
+2022-04-10 22:56:19.109  [INFO][HttpGet getPushAlarmController] : sender:SYSTEM, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다
+2022-04-10 22:56:19.909  [PUSH ALARM] {"multicast_id":1752673356058812133,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1649598986549616%c195b7dcc195b7dc"}]}
+2022-04-10 22:56:20.105  [PUSH ALARM] {"multicast_id":3955746183335881757,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-04-10 22:56:20.322  [PUSH ALARM] {"multicast_id":6218482095701773668,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1649598986955651%c195b7dcc195b7dc"}]}
+2022-04-10 23:13:29.312  [INFO][HttpGet getPushAlarmController] 
+2022-04-10 23:13:29.315  [INFO][HttpGet getPushAlarmController] : sender:SYSTEM, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다
+2022-04-10 23:13:30.145  [PUSH ALARM] {"multicast_id":4939014810381550972,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1649600017757866%c195b7dcc195b7dc"}]}
+2022-04-10 23:13:30.356  [PUSH ALARM] {"multicast_id":4882880914571073983,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-04-10 23:13:30.566  [PUSH ALARM] {"multicast_id":634557548961576355,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1649600018189862%c195b7dcc195b7dc"}]}
+2022-04-10 23:13:57.038  [INFO][HttpGet getPushAlarmController] 
+2022-04-10 23:13:57.039  [INFO][HttpGet getPushAlarmController] : sender:SYSTEM, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다
+2022-04-10 23:13:57.249  [PUSH ALARM] {"multicast_id":2989361001322137991,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1649600044860277%c195b7dcc195b7dc"}]}
+2022-04-10 23:13:57.435  [PUSH ALARM] {"multicast_id":354392062050700887,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-04-10 23:13:57.643  [PUSH ALARM] {"multicast_id":1118200696831094230,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1649600045263512%c195b7dcc195b7dc"}]}
+2022-04-10 23:29:21.970  [INFO][HttpGet getPushAlarmController] 
+2022-04-10 23:29:21.973  [INFO][HttpGet getPushAlarmController] : sender:SYSTEM, gubun:shock, gateno:0, gatename:정문입구, title:주차관제시스템, message:충격이 감지됐습니다
+2022-04-10 23:29:22.848  [PUSH ALARM] {"multicast_id":283262888040600976,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1649600970458623%c195b7dcc195b7dc"}]}
+2022-04-10 23:29:23.027  [PUSH ALARM] {"multicast_id":4256570700235411433,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}
+2022-04-10 23:29:23.234  [PUSH ALARM] {"multicast_id":6467458596945240761,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1649600970856534%c195b7dcc195b7dc"}]}

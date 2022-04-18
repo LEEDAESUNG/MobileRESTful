@@ -12,7 +12,6 @@ C:\MobileRestAPI\MobileRestAPI\bin\Release\netcoreapp3.1\MobileRestAPI.pdb
 C:\MobileRestAPI\MobileRestAPI\bin\Release\netcoreapp3.1\MobileRestAPI.Views.dll
 C:\MobileRestAPI\MobileRestAPI\bin\Release\netcoreapp3.1\MobileRestAPI.Views.pdb
 C:\MobileRestAPI\MobileRestAPI\bin\Release\netcoreapp3.1\BouncyCastle.Crypto.dll
-C:\MobileRestAPI\MobileRestAPI\bin\Release\netcoreapp3.1\Caching.dll
 C:\MobileRestAPI\MobileRestAPI\bin\Release\netcoreapp3.1\FirebaseAdmin.dll
 C:\MobileRestAPI\MobileRestAPI\bin\Release\netcoreapp3.1\Google.Api.Gax.dll
 C:\MobileRestAPI\MobileRestAPI\bin\Release\netcoreapp3.1\Google.Api.Gax.Rest.dll
@@ -33,7 +32,6 @@ C:\MobileRestAPI\MobileRestAPI\bin\Release\netcoreapp3.1\Zstandard.Net.dll
 C:\MobileRestAPI\MobileRestAPI\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
 C:\MobileRestAPI\MobileRestAPI\bin\Release\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 C:\MobileRestAPI\MobileRestAPI\bin\Release\netcoreapp3.1\SimpleTCP.dll
-C:\MobileRestAPI\MobileRestAPI\bin\Release\netcoreapp3.1\SimpleUdp.dll
 C:\MobileRestAPI\MobileRestAPI\bin\Release\netcoreapp3.1\System.Collections.Immutable.dll
 C:\MobileRestAPI\MobileRestAPI\bin\Release\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
 C:\MobileRestAPI\MobileRestAPI\bin\Release\netcoreapp3.1\System.Data.Odbc.dll
@@ -70,4 +68,5 @@ C:\MobileRestAPI\MobileRestAPI\obj\Release\netcoreapp3.1\MobileRestAPI.dll
 C:\MobileRestAPI\MobileRestAPI\obj\Release\netcoreapp3.1\MobileRestAPI.pdb
 C:\MobileRestAPI\MobileRestAPI\obj\Release\netcoreapp3.1\MobileRestAPI.genruntimeconfig.cache
 C:\MobileRestAPI\MobileRestAPI\bin\Release\netcoreapp3.1\libman.json
+C:\MobileRestAPI\MobileRestAPI\bin\Release\netcoreapp3.1\google-services.json
 C:\MobileRestAPI\MobileRestAPI\obj\Release\netcoreapp3.1\MobileRestAPI.csprojAssemblyReference.cache

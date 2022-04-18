@@ -1,0 +1,142 @@
+2022-04-18 23:19:22.544  [INFO][HttpGet getInCarListWebdcListController] 
+2022-04-18 23:19:22.548  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:3333, token:
+2022-04-18 23:23:04.545  [INFO][HttpGet getInCarListWebdcListController] 
+2022-04-18 23:23:04.546  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:3333, token:
+2022-04-18 23:23:35.901  [INFO][HttpGet setParkCarnoController] 
+2022-04-18 23:23:35.902  [INFO][HttpGet setParkCarnoController] : id:11111111, password:1234, newCarno:333사3344
+2022-04-18 23:24:12.874  [INFO][setParkCarno] 웹할인 미등록입차 등록 성공:11111111, 차량번호:333사3344
+2022-04-18 23:25:10.624  [INFO][HttpGet getInCarListWebdcListController] 
+2022-04-18 23:25:10.625  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:3333, token:
+2022-04-18 23:25:51.249  [INFO][HttpGet setParkCarnoController] 
+2022-04-18 23:25:51.250  [INFO][HttpGet setParkCarnoController] : id:11111111, password:1234, newCarno:null
+2022-04-18 23:25:51.262  [INFO][setParkCarno] 웹할인 미등록입차 등록 성공:11111111, 차량번호:null
+2022-04-18 23:25:51.378  [INFO][HttpGet getInCarListWebdcListController] 
+2022-04-18 23:25:51.378  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:3333, token:
+2022-04-18 23:25:51.404  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-18 23:25:51.405  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:d5T6Ka3KRCqqiqwMMc5K8e:APA91bHP0Ycp93foERnOGTly99ygdffZ_fFVRnWK-ucGe9PjJI4xsR8vd3kN56VtJFc8-mbMrhrgEXMwMY0btsZ-C3SlZXJMMQOnuZU9u4oRBpvx0fnW-V1C27EXJNteWj74pIHd5hOX
+2022-04-18 23:25:59.253  [INFO][HttpGet setParkCarnoController] 
+2022-04-18 23:25:59.253  [INFO][HttpGet setParkCarnoController] : id:11111111, password:1234, newCarno:null
+2022-04-18 23:25:59.260  [INFO][setParkCarno] 웹할인 미등록입차 등록 성공:11111111, 차량번호:null
+2022-04-18 23:25:59.406  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-18 23:25:59.407  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:d5T6Ka3KRCqqiqwMMc5K8e:APA91bHP0Ycp93foERnOGTly99ygdffZ_fFVRnWK-ucGe9PjJI4xsR8vd3kN56VtJFc8-mbMrhrgEXMwMY0btsZ-C3SlZXJMMQOnuZU9u4oRBpvx0fnW-V1C27EXJNteWj74pIHd5hOX
+2022-04-18 23:25:59.418  [INFO][HttpGet getInCarListWebdcListController] 
+2022-04-18 23:25:59.419  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:3333, token:
+2022-04-18 23:26:11.719  [INFO][HttpGet setParkCarnoController] 
+2022-04-18 23:26:11.720  [INFO][HttpGet setParkCarnoController] : id:11111111, password:1234, newCarno:333교3333
+2022-04-18 23:26:11.726  [INFO][setParkCarno] 웹할인 미등록입차 등록 성공:11111111, 차량번호:333교3333
+2022-04-18 23:26:11.831  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-18 23:26:11.832  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:d5T6Ka3KRCqqiqwMMc5K8e:APA91bHP0Ycp93foERnOGTly99ygdffZ_fFVRnWK-ucGe9PjJI4xsR8vd3kN56VtJFc8-mbMrhrgEXMwMY0btsZ-C3SlZXJMMQOnuZU9u4oRBpvx0fnW-V1C27EXJNteWj74pIHd5hOX
+2022-04-18 23:26:11.844  [INFO][HttpGet getInCarListWebdcListController] 
+2022-04-18 23:26:11.845  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:3333, token:
+2022-04-18 23:26:21.008  [INFO][HttpGet getInCarListWebdcListController] 
+2022-04-18 23:26:21.008  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:3333, token:
+2022-04-18 23:27:08.200  [INFO][HttpGet getInCarListWebdcListController] 
+2022-04-18 23:27:08.203  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:3334, token:
+2022-04-18 23:27:28.223  [INFO][HttpGet setParkCarnoController] 
+2022-04-18 23:27:28.225  [INFO][HttpGet setParkCarnoController] : id:11111111, password:1234, newCarno:
+2022-04-18 23:27:28.235  [INFO][setParkCarno] 웹할인 미등록입차 등록 성공:11111111, 차량번호:
+2022-04-18 23:27:28.340  [INFO][HttpGet getInCarListWebdcListController] 
+2022-04-18 23:27:28.343  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:3334, token:
+2022-04-18 23:27:28.385  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-18 23:27:28.386  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:d5T6Ka3KRCqqiqwMMc5K8e:APA91bHP0Ycp93foERnOGTly99ygdffZ_fFVRnWK-ucGe9PjJI4xsR8vd3kN56VtJFc8-mbMrhrgEXMwMY0btsZ-C3SlZXJMMQOnuZU9u4oRBpvx0fnW-V1C27EXJNteWj74pIHd5hOX
+2022-04-18 23:27:41.973  [INFO][HttpGet setParkCarnoController] 
+2022-04-18 23:27:41.974  [INFO][HttpGet setParkCarnoController] : id:11111111, password:1234, newCarno:null
+2022-04-18 23:27:41.978  [INFO][setParkCarno] 웹할인 미등록입차 등록 성공:11111111, 차량번호:null
+2022-04-18 23:27:42.075  [INFO][HttpGet getInCarListWebdcListController] 
+2022-04-18 23:27:42.076  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:3334, token:
+2022-04-18 23:27:42.098  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-18 23:27:42.099  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:d5T6Ka3KRCqqiqwMMc5K8e:APA91bHP0Ycp93foERnOGTly99ygdffZ_fFVRnWK-ucGe9PjJI4xsR8vd3kN56VtJFc8-mbMrhrgEXMwMY0btsZ-C3SlZXJMMQOnuZU9u4oRBpvx0fnW-V1C27EXJNteWj74pIHd5hOX
+2022-04-18 23:27:43.645  [INFO][HttpGet setParkCarnoController] 
+2022-04-18 23:27:43.645  [INFO][HttpGet setParkCarnoController] : id:11111111, password:1234, newCarno:null
+2022-04-18 23:27:43.650  [INFO][setParkCarno] 웹할인 미등록입차 등록 성공:11111111, 차량번호:null
+2022-04-18 23:27:43.782  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-18 23:27:43.783  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:d5T6Ka3KRCqqiqwMMc5K8e:APA91bHP0Ycp93foERnOGTly99ygdffZ_fFVRnWK-ucGe9PjJI4xsR8vd3kN56VtJFc8-mbMrhrgEXMwMY0btsZ-C3SlZXJMMQOnuZU9u4oRBpvx0fnW-V1C27EXJNteWj74pIHd5hOX
+2022-04-18 23:27:43.793  [INFO][HttpGet getInCarListWebdcListController] 
+2022-04-18 23:27:43.794  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:3334, token:
+2022-04-18 23:27:44.522  [INFO][HttpGet setParkCarnoController] 
+2022-04-18 23:27:44.522  [INFO][HttpGet setParkCarnoController] : id:11111111, password:1234, newCarno:null
+2022-04-18 23:27:44.529  [INFO][setParkCarno] 웹할인 미등록입차 등록 성공:11111111, 차량번호:null
+2022-04-18 23:27:44.635  [INFO][HttpGet getInCarListWebdcListController] 
+2022-04-18 23:27:44.635  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:3334, token:
+2022-04-18 23:27:44.647  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-18 23:27:44.647  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:d5T6Ka3KRCqqiqwMMc5K8e:APA91bHP0Ycp93foERnOGTly99ygdffZ_fFVRnWK-ucGe9PjJI4xsR8vd3kN56VtJFc8-mbMrhrgEXMwMY0btsZ-C3SlZXJMMQOnuZU9u4oRBpvx0fnW-V1C27EXJNteWj74pIHd5hOX
+2022-04-18 23:27:45.520  [INFO][HttpGet setParkCarnoController] 
+2022-04-18 23:27:45.520  [INFO][HttpGet setParkCarnoController] : id:11111111, password:1234, newCarno:null
+2022-04-18 23:27:45.525  [INFO][setParkCarno] 웹할인 미등록입차 등록 성공:11111111, 차량번호:null
+2022-04-18 23:27:45.623  [INFO][HttpGet getInCarListWebdcListController] 
+2022-04-18 23:27:45.624  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:3334, token:
+2022-04-18 23:27:45.642  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-18 23:27:45.642  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:d5T6Ka3KRCqqiqwMMc5K8e:APA91bHP0Ycp93foERnOGTly99ygdffZ_fFVRnWK-ucGe9PjJI4xsR8vd3kN56VtJFc8-mbMrhrgEXMwMY0btsZ-C3SlZXJMMQOnuZU9u4oRBpvx0fnW-V1C27EXJNteWj74pIHd5hOX
+2022-04-18 23:27:55.091  [INFO][HttpGet setParkCarnoController] 
+2022-04-18 23:27:55.092  [INFO][HttpGet setParkCarnoController] : id:11111111, password:1234, newCarno:555가5555
+2022-04-18 23:27:55.097  [INFO][setParkCarno] 웹할인 미등록입차 등록 성공:11111111, 차량번호:555가5555
+2022-04-18 23:27:55.200  [INFO][HttpGet getInCarListWebdcListController] 
+2022-04-18 23:27:55.200  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:3334, token:
+2022-04-18 23:27:55.213  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-18 23:27:55.213  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:d5T6Ka3KRCqqiqwMMc5K8e:APA91bHP0Ycp93foERnOGTly99ygdffZ_fFVRnWK-ucGe9PjJI4xsR8vd3kN56VtJFc8-mbMrhrgEXMwMY0btsZ-C3SlZXJMMQOnuZU9u4oRBpvx0fnW-V1C27EXJNteWj74pIHd5hOX
+2022-04-18 23:28:18.816  [INFO][HttpGet getGateListController] 
+2022-04-18 23:28:18.817  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-04-18 23:28:55.248  [INFO][HttpGet setParkCarnoController] 
+2022-04-18 23:28:55.252  [INFO][HttpGet setParkCarnoController] : id:11111111, password:1234, newCarno:null
+2022-04-18 23:28:55.260  [INFO][setParkCarno] 웹할인 미등록입차 등록 성공:11111111, 차량번호:null
+2022-04-18 23:32:57.923  [INFO][HttpGet getCustInfoController] 
+2022-04-18 23:32:57.924  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:d5T6Ka3KRCqqiqwMMc5K8e:APA91bHP0Ycp93foERnOGTly99ygdffZ_fFVRnWK-ucGe9PjJI4xsR8vd3kN56VtJFc8-mbMrhrgEXMwMY0btsZ-C3SlZXJMMQOnuZU9u4oRBpvx0fnW-V1C27EXJNteWj74pIHd5hOX
+2022-04-18 23:32:57.972  [ERROR][DataBase SaveToken] 11111111,d5T6Ka3KRCqqiqwMMc5K8e:APA91bHP0Ycp93foERnOGTly99ygdffZ_fFVRnWK-ucGe9PjJI4xsR8vd3kN56VtJFc8-mbMrhrgEXMwMY0btsZ-C3SlZXJMMQOnuZU9u4oRBpvx0fnW-V1C27EXJNteWj74pIHd5hOX
+2022-04-18 23:32:57.973  [ERROR][DataBase SaveToken] Field 'CONN_DATE' doesn't have a default value
+2022-04-18 23:32:58.260  [INFO][HttpGet getReserveInfoController] 
+2022-04-18 23:32:58.261  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:d5T6Ka3KRCqqiqwMMc5K8e:APA91bHP0Ycp93foERnOGTly99ygdffZ_fFVRnWK-ucGe9PjJI4xsR8vd3kN56VtJFc8-mbMrhrgEXMwMY0btsZ-C3SlZXJMMQOnuZU9u4oRBpvx0fnW-V1C27EXJNteWj74pIHd5hOX
+2022-04-18 23:32:58.387  [INFO][HttpGet getWebDCInfoController] 
+2022-04-18 23:32:58.387  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:d5T6Ka3KRCqqiqwMMc5K8e:APA91bHP0Ycp93foERnOGTly99ygdffZ_fFVRnWK-ucGe9PjJI4xsR8vd3kN56VtJFc8-mbMrhrgEXMwMY0btsZ-C3SlZXJMMQOnuZU9u4oRBpvx0fnW-V1C27EXJNteWj74pIHd5hOX
+2022-04-18 23:32:58.762  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-18 23:32:58.762  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:d5T6Ka3KRCqqiqwMMc5K8e:APA91bHP0Ycp93foERnOGTly99ygdffZ_fFVRnWK-ucGe9PjJI4xsR8vd3kN56VtJFc8-mbMrhrgEXMwMY0btsZ-C3SlZXJMMQOnuZU9u4oRBpvx0fnW-V1C27EXJNteWj74pIHd5hOX
+2022-04-18 23:32:58.763  [INFO][HttpGet getGateListController] 
+2022-04-18 23:32:58.764  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-04-18 23:33:02.938  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-18 23:33:02.938  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:d5T6Ka3KRCqqiqwMMc5K8e:APA91bHP0Ycp93foERnOGTly99ygdffZ_fFVRnWK-ucGe9PjJI4xsR8vd3kN56VtJFc8-mbMrhrgEXMwMY0btsZ-C3SlZXJMMQOnuZU9u4oRBpvx0fnW-V1C27EXJNteWj74pIHd5hOX
+2022-04-18 23:33:04.525  [INFO][HttpGet getInCarListWebdcListController] 
+2022-04-18 23:33:04.525  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:, token:
+2022-04-18 23:34:12.058  [INFO][HttpGet getInCarListWebdcListController] 
+2022-04-18 23:34:12.059  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:4444, token:
+2022-04-18 23:34:47.900  [INFO][HttpGet setParkCarnoController] 
+2022-04-18 23:34:47.902  [INFO][HttpGet setParkCarnoController] : id:11111111, password:1234, newCarno:444가4444
+2022-04-18 23:34:47.908  [INFO][setParkCarno] 웹할인 미등록입차 등록 성공:11111111, 차량번호:444가4444
+2022-04-18 23:38:12.401  [INFO][HttpGet getInCarListWebdcListController] 
+2022-04-18 23:38:12.402  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:4444, token:
+2022-04-18 23:38:12.430  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-18 23:38:12.430  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:d5T6Ka3KRCqqiqwMMc5K8e:APA91bHP0Ycp93foERnOGTly99ygdffZ_fFVRnWK-ucGe9PjJI4xsR8vd3kN56VtJFc8-mbMrhrgEXMwMY0btsZ-C3SlZXJMMQOnuZU9u4oRBpvx0fnW-V1C27EXJNteWj74pIHd5hOX
+2022-04-18 23:38:31.239  [INFO][HttpGet getGateListController] 
+2022-04-18 23:38:31.240  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-04-18 23:38:44.117  [INFO][HttpGet getInCarListWebdcListController] 
+2022-04-18 23:38:44.118  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:4444, token:
+2022-04-18 23:38:47.900  [INFO][HttpGet setWebdcProcController] 
+2022-04-18 23:38:47.901  [INFO][HttpGet setWebdcProcController] : id:11111111, password:1234, token:d5T6Ka3KRCqqiqwMMc5K8e:APA91bHP0Ycp93foERnOGTly99ygdffZ_fFVRnWK-ucGe9PjJI4xsR8vd3kN56VtJFc8-mbMrhrgEXMwMY0btsZ-C3SlZXJMMQOnuZU9u4oRBpvx0fnW-V1C27EXJNteWj74pIHd5hOX, seq:3, carno:444가4444, dctime:30, dcdesc:30분할인, pcode:, pname:총괄관리자, pgubun:T
+2022-04-18 23:38:48.052  [INFO][HttpGet getInCarListWebdcListController] 
+2022-04-18 23:38:48.052  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:4444, token:
+2022-04-18 23:38:48.053  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-18 23:38:48.054  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:d5T6Ka3KRCqqiqwMMc5K8e:APA91bHP0Ycp93foERnOGTly99ygdffZ_fFVRnWK-ucGe9PjJI4xsR8vd3kN56VtJFc8-mbMrhrgEXMwMY0btsZ-C3SlZXJMMQOnuZU9u4oRBpvx0fnW-V1C27EXJNteWj74pIHd5hOX
+2022-04-18 23:38:54.282  [INFO][HttpGet getInCarListWebdcListController] 
+2022-04-18 23:38:54.282  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:5555, token:
+2022-04-18 23:39:32.371  [INFO][HttpGet getInCarListWebdcListController] 
+2022-04-18 23:39:32.376  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:6666, token:
+2022-04-18 23:39:59.333  [INFO][HttpGet getInCarListWebdcListController] 
+2022-04-18 23:39:59.334  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:6666, token:
+2022-04-18 23:40:05.643  [INFO][HttpGet getInCarListWebdcListController] 
+2022-04-18 23:40:05.643  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:6667, token:
+2022-04-18 23:40:08.518  [INFO][HttpGet getInCarListWebdcListController] 
+2022-04-18 23:40:08.519  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:6667, token:
+2022-04-18 23:40:16.206  [INFO][HttpGet setParkCarnoController] 
+2022-04-18 23:40:16.206  [INFO][HttpGet setParkCarnoController] : id:11111111, password:1234, newCarno:565고6667
+2022-04-18 23:40:16.212  [INFO][setParkCarno] 웹할인 미등록입차 등록 성공:11111111, 차량번호:565고6667
+2022-04-18 23:40:17.797  [INFO][HttpGet getInCarListWebdcListController] 
+2022-04-18 23:40:17.797  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:6667, token:
+2022-04-18 23:40:31.151  [INFO][HttpGet getInCarListWebdcListController] 
+2022-04-18 23:40:31.152  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:6668, token:
+2022-04-18 23:40:42.115  [INFO][HttpGet setParkCarnoController] 
+2022-04-18 23:40:42.115  [INFO][HttpGet setParkCarnoController] : id:11111111, password:1234, newCarno:565소6669
+2022-04-18 23:40:42.124  [INFO][setParkCarno] 웹할인 미등록입차 등록 성공:11111111, 차량번호:565소6669
+2022-04-18 23:40:44.471  [INFO][HttpGet getInCarListWebdcListController] 
+2022-04-18 23:40:44.471  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:6668, token:
+2022-04-18 23:40:48.196  [INFO][HttpGet getInCarListWebdcListController] 
+2022-04-18 23:40:48.196  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:6669, token:
+2022-04-18 23:41:07.402  [INFO][HttpGet getGateListController] 
+2022-04-18 23:41:07.403  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist

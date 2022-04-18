@@ -2738,6 +2738,108 @@ namespace MobileRestAPI
             }
         }
 
+        static public void setParkCarno(string _id, string _password, string _token, string _newcarno, ref JObject respJson)
+        {
+            string nowTime = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+            var JHead = new JObject();
+            var JBody = new JArray();
+            var jElem = new JObject();
+            bool isMember = false;
+            string res = "FAILED";
+            string pass_yn = "N";
+
+            string encPassword = JwtEncoder.JwtEncode(_password, "www.jawootek.com");
+            var connectionString = connStr;
+            var connection = new MySqlConnection(connectionString);
+
+            try
+            {
+                connection.Open();
+
+                var sql = "SELECT * FROM tb_id WHERE ID = @id AND PASSWORD = @password ";
+
+                var mySqlCommand = new MySqlCommand(sql, connection);
+                mySqlCommand.Parameters.AddWithValue("@id", _id);
+                mySqlCommand.Parameters.AddWithValue("@password", encPassword);
+
+                var mySqlDataReader = mySqlCommand.ExecuteReader();
+
+                JHead.Add("resultCode", ReturnCode.Success);
+                JHead.Add("resultMessage", "SUCCESS");
+                JHead.Add("responseTime", nowTime);
+
+                if (mySqlDataReader.Read())
+                {
+                    isMember = true;
+
+                    connection.Close();
+                    connection.Open();
+
+
+                    sql = "INSERT INTO tb_now (CAR_NO,REC_NO,CAR_GUBUN,DRIVER_NAME,DRIVER_PHONE,DRIVER_DEPT,DRIVER_CLASS,START_DATE,END_DATE,PASS_GATE,PASS_INOUT,PASS_DATE,PASS_YN,PASS_RESULT,CALC) " +
+                                        " VALUES (@carno,@recno,'','','','','','','','0','IN',@regTime, 'N','미등록입차','0')";
+                    mySqlCommand = new MySqlCommand(sql, connection);
+                    mySqlCommand.Parameters.AddWithValue("@carno", _newcarno);
+                    mySqlCommand.Parameters.AddWithValue("@recno", _newcarno);
+                    mySqlCommand.Parameters.AddWithValue("@regTime", nowTime + ".000");
+                    if (mySqlCommand.ExecuteNonQuery() == 1)
+                    {
+                        res = "SUCCESS";//성공
+                    }
+                    else
+                    {
+                        res = "FAILED";//성공
+                    }
+                    mySqlCommand.Dispose();
+
+
+                    sql = "INSERT INTO tb_inout (CAR_NO,REC_NO,CAR_GUBUN,DRIVER_NAME,DRIVER_PHONE,DRIVER_DEPT,DRIVER_CLASS,START_DATE,END_DATE,PASS_GATE,PASS_INOUT,PASS_DATE,PASS_YN,PASS_RESULT,CALC) " +
+                                        " VALUES (@carno,@recno,'','','','','','','','0','IN',@regTime, 'N','미등록입차','0')";
+                    mySqlCommand = new MySqlCommand(sql, connection);
+                    mySqlCommand.Parameters.AddWithValue("@carno", _newcarno);
+                    mySqlCommand.Parameters.AddWithValue("@recno", _newcarno);
+                    mySqlCommand.Parameters.AddWithValue("@regTime", nowTime + ".000");
+                    if (mySqlCommand.ExecuteNonQuery() == 1)
+                    {
+                        res = "SUCCESS";//성공
+                        util.FileLogger("[INFO][setParkCarno] " + "웹할인 미등록입차 등록 성공:" + _id + ", 차량번호:" + _newcarno);
+                    }
+                    else
+                    {
+                        res = "FAILED";//성공
+                    }
+                    mySqlCommand.Dispose();
+
+                    jElem.Add("id", _id);
+                    jElem.Add("carno", _newcarno);
+                    jElem.Add("result", res); //FAIL or SUCCESS
+                    JBody.Add(jElem);
+
+                    JHead.Add("isMember", isMember);
+                    JHead.Add("values", JBody);
+                    respJson = JHead;
+                }
+            }
+            catch (Exception ex)
+            {
+                util.FileLogger("[ERROR][setParkCarno] " + "웹할인 미등록입차 등록 실패:" + _id + ", 차량번호:" + _newcarno + ":" + ex.Message);
+                res = "FALSE";
+
+                jElem.Add("id", _id);
+                jElem.Add("carno", _newcarno);
+                jElem.Add("result", res); //FAIL or SUCCESS
+                JBody.Add(jElem);
+
+                JHead.Add("isMember", isMember);
+                JHead.Add("values", JBody);
+                respJson = JHead;
+            }
+            finally
+            {
+                if (connection.State.ToString() == "Open")
+                    connection.Close();
+            }
+        }
         /// <summary>
         /// Host 에서 수신
         /// </summary>
@@ -2847,12 +2949,14 @@ namespace MobileRestAPI
             var notificationInputDto = new
             {
                 to = deviceId,
+                topic = "pavis-parkingsystem",
                 notification = new
                 {
                     body = _message,
                     title = _title,
                     icon = "",
-                    type = ""
+                    type = "",
+                    badge = 1,
                 },
                 data = new
                 {
@@ -2867,10 +2971,13 @@ namespace MobileRestAPI
                 },
                 android = new //안드로이드
                 {
+                    TimeToLive = TimeSpan.FromMinutes(10),
                     notification = new
                     {
                         //image = "https://firebasestorage.googleapis.com/v0/b/parkingmanager-11242.appspot.com/o/profile%2Fgate.png?alt=media&token=5cdebe38-ca3e-4909-97db-b84794d67a7f"
-                        imageUrl = "https://img6.yna.co.kr/photo/yna/YH/2010/02/01/PYH2010020102450000400_P4.jpg"
+                        imageUrl = "https://img6.yna.co.kr/photo/yna/YH/2010/02/01/PYH2010020102450000400_P4.jpg",
+                        Icon = "stock_ticker_update",
+                        Color = "#f45342",
                     },
                     priority = "max"
                 },

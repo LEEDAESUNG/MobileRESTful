@@ -1,0 +1,18 @@
+2022-04-11 18:26:00.263  [INFO][HttpGet getCustInfoController] 
+2022-04-11 18:26:00.266  [INFO][HttpGet getCustInfoController] : id:11111111, password:1234, token:d5T6Ka3KRCqqiqwMMc5K8e:APA91bHP0Ycp93foERnOGTly99ygdffZ_fFVRnWK-ucGe9PjJI4xsR8vd3kN56VtJFc8-mbMrhrgEXMwMY0btsZ-C3SlZXJMMQOnuZU9u4oRBpvx0fnW-V1C27EXJNteWj74pIHd5hOX
+2022-04-11 18:26:00.748  [ERROR][DataBase SaveToken] 11111111,d5T6Ka3KRCqqiqwMMc5K8e:APA91bHP0Ycp93foERnOGTly99ygdffZ_fFVRnWK-ucGe9PjJI4xsR8vd3kN56VtJFc8-mbMrhrgEXMwMY0btsZ-C3SlZXJMMQOnuZU9u4oRBpvx0fnW-V1C27EXJNteWj74pIHd5hOX
+2022-04-11 18:26:00.749  [ERROR][DataBase SaveToken] Field 'CONN_DATE' doesn't have a default value
+2022-04-11 18:26:00.964  [INFO][HttpGet getReserveInfoController] 
+2022-04-11 18:26:00.964  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:d5T6Ka3KRCqqiqwMMc5K8e:APA91bHP0Ycp93foERnOGTly99ygdffZ_fFVRnWK-ucGe9PjJI4xsR8vd3kN56VtJFc8-mbMrhrgEXMwMY0btsZ-C3SlZXJMMQOnuZU9u4oRBpvx0fnW-V1C27EXJNteWj74pIHd5hOX
+2022-04-11 18:26:01.053  [INFO][HttpGet getWebDCInfoController] 
+2022-04-11 18:26:01.053  [INFO][HttpGet getWebDCInfoController] : id:11111111, password:1234, token:d5T6Ka3KRCqqiqwMMc5K8e:APA91bHP0Ycp93foERnOGTly99ygdffZ_fFVRnWK-ucGe9PjJI4xsR8vd3kN56VtJFc8-mbMrhrgEXMwMY0btsZ-C3SlZXJMMQOnuZU9u4oRBpvx0fnW-V1C27EXJNteWj74pIHd5hOX
+2022-04-11 18:26:01.354  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-11 18:26:01.354  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:d5T6Ka3KRCqqiqwMMc5K8e:APA91bHP0Ycp93foERnOGTly99ygdffZ_fFVRnWK-ucGe9PjJI4xsR8vd3kN56VtJFc8-mbMrhrgEXMwMY0btsZ-C3SlZXJMMQOnuZU9u4oRBpvx0fnW-V1C27EXJNteWj74pIHd5hOX
+2022-04-11 18:26:01.362  [INFO][HttpGet getGateListController] 
+2022-04-11 18:26:01.363  [INFO][HttpGet getGateListController] : id:11111111, password:1234, cmd:gatelist
+2022-04-11 18:26:06.250  [INFO][HttpGet getWebDCInfo/partnerInfoController] 
+2022-04-11 18:26:06.251  [INFO][HttpGet getWebDCInfo/partnerInfoController] : id:11111111, password:1234, token:d5T6Ka3KRCqqiqwMMc5K8e:APA91bHP0Ycp93foERnOGTly99ygdffZ_fFVRnWK-ucGe9PjJI4xsR8vd3kN56VtJFc8-mbMrhrgEXMwMY0btsZ-C3SlZXJMMQOnuZU9u4oRBpvx0fnW-V1C27EXJNteWj74pIHd5hOX
+2022-04-11 18:26:07.866  [INFO][HttpGet getInCarListWebdcListController] 
+2022-04-11 18:26:07.867  [INFO][HttpGet getInCarListWebdcListController] : id:11111111, password:1234, carno:, token:
+2022-04-11 18:26:14.945  [INFO][HttpGet getReserveInfoController] 
+2022-04-11 18:26:14.946  [INFO][HttpGet getReserveInfoController] : id:11111111, password:1234, token:d5T6Ka3KRCqqiqwMMc5K8e:APA91bHP0Ycp93foERnOGTly99ygdffZ_fFVRnWK-ucGe9PjJI4xsR8vd3kN56VtJFc8-mbMrhrgEXMwMY0btsZ-C3SlZXJMMQOnuZU9u4oRBpvx0fnW-V1C27EXJNteWj74pIHd5hOX
